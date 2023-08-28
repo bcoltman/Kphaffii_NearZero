@@ -1,0 +1,20 @@
+Name,CheBI,Family,Macrocomponent,moles/moles Family
+2'-deoxyadenosine 5'-monophosphate residue,50323,DNA,DNA,0.2945
+2'-deoxycytidine 5'-monophosphate residue,50321,DNA,DNA,0.2055
+2'-deoxyguanosine 5'-monophosphate residue,50322,DNA,DNA,0.2055
+thymidine 5'-monophosphate residue,50300,DNA,DNA,0.2945
+adenosine 5'-monophosphate residue,50306,mRNA,RNA,0.2945
+cytidine 5'-monophosphate residue,50308,mRNA,RNA,0.2055
+guanosine 5'-monophosphate residue,50324,mRNA,RNA,0.2055
+uridine 5'-monophosphate residue,46470,mRNA,RNA,0.2945
+adenosine 5'-monophosphate residue,50306,tRNA,RNA,0.198
+cytidine 5'-monophosphate residue,50308,tRNA,RNA,0.342
+guanosine 5'-monophosphate residue,50324,tRNA,RNA,0.289
+uridine 5'-monophosphate residue,46470,tRNA,RNA,0.171
+adenosine 5'-monophosphate residue,50306,rRNA,RNA,0.303
+cytidine 5'-monophosphate residue,50308,rRNA,RNA,0.227
+guanosine 5'-monophosphate residue,50324,rRNA,RNA,0.21
+uridine 5'-monophosphate residue,46470,rRNA,RNA,0.26
+mRNA,,RNA,RNA,0.05
+tRNA,,RNA,RNA,0.2
+rRNA,,RNA,RNA,0.75

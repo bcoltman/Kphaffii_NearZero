@@ -1,0 +1,8 @@
+﻿Name,Family,Macrocomponent,Model ID
+DNA,DNA,DNA,DNA_c
+RNA,RNA,RNA,RNA_c
+Ceramide,Sphingolipids,Lipids,ceravg_c
+Glucosylceramide,Sphingolipids,Lipids,GlcCer_c
+IPC,Sphingolipids,Lipids,IPCavg_c
+M(IP)2C,Sphingolipids,Lipids,mip2cavg_c
+MIPC,Sphingolipids,Lipids,mipcavg_c

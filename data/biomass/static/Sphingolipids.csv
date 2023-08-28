@@ -1,0 +1,33 @@
+Name,ChEBI ID,Gamisans Name,Family,Macrocomponent,mol/mol Family
+N-octodecanoylsphinganine,67033,cer1_18,Ceramide,Sphingolipids,0.05979
+N-hexadecanoylsphingosine,72959,cer16d4,Ceramide,Sphingolipids,0.03923
+N-octadecanoylsphingosine,72961,cer18d4,Ceramide,Sphingolipids,0.15172
+N-2-hydroxypalmitoylsphingosine,76751,cer2'16d4,Ceramide,Sphingolipids,0.01136
+N-2-hydroxystearoylsphingosine,76754,cer2'18d4,Ceramide,Sphingolipids,0.12008
+"(4E,8E)-N-hexadecanoylsphinga-4,8-dienine",157623,cer16d48,Ceramide,Sphingolipids,0.02215
+"N-octadecanoyl-(4E,14Z)-sphingadienine",136461,cer18d48,Ceramide,Sphingolipids,0.06015
+"N-(2R-hydroxyoctadecanoyl)-4E,8Z-octadecasphingadienine",189685,cer2'18d48,Ceramide,Sphingolipids,0.03913
+N-tetracosanoylphytosphingosine,52979,cer2_24,Ceramide,Sphingolipids,0.05362
+N-hexacosanoylphytosphingosine,52980,cer2_26,Ceramide,Sphingolipids,0.01888
+N-(2-hydroxytetracosanoyl)phytosphingosine,52373,cer3_24,Ceramide,Sphingolipids,0.27266
+N-(2-hydroxyhexacosanyl)-(4R)-phytosphingosine,52374,cer3_26,Ceramide,Sphingolipids,0.15123
+GlcCer(d18:0/18:0(2OH[R])),189686,glccer180,Glucosylceramide,Sphingolipids,0.02209
+GlcCer(d18:1(8E)/18:0(2OH[R])),189689,glccer181,Glucosylceramide,Sphingolipids,0.03422
+"GlcCer(d18:2(4E,8E)/16:0(2OH[R]))",189690,glccer162,Glucosylceramide,Sphingolipids,0.05929
+"GlcCer(d18:2(4E,8E)/18:0(2OH[R]))",189691,glccer182,Glucosylceramide,Sphingolipids,0.22541
+Cerebroside B,172811,glccer162m,Glucosylceramide,Sphingolipids,0.05758
+Cerebroside D,189692,glccer182m,Glucosylceramide,Sphingolipids,0.60141
+Ins-1-P-Cer(d18:0/18:0)(1-),72548,ipc118*,IPC,Sphingolipids,0.0995
+Ins-1-P-Cer(d18:0/2-OH-24:0)(1-),65095,ipc224,IPC,Sphingolipids,0.017
+Ins-1-P-Cer(t18:0/2-OH-24:0)(1-),65162,ipc324,IPC,Sphingolipids,0.4296
+"Ins-1-P-Cer(t18:0/2,3-OH-24:0)(1-)",65166,ipc424,IPC,Sphingolipids,0.0364
+Ins-1-P-Cer(d18:0/2-OH-26:0)(1-),65094,ipc226,IPC,Sphingolipids,0.0137
+Ins-1-P-Cer(t18:0/2-OH-26:0)(1-),65164,ipc326*,IPC,Sphingolipids,0.3691
+"Ins-1-P-Cer(t18:0/2,3-OH-26:0)(1-)",65168,ipc426,IPC,Sphingolipids,0.0347
+Man-beta1-6-Ins-1-P-Cer(t18:0/2-OH-24:0)(1-),65163,mipc324,MIPC,Sphingolipids,0.5798
+"Man-beta1-6-Ins-1-P-Cer(t18:0/2,3-OH-24:0)(1-)",65167,mipc424,MIPC,Sphingolipids,0.0354
+Man-1-6-Ins-1-P-Cer(t18:0/2-OH-26:0)(1-),65165,mipc326*,MIPC,Sphingolipids,0.3617
+"Man-1-6-Ins-1-P-Cer(t18:0/2,3-OH-26:0)(1-)",65169,mipc426,MIPC,Sphingolipids,0.0231
+Ins-1-P-6-Man-beta1-6-Ins-1-P-Cer(t18:0/2-OH-24:0)(2-),65203,mip2c324,M(IP)2C,Sphingolipids,0.5881
+"Ins-1-P-6-Man-beta1-6-Ins-1-P-Cer(t18:0/2,3-OH-24:0)(2-)",65204,mip2c424,M(IP)2C,Sphingolipids,0.0107
+Ins-1-P-6-Man-beta1-3-Ins-1-P-Cer(t18:0/2-OH-26:0)(2-),65206,mip2c326*,M(IP)2C,Sphingolipids,0.4012
