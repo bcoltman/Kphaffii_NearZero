@@ -1,1 +1,3 @@
-Analysis of K.phaffi at near-zero growth rates
+Analysis of K. phaffii at near-zero growth rates
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)

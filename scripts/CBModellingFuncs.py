@@ -409,94 +409,107 @@ def autocorrelation(chain, ax, title_extras):
     changes = np.sum((chain[1:]!=chain[:-1]))
     print("Acceptance Rate is: ", changes/(chain.shape[0]-1))
     
-def plotGeweke(gw_plot, first, last, intervals, ax, extras):
-    ax.scatter(gw_plot[:,0],gw_plot[:,1])
-    ax.axhline(-1.98, c='r')
-    ax.axhline(1.98, c='r')
-    ax.set_ylim(-2.5,2.5)
-    ax.set_title(f'Geweke first\n{first}% of chain and {intervals} slices of\nthe last {last}% of chain\n{extras}', )
-    ax.set_xlim(-100,max(gw_plot[:,0])+100)
-      
-def plotrank(data,ax):
-    az.plot_rank(data,ax=ax,bins=100)
     
-def plotquantile(data, ax, extras, n_points=20, relative=True):
-    probs = np.linspace(1 / n_points, 1 - 1 / n_points, n_points)
-    y = [az.ess(data,
-                relative=relative,
-                method="quantile", 
-                prob=p) for p in probs]
+def plottrace(data, ax, colors):
+    for i, chain in enumerate(data):
+        ax.plot(np.arange(chain.shape[0]), chain,alpha=0.4, color=colors[i])
+        
+def plotrank(data,ax,colors):
+    az.plot_rank(data,ax=ax,kind="vlines",vlines_kwargs={'lw':0}, marker_vlines_kwargs={'lw':3},colors=colors)
     
-    ax.scatter(probs, y)
-    ax.plot(probs, y)
-    ax.axhline(400/data.shape[0])
     
-    ax.set_ylim(0,1.3)
-    ax.set_xlim(0,1)
-    ax.set_ylabel("Relative ESS for small quantiles")
-    ax.set_xlabel("Quantile")
-    ax.set_title(f"Quantile ESS {extras}")
+# def plotGeweke(gw_plot, first, last, intervals, ax, extras):
+#     ax.scatter(gw_plot[:,0],gw_plot[:,1])
+#     ax.axhline(-1.98, c='r')
+#     ax.axhline(1.98, c='r')
+#     ax.set_ylim(-2.5,2.5)
+#     ax.set_title(f'Geweke first\n{first}% of chain and {intervals} slices of\nthe last {last}% of chain\n{extras}', )
+#     ax.set_xlim(-100,max(gw_plot[:,0])+100)
+    
+# def plottrace(data, ax):
+#     for chain in data:
+#         ax.plot(np.arange(chain.shape[0]), chain)
+        
+# def plotrank(data,ax,colors):
+#     az.plot_rank(data,ax=ax,kind="vlines",vlines_kwargs={'lw':0}, marker_vlines_kwargs={'lw':3},colors=colors)#,bins=100)
+    
+# def plotquantile(data, ax, extras, n_points=20, relative=True):
+#     probs = np.linspace(1 / n_points, 1 - 1 / n_points, n_points)
+#     y = [az.ess(data,
+#                 relative=relative,
+#                 method="quantile", 
+#                 prob=p) for p in probs]
+    
+#     ax.scatter(probs, y)
+#     ax.plot(probs, y)
+#     ax.axhline(400/data.shape[0])
+    
+#     ax.set_ylim(0,1.3)
+#     ax.set_xlim(0,1)
+#     ax.set_ylabel("Relative ESS for small quantiles")
+#     ax.set_xlabel("Quantile")
+#     ax.set_title(f"Quantile ESS {extras}")
 
     
-def plotlocal(data, ax, extras, n_points=20, relative=True):
-    probs = np.linspace(0, 1, n_points, endpoint=False)
-    y = [az.ess(data,
-                relative=relative,
-                method="local",
-                prob=[p, p + 1 / n_points])
-         for p in probs]
+# def plotlocal(data, ax, extras, n_points=20, relative=True):
+#     probs = np.linspace(0, 1, n_points, endpoint=False)
+#     y = [az.ess(data,
+#                 relative=relative,
+#                 method="local",
+#                 prob=[p, p + 1 / n_points])
+#          for p in probs]
     
-    ax.scatter(probs, y)
-    ax.plot(probs, y)
-    ax.axhline(400/data.shape[0])
-    ax.set_ylim(0,1.3)
-    ax.set_xlim(0,1)
-    ax.set_ylabel("Relative ESS for small intervals")
-    ax.set_xlabel("Quantile")
-    ax.set_title(f"Local ESS {extras}")
+#     ax.scatter(probs, y)
+#     ax.plot(probs, y)
+#     ax.axhline(400/data.shape[0])
+#     ax.set_ylim(0,1.3)
+#     ax.set_xlim(0,1)
+#     ax.set_ylabel("Relative ESS for small intervals")
+#     ax.set_xlabel("Quantile")
+#     ax.set_title(f"Local ESS {extras}")
 
     
-def plotevolution(data, ax, extras, n_points=20, relative=True):
+# def plotevolution(data, ax, extras, n_points=20, relative=True):
     
-    n_draws = data.shape[0]
+#     n_draws = data.shape[0]
     
-    if len(data.shape) > 1:
-        n_chains = data.shape[1]
-        n_samples = n_chains * n_points
-    else:
-        n_samples = n_points
+#     if len(data.shape) > 1:
+#         n_chains = data.shape[1]
+#         n_samples = n_chains * n_points
+#     else:
+#         n_samples = n_points
 
-    xdata = np.linspace(n_samples / n_points, n_samples, n_points)
-    draw_divisions = np.linspace(n_draws // n_points, n_draws, n_points, dtype=int)
-    bulky = [az.ess(data[:draw_div],
-                    relative=relative,
-                    method="bulk")
-             for draw_div in draw_divisions]
+#     xdata = np.linspace(n_samples / n_points, n_samples, n_points)
+#     draw_divisions = np.linspace(n_draws // n_points, n_draws, n_points, dtype=int)
+#     bulky = [az.ess(data[:draw_div],
+#                     relative=relative,
+#                     method="bulk")
+#              for draw_div in draw_divisions]
             
-    taily = [az.ess(data[:draw_div],
-                    relative=relative,
-                    method="tail")
-             for draw_div in draw_divisions
-            ]
-    ax.axhline(400/n_draws)
+#     taily = [az.ess(data[:draw_div],
+#                     relative=relative,
+#                     method="tail")
+#              for draw_div in draw_divisions
+#             ]
+#     ax.axhline(400/n_draws)
     
-    ax.scatter(draw_divisions, bulky, label="Bulk")
-    ax.scatter(draw_divisions, taily, label="Tail")
-    ax.plot(draw_divisions, bulky)
-    ax.plot(draw_divisions, taily)
-    ax.set_ylim(0,1.3)
-    ax.set_xlim(-100,n_draws+100)
-    ax.set_ylabel("Relative ESS")
-    ax.set_xlabel("Total number of draws")
-    ax.set_title(f"ESS Evolution {extras}")
-    ax.legend()
+#     ax.scatter(draw_divisions, bulky, label="Bulk")
+#     ax.scatter(draw_divisions, taily, label="Tail")
+#     ax.plot(draw_divisions, bulky)
+#     ax.plot(draw_divisions, taily)
+#     ax.set_ylim(0,1.3)
+#     ax.set_xlim(-100,n_draws+100)
+#     ax.set_ylabel("Relative ESS")
+#     ax.set_xlabel("Total number of draws")
+#     ax.set_title(f"ESS Evolution {extras}")
+#     ax.legend()
     
-def calcESS(chain, axes, extras):
-    plotlocal(chain, axes[0], extras)
-    plotquantile(chain, axes[1], extras)
-    plotevolution(chain, axes[2], extras)
-    ESS = az.ess(chain)
-    return ESS
+# def calcESS(chain, axes, extras):
+#     plotlocal(chain, axes[0], extras)
+#     plotquantile(chain, axes[1], extras)
+#     plotevolution(chain, axes[2], extras)
+#     ESS = az.ess(chain)
+#     return ESS
 
 def MWUwEffects(x, y,calcES=False):
     m = x.shape[0]
