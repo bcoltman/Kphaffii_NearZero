@@ -63283,7 +63283,7 @@
 "name":"PAS_chr4_0341"
 }
 ],
-"id":"iMT1026-NZ",
+"id":"iMT1026_NZ",
 "name":"K. phaffi model iMT1026 Near - zero",
 "compartments":{
 "c":"Cytosol",
