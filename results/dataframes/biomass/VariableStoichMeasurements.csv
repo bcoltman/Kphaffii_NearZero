@@ -1,0 +1,246 @@
+,Cultivation Group,Sample Point,Name,Family,Macrocomponent,Value
+0,C0.1,C0.1,L-alanine residue,Amino Acids,Protein,0.05463536741404589
+1,C0.1,C0.1,L-arginine residue,Amino Acids,Protein,0.08988556406074302
+2,C0.1,C0.1,L-asparagine residue,Amino Acids,Protein,0.05036336790878104
+3,C0.1,C0.1,L-aspartic acid residue,Amino Acids,Protein,0.05079815131769399
+4,C0.1,C0.1,L-cysteine residue,Amino Acids,Protein,0.011521503635749697
+5,C0.1,C0.1,L-glutamic acid residue,Amino Acids,Protein,0.09408271152317606
+6,C0.1,C0.1,L-glutamine residue,Amino Acids,Protein,0.09336492896244915
+7,C0.1,C0.1,L-histidine residue,Amino Acids,Protein,0.02032560846021695
+8,C0.1,C0.1,L-isoleucine residue,Amino Acids,Protein,0.038574797995010554
+9,C0.1,C0.1,L-leucine residue,Amino Acids,Protein,0.07015032074226953
+10,C0.1,C0.1,L-lysine residue,Amino Acids,Protein,0.06990685011194904
+11,C0.1,C0.1,L-methionine residue,Amino Acids,Protein,0.014629188957455044
+12,C0.1,C0.1,L-phenylalanine residue,Amino Acids,Protein,0.04111934018795794
+13,C0.1,C0.1,L-proline residue,Amino Acids,Protein,0.03741200897146198
+14,C0.1,C0.1,L-serine residue,Amino Acids,Protein,0.055677030896056974
+15,C0.1,C0.1,L-threonine residue,Amino Acids,Protein,0.05261208241958383
+16,C0.1,C0.1,L-tryptophan residue,Amino Acids,Protein,0.040679555540738835
+17,C0.1,C0.1,L-tyrosine residue,Amino Acids,Protein,0.03564671563938333
+18,C0.1,C0.1,L-valine residue,Amino Acids,Protein,0.04341001044399939
+19,C0.1,C0.1,glycine residue,Amino Acids,Protein,0.03520489481127772
+20,LC,R6,L-alanine residue,Amino Acids,Protein,0.05069481198791885
+21,LC,R6,L-arginine residue,Amino Acids,Protein,0.09000664789477371
+22,LC,R6,L-asparagine residue,Amino Acids,Protein,0.05299842757484607
+23,LC,R6,L-aspartic acid residue,Amino Acids,Protein,0.05345595926831329
+24,LC,R6,L-cysteine residue,Amino Acids,Protein,0.010683447086208083
+25,LC,R6,L-glutamic acid residue,Amino Acids,Protein,0.07548796881955845
+26,LC,R6,L-glutamine residue,Amino Acids,Protein,0.07491205060157609
+27,LC,R6,L-histidine residue,Amino Acids,Protein,0.025595629049170055
+28,LC,R6,L-isoleucine residue,Amino Acids,Protein,0.04027261649707455
+29,LC,R6,L-leucine residue,Amino Acids,Protein,0.06950136697813777
+30,LC,R6,L-lysine residue,Amino Acids,Protein,0.07752163376801904
+31,LC,R6,L-methionine residue,Amino Acids,Protein,0.013654164185562688
+32,LC,R6,L-phenylalanine residue,Amino Acids,Protein,0.04119546149808557
+33,LC,R6,L-proline residue,Amino Acids,Protein,0.043395354015169765
+34,LC,R6,L-serine residue,Amino Acids,Protein,0.056928163389024254
+35,LC,R6,L-threonine residue,Amino Acids,Protein,0.0618845759038303
+36,LC,R6,L-tryptophan residue,Amino Acids,Protein,0.043188095392410523
+37,LC,R6,L-tyrosine residue,Amino Acids,Protein,0.037844901081037184
+38,LC,R6,L-valine residue,Amino Acids,Protein,0.04508086926477272
+39,LC,R6,glycine residue,Amino Acids,Protein,0.03569785574451106
+40,SC,R10,L-alanine residue,Amino Acids,Protein,0.05114072881353169
+41,SC,R10,L-arginine residue,Amino Acids,Protein,0.11116892446398931
+42,SC,R10,L-asparagine residue,Amino Acids,Protein,0.053884789989954766
+43,SC,R10,L-aspartic acid residue,Amino Acids,Protein,0.054349973587740054
+44,SC,R10,L-cysteine residue,Amino Acids,Protein,0.0120349159830403
+45,SC,R10,L-glutamic acid residue,Amino Acids,Protein,0.07566352018589942
+46,SC,R10,L-glutamine residue,Amino Acids,Protein,0.07508626263886041
+47,SC,R10,L-histidine residue,Amino Acids,Protein,0.028287968845954966
+48,SC,R10,L-isoleucine residue,Amino Acids,Protein,0.03868778983334691
+49,SC,R10,L-leucine residue,Amino Acids,Protein,0.06725234937400895
+50,SC,R10,L-lysine residue,Amino Acids,Protein,0.07695847005950807
+51,SC,R10,L-methionine residue,Amino Acids,Protein,0.014371938554107884
+52,SC,R10,L-phenylalanine residue,Amino Acids,Protein,0.039944854624983823
+53,SC,R10,L-proline residue,Amino Acids,Protein,0.04001028590906317
+54,SC,R10,L-serine residue,Amino Acids,Protein,0.053027729775872855
+55,SC,R10,L-threonine residue,Amino Acids,Protein,0.05526927136979695
+56,SC,R10,L-tryptophan residue,Amino Acids,Protein,0.04002752221223224
+57,SC,R10,L-tyrosine residue,Amino Acids,Protein,0.035075351317927106
+58,SC,R10,L-valine residue,Amino Acids,Protein,0.04319903745502512
+59,SC,R10,glycine residue,Amino Acids,Protein,0.03455831500515589
+60,SC,R3,L-alanine residue,Amino Acids,Protein,0.05069764434199056
+61,SC,R3,L-arginine residue,Amino Acids,Protein,0.10862791968563766
+62,SC,R3,L-asparagine residue,Amino Acids,Protein,0.04907652785464326
+63,SC,R3,L-aspartic acid residue,Amino Acids,Protein,0.0495002020639793
+64,SC,R3,L-cysteine residue,Amino Acids,Protein,0.011679751102771758
+65,SC,R3,L-glutamic acid residue,Amino Acids,Protein,0.09134888850278614
+66,SC,R3,L-glutamine residue,Amino Acids,Protein,0.09065196302043613
+67,SC,R3,L-histidine residue,Amino Acids,Protein,0.02528906085408289
+68,SC,R3,L-isoleucine residue,Amino Acids,Protein,0.0377762277704774
+69,SC,R3,L-leucine residue,Amino Acids,Protein,0.06602326926745988
+70,SC,R3,L-lysine residue,Amino Acids,Protein,0.07073321101611334
+71,SC,R3,L-methionine residue,Amino Acids,Protein,0.015141600127322692
+72,SC,R3,L-phenylalanine residue,Amino Acids,Protein,0.039139152110636274
+73,SC,R3,L-proline residue,Amino Acids,Protein,0.03943315943312585
+74,SC,R3,L-serine residue,Amino Acids,Protein,0.052798769278153364
+75,SC,R3,L-threonine residue,Amino Acids,Protein,0.052249291968461876
+76,SC,R3,L-tryptophan residue,Amino Acids,Protein,0.03951955280682749
+77,SC,R3,L-tyrosine residue,Amino Acids,Protein,0.03463022745393021
+78,SC,R3,L-valine residue,Amino Acids,Protein,0.04171371972013567
+79,SC,R3,glycine residue,Amino Acids,Protein,0.03396986162102842
+80,SC,R6,L-alanine residue,Amino Acids,Protein,0.05132559954701491
+81,SC,R6,L-arginine residue,Amino Acids,Protein,0.11221265292935143
+82,SC,R6,L-asparagine residue,Amino Acids,Protein,0.05079029910582479
+83,SC,R6,L-aspartic acid residue,Amino Acids,Protein,0.051228768181700246
+84,SC,R6,L-cysteine residue,Amino Acids,Protein,0.011818278136370208
+85,SC,R6,L-glutamic acid residue,Amino Acids,Protein,0.08649341960961228
+86,SC,R6,L-glutamine residue,Amino Acids,Protein,0.0858335378182789
+87,SC,R6,L-histidine residue,Amino Acids,Protein,0.026869553315486676
+88,SC,R6,L-isoleucine residue,Amino Acids,Protein,0.03730060466586026
+89,SC,R6,L-leucine residue,Amino Acids,Protein,0.06463216353937633
+90,SC,R6,L-lysine residue,Amino Acids,Protein,0.07378755670248353
+91,SC,R6,L-methionine residue,Amino Acids,Protein,0.01467637689082717
+92,SC,R6,L-phenylalanine residue,Amino Acids,Protein,0.038888336516697715
+93,SC,R6,L-proline residue,Amino Acids,Protein,0.03967694978405389
+94,SC,R6,L-serine residue,Amino Acids,Protein,0.05166827568887963
+95,SC,R6,L-threonine residue,Amino Acids,Protein,0.05201424356640376
+96,SC,R6,L-tryptophan residue,Amino Acids,Protein,0.04038517701140073
+97,SC,R6,L-tyrosine residue,Amino Acids,Protein,0.03538875737051418
+98,SC,R6,L-valine residue,Amino Acids,Protein,0.04126270177556192
+99,SC,R6,glycine residue,Amino Acids,Protein,0.03374674784430137
+100,SC,SS,L-alanine residue,Amino Acids,Protein,0.05007335960664958
+101,SC,SS,L-arginine residue,Amino Acids,Protein,0.1050641396159542
+102,SC,SS,L-asparagine residue,Amino Acids,Protein,0.047372773791585034
+103,SC,SS,L-aspartic acid residue,Amino Acids,Protein,0.04778173961206139
+104,SC,SS,L-cysteine residue,Amino Acids,Protein,0.011542033775459813
+105,SC,SS,L-glutamic acid residue,Amino Acids,Protein,0.09617597662735014
+106,SC,SS,L-glutamine residue,Amino Acids,Protein,0.09544222397857592
+107,SC,SS,L-histidine residue,Amino Acids,Protein,0.023717806551098702
+108,SC,SS,L-isoleucine residue,Amino Acids,Protein,0.03824907080388522
+109,SC,SS,L-leucine residue,Amino Acids,Protein,0.06740624382414695
+110,SC,SS,L-lysine residue,Amino Acids,Protein,0.06769671832810155
+111,SC,SS,L-methionine residue,Amino Acids,Protein,0.01560410408102238
+112,SC,SS,L-phenylalanine residue,Amino Acids,Protein,0.039388501658865954
+113,SC,SS,L-proline residue,Amino Acids,Protein,0.03919079406456123
+114,SC,SS,L-serine residue,Amino Acids,Protein,0.053922655003659864
+115,SC,SS,L-threonine residue,Amino Acids,Protein,0.05248296648584317
+116,SC,SS,L-tryptophan residue,Amino Acids,Protein,0.03865898827430518
+117,SC,SS,L-tyrosine residue,Amino Acids,Protein,0.03387613123108823
+118,SC,SS,L-valine residue,Amino Acids,Protein,0.04216210141346251
+119,SC,SS,glycine residue,Amino Acids,Protein,0.03419167127232283
+120,C0.1,C0.1,"1,2-diglyceride",Lipid,Lipid,0.01441715021145117
+121,C0.1,C0.1,1-phosphatidyl-1D-myo-inositol(1-),Lipid,Lipid,0.07901117508588856
+122,C0.1,C0.1,Ceramide,Lipid,Lipid,0.0009847537539225746
+123,C0.1,C0.1,Glucosylceramide,Lipid,Lipid,0.0004908722072438284
+124,C0.1,C0.1,IPC,Lipid,Lipid,0.0008590263626766999
+125,C0.1,C0.1,M(IP)2C,Lipid,Lipid,4.908722072438285e-05
+126,C0.1,C0.1,MIPC,Lipid,Lipid,0.0001963488828975314
+127,C0.1,C0.1,ergosterol,Lipid,Lipid,0.22891069497459834
+128,C0.1,C0.1,ergosteryl ester,Lipid,Lipid,0.03896304186787051
+129,C0.1,C0.1,lysophosphatidylcholine,Lipid,Lipid,0.002909402132219528
+130,C0.1,C0.1,phosphatidyl-L-serine(1-),Lipid,Lipid,0.018309787867464657
+131,C0.1,C0.1,phosphatidylcholine,Lipid,Lipid,0.20821800708700383
+132,C0.1,C0.1,phosphatidylethanolamine,Lipid,Lipid,0.3361727474737197
+133,C0.1,C0.1,phosphatidylglycerol,Lipid,Lipid,0.02892481790137463
+134,C0.1,C0.1,triglyceride,Lipid,Lipid,0.040612843719238914
+135,C0.1,C0.1,zymosterol ester,Lipid,Lipid,0.0009702432517050394
+136,SC,R10,"1,2-diglyceride",Lipid,Lipid,0.04189515587400559
+137,SC,R10,1-phosphatidyl-1D-myo-inositol(1-),Lipid,Lipid,0.09043846721294854
+138,SC,R10,Ceramide,Lipid,Lipid,0.0029181732553857876
+139,SC,R10,Glucosylceramide,Lipid,Lipid,0.00029456842106985427
+140,SC,R10,IPC,Lipid,Lipid,0.000515494736872245
+141,SC,R10,M(IP)2C,Lipid,Lipid,2.9456842106985425e-05
+142,SC,R10,MIPC,Lipid,Lipid,0.0001178273684279417
+143,SC,R10,ergosterol,Lipid,Lipid,0.23251636508623372
+144,SC,R10,ergosteryl ester,Lipid,Lipid,0.03876136375030038
+145,SC,R10,lysophosphatidylcholine,Lipid,Lipid,0.004971993176852934
+146,SC,R10,phosphatidyl-L-serine(1-),Lipid,Lipid,0.022915371055831725
+147,SC,R10,phosphatidylcholine,Lipid,Lipid,0.18935802808151153
+148,SC,R10,phosphatidylethanolamine,Lipid,Lipid,0.25280101718791004
+149,SC,R10,phosphatidylglycerol,Lipid,Lipid,0.01974181781299055
+150,SC,R10,triglyceride,Lipid,Lipid,0.09525030667067191
+151,SC,R10,zymosterol ester,Lipid,Lipid,0.007474593466880334
+152,SC,R3,"1,2-diglyceride",Lipid,Lipid,0.02098686867779802
+153,SC,R3,1-phosphatidyl-1D-myo-inositol(1-),Lipid,Lipid,0.09304354644840142
+154,SC,R3,Ceramide,Lipid,Lipid,0.0013657192375191786
+155,SC,R3,Glucosylceramide,Lipid,Lipid,0.0004064664989093919
+156,SC,R3,IPC,Lipid,Lipid,0.0007113163730914358
+157,SC,R3,M(IP)2C,Lipid,Lipid,4.0646649890939183e-05
+158,SC,R3,MIPC,Lipid,Lipid,0.00016258659956375673
+159,SC,R3,ergosterol,Lipid,Lipid,0.22339495522774475
+160,SC,R3,ergosteryl ester,Lipid,Lipid,0.02528400394794054
+161,SC,R3,lysophosphatidylcholine,Lipid,Lipid,0.004573817163151655
+162,SC,R3,phosphatidyl-L-serine(1-),Lipid,Lipid,0.025860119916073444
+163,SC,R3,phosphatidylcholine,Lipid,Lipid,0.2426357343616971
+164,SC,R3,phosphatidylethanolamine,Lipid,Lipid,0.2762089783459889
+165,SC,R3,phosphatidylglycerol,Lipid,Lipid,0.019640888589490712
+166,SC,R3,triglyceride,Lipid,Lipid,0.062428583950208026
+167,SC,R3,zymosterol ester,Lipid,Lipid,0.0032557680125307274
+168,SC,R6,"1,2-diglyceride",Lipid,Lipid,0.02968253515718742
+169,SC,R6,1-phosphatidyl-1D-myo-inositol(1-),Lipid,Lipid,0.09861549370578859
+170,SC,R6,Ceramide,Lipid,Lipid,0.0013854439069542316
+171,SC,R6,Glucosylceramide,Lipid,Lipid,0.00022056576767400635
+172,SC,R6,IPC,Lipid,Lipid,0.0003859900934295111
+173,SC,R6,M(IP)2C,Lipid,Lipid,2.2056576767400638e-05
+174,SC,R6,MIPC,Lipid,Lipid,8.822630706960255e-05
+175,SC,R6,ergosterol,Lipid,Lipid,0.2074381866980888
+176,SC,R6,ergosteryl ester,Lipid,Lipid,0.03308042389338548
+177,SC,R6,lysophosphatidylcholine,Lipid,Lipid,0.00535967031053362
+178,SC,R6,phosphatidyl-L-serine(1-),Lipid,Lipid,0.02592933558446313
+179,SC,R6,phosphatidylcholine,Lipid,Lipid,0.22908816899253973
+180,SC,R6,phosphatidylethanolamine,Lipid,Lipid,0.27896485035402574
+181,SC,R6,phosphatidylglycerol,Lipid,Lipid,0.01875290974494034
+182,SC,R6,triglyceride,Lipid,Lipid,0.06513684708872641
+183,SC,R6,zymosterol ester,Lipid,Lipid,0.005849295818426116
+184,SC,SS,"1,2-diglyceride",Lipid,Lipid,0.010070821158709413
+185,SC,SS,1-phosphatidyl-1D-myo-inositol(1-),Lipid,Lipid,0.08604883923652078
+186,SC,SS,Ceramide,Lipid,Lipid,0.0013409580039367161
+187,SC,SS,Glucosylceramide,Lipid,Lipid,0.00063983575482654
+188,SC,SS,IPC,Lipid,Lipid,0.0011197125709464448
+189,SC,SS,M(IP)2C,Lipid,Lipid,6.398357548265399e-05
+190,SC,SS,MIPC,Lipid,Lipid,0.00025593430193061596
+191,SC,SS,ergosterol,Lipid,Lipid,0.24342617927867605
+192,SC,SS,ergosteryl ester,Lipid,Lipid,0.015496819629755503
+193,SC,SS,lysophosphatidylcholine,Lipid,Lipid,0.003587301601615395
+194,SC,SS,phosphatidyl-L-serine(1-),Lipid,Lipid,0.025773230483619
+195,SC,SS,phosphatidylcholine,Lipid,Lipid,0.2596425811270604
+196,SC,SS,phosphatidylethanolamine,Lipid,Lipid,0.2727494126108541
+197,SC,SS,phosphatidylglycerol,Lipid,Lipid,0.020755606970885892
+198,SC,SS,triglyceride,Lipid,Lipid,0.05902878369518048
+199,SC,SS,zymosterol ester,Lipid,Lipid,0.0
+200,C0.1,C0.1,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.6356548957679145
+201,C0.1,C0.1,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.13533082311743677
+202,C0.1,C0.1,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.07710488293308937
+203,C0.1,C0.1,chitin,Carbohydrate,Carbohydrate,0.03383270577935919
+204,C0.1,C0.1,glycogen,Carbohydrate,Carbohydrate,0.11807669240220023
+205,LC,R10,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.741005230279366
+206,LC,R10,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.10884026275163171
+207,LC,R10,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.09167200701997551
+208,LC,R10,chitin,Carbohydrate,Carbohydrate,0.027210065687907927
+209,LC,R10,glycogen,Carbohydrate,Carbohydrate,0.03127243426111885
+210,LC,R3,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.5982781032260529
+211,LC,R3,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.1240816503790113
+212,LC,R3,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.16298809643535223
+213,LC,R3,chitin,Carbohydrate,Carbohydrate,0.031020412594752824
+214,LC,R3,glycogen,Carbohydrate,Carbohydrate,0.08363173736483076
+215,LC,R6,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.6858856841256008
+216,LC,R6,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.11871733634703889
+217,LC,R6,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.10870457615418695
+218,LC,R6,chitin,Carbohydrate,Carbohydrate,0.029679334086759723
+219,LC,R6,glycogen,Carbohydrate,Carbohydrate,0.05701306928641378
+220,LC,SS,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.5614051691136492
+221,LC,SS,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.12492411096857353
+222,LC,SS,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.16192645687843443
+223,LC,SS,chitin,Carbohydrate,Carbohydrate,0.031231027742143383
+224,LC,SS,glycogen,Carbohydrate,Carbohydrate,0.12051323529719937
+225,SC,R10,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.5832814649631709
+226,SC,R10,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.11393973083210933
+227,SC,R10,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.2208622724784343
+228,SC,R10,chitin,Carbohydrate,Carbohydrate,0.028484932708027332
+229,SC,R10,glycogen,Carbohydrate,Carbohydrate,0.05343159901825829
+230,SC,R3,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.47507804849719265
+231,SC,R3,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.11431383428713374
+232,SC,R3,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.27348022935276967
+233,SC,R3,chitin,Carbohydrate,Carbohydrate,0.028578458571783434
+234,SC,R3,glycogen,Carbohydrate,Carbohydrate,0.1085494292911206
+235,SC,R6,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.5369591970563891
+236,SC,R6,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.11123922610097506
+237,SC,R6,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.23784833634402677
+238,SC,R6,chitin,Carbohydrate,Carbohydrate,0.027809806525243765
+239,SC,R6,glycogen,Carbohydrate,Carbohydrate,0.08614343397336534
+240,SC,SS,(1->4)-beta-D-glucan,Carbohydrate,Carbohydrate,0.5834380167477868
+241,SC,SS,(1->4)-beta-D-mannan,Carbohydrate,Carbohydrate,0.11837054216954537
+242,SC,SS,"alpha,alpha-trehalose",Carbohydrate,Carbohydrate,0.1715019734995566
+243,SC,SS,chitin,Carbohydrate,Carbohydrate,0.029592635542386343
+244,SC,SS,glycogen,Carbohydrate,Carbohydrate,0.09709683204072486

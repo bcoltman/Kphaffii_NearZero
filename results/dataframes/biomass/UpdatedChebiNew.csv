@@ -1,0 +1,110 @@
+Name,ChEBI,Family,Macrocomponent,Alternative Name,Model ID,Formula,ChEBI Name
+L-alanine residue,46217,Amino Acid,Protein,Ala,ala_L_c,C3H5NO,L-alanine residue
+L-arginine residue,29952,Amino Acid,Protein,Arg,arg_L_c,C6H12N4O,L-arginine residue
+L-asparagine residue,50347,Amino Acid,Protein,Asn,asn_L_c,C4H6N2O2,L-asparagine residue
+L-aspartic acid residue,29958,Amino Acid,Protein,Asp,asp_L_c,C4H5NO3,L-aspartic acid residue
+L-cysteine residue,29950,Amino Acid,Protein,Cys,cys_L_c,C3H5NOS,L-cysteine residue
+L-glutamic acid residue,29972,Amino Acid,Protein,Glu,glu_L_c,C5H7NO3,L-glutamic acid residue
+L-glutamine residue,30011,Amino Acid,Protein,Gln,gln_L_c,C5H8N2O2,L-glutamine residue
+glycine residue,29947,Amino Acid,Protein,Gly,gly_c,C2H3NO,glycine residue
+L-histidine residue,29979,Amino Acid,Protein,His,his_L_c,C6H7N3O,L-histidine residue
+L-isoleucine residue,30009,Amino Acid,Protein,Ile,ile_L_c,C6H11NO,L-isoleucine residue
+L-leucine residue,30006,Amino Acid,Protein,Leu,leu_L_c,C6H11NO,L-leucine residue
+L-lysine residue,29967,Amino Acid,Protein,Lys,lys_L_c,C6H12N2O,L-lysine residue
+L-methionine residue,16044,Amino Acid,Protein,Met,met_L_c,C5H9NOS,L-methionine residue
+L-ornithine residue,44571,Amino Acid,Protein,Orn,,C5H10N2O,L-ornithine residue
+L-phenylalanine residue,29997,Amino Acid,Protein,Phe,phe_L_c,C9H9NO,L-phenylalanine residue
+L-proline residue,50342,Amino Acid,Protein,Pro,pro_L_c,C5H7NO,L-proline residue
+L-serine residue,29999,Amino Acid,Protein,Ser,ser_L_c,C3H5NO2,L-serine residue
+L-threonine residue,30013,Amino Acid,Protein,Thr,thr_L_c,C4H7NO2,L-threonine residue
+L-tryptophan residue,29954,Amino Acid,Protein,Trp,trp_L_c,C11H10N2O,L-tryptophan residue
+L-tyrosine residue,46858,Amino Acid,Protein,Tyr,tyr_L_c,C9H9NO2,L-tyrosine residue
+L-valine residue,30015,Amino Acid,Protein,Val,val_L_c,C5H9NO,L-valine residue
+glycogen,28087,Carbohydrate,Carbohydrates,Glycogen,glycogen_c,H2O(C6H10O5)n,glycogen
+"alpha,alpha-trehalose",16551,Carbohydrate,Carbohydrates,Trehalose,tre_c,C12H22O11,"alpha,alpha-trehalose"
+chitin,17029,Carbohydrate,Carbohydrates,Chitin,chitin_c,H2O(C8H13NO5)n,chitin
+(1->4)-beta-D-glucan,18246,Carbohydrate,Carbohydrates,(1→4)-beta-D-glucan,13BDglcn_c,(C6H10O5)nH2O,(1->4)-beta-D-glucan
+(1->4)-beta-D-mannan,27857,Carbohydrate,Carbohydrates,(1→4)-beta-D-mannan,mannan_c,(C6H10O5)nH2O,(1->4)-beta-D-mannan
+glucose,17234,Carbohydrate,Carbohydrates,Glucose,,C6H12O6,glucose
+"1,2-diglyceride",49172,Glyceride,Lipids,Diglyceride,12dgr_SC_c,C5H6O5R2,"1,2-diglyceride"
+triglyceride,17855,Glyceride,Lipids,Triglyceride,triglyc_SC_c,C6H5O6R3,triglyceride
+zymosterol,18252,Sterol,Lipids,Zymosterol,zymst_c,C27H44O,zymosterol
+ergosterol,16933,Sterol,Lipids,Ergosterol,ergst_c,C28H44O,ergosterol
+fecosterol,17038,Sterol,Lipids,Fecosterol,fecost_c,C28H46O,fecosterol
+episterol,23929,Sterol,Lipids,Episterol,epist_c,C28H46O,episterol
+lanosterol,16521,Sterol,Lipids,Lanosterol,lanost_c,C30H50O,lanosterol
+zymosterol ester,52322,Steryl Ester,Lipids,Zymosterol ester,zymstest_SC_c,C28H43O2R,zymosterol ester
+ergosteryl ester,52320,Steryl Ester,Lipids,Ergosteryl ester,ergstest_SC_c,C29H43O2R,ergosteryl ester
+fecosterol ester,52321,Steryl Ester,Lipids,Fecosterol ester,fecostest_SC_c,C29H45O2R,fecosterol ester
+episterol ester,52393,Steryl Ester,Lipids,Episterol ester,epistest_SC_c,C29H45O2R,episterol ester
+lanosteryl ester,52394,Steryl Ester,Lipids,Lanosteryl ester,lanostest_SC_c,C31H49O2R,lanosteryl ester
+phosphatidate(2-),57739,Phospholipid,Lipids,Phosphatidate,pa_SC_c,C5H5O8PR2,phosphatidate(2-)
+1-phosphatidyl-1D-myo-inositol(1-),57880,Phospholipid,Lipids,Phosphatidylinositol,ptd1ino_SC_c,C11H16O13PR2,1-phosphatidyl-1D-myo-inositol(1-)
+phosphatidyl-L-serine(1-),58436,Phospholipid,Lipids,Phosphatidylserine,ps_SC_c,C8H11NO10PR2,phosphatidyl-L-serine(1-)
+phosphatidylcholine,64482,Phospholipid,Lipids,Phosphatidylcholine,pc_SC_c,C10H18NO8PR2,phosphatidylcholine
+phosphatidylethanolamine,16038,Phospholipid,Lipids,Phosphatidylethanolamine,pe_SC_c,C7H12NO8PR2,phosphatidylethanolamine
+cardiolipin,28494,Phospholipid,Lipids,Cardiolipin,clpn_SC_c,C13H18O17P2R4,cardiolipin
+phosphatidylglycerol,17517,Phospholipid,Lipids,Phosphatidylglycerol,pg_SC_c,C8H13O10PR2,phosphatidylglycerol
+lysophosphatidylcholine,60479,Phospholipid,Lipids,Lysophosphatidylcholine,1agpc_SC_c,C9H19NO7PR,lysophosphatidylcholine
+"1,2-diacyl-sn-glycero-3-phospho-N,N-dimethylethanolamine",64595,Phospholipid,Lipids,Dimethylphosphatidylethanolamine,ptd2meeta_SC_c,C9H16NO8PR2,"1,2-diacyl-sn-glycero-3-phospho-N,N-dimethylethanolamine"
+adenosine 5'-monophosphate residue,50306,RNA,RNA,AMP,amp_c,C10H12N5O6P,adenosine 5'-monophosphate residue
+cytidine 5'-monophosphate residue,50308,RNA,RNA,CMP,cmp_c,C9H12N3O7P,cytidine 5'-monophosphate residue
+guanosine 5'-monophosphate residue,50324,RNA,RNA,GMP,gmp_c,C10H12N5O7P,guanosine 5'-monophosphate residue
+uridine 5'-monophosphate residue,46470,RNA,RNA,UMP,ump_c,C9H11N2O8P,uridine 5'-monophosphate residue
+2'-deoxyadenosine 5'-monophosphate residue,50323,DNA,DNA,dAMP,damp_c,C10H12N5O5P,2'-deoxyadenosine 5'-monophosphate residue
+2'-deoxycytidine 5'-monophosphate residue,50321,DNA,DNA,dCMP,dcmp_c,C9H12N3O6P,2'-deoxycytidine 5'-monophosphate residue
+2'-deoxyguanosine 5'-monophosphate residue,50322,DNA,DNA,dGMP,dgmp_c,C10H12N5O6P,2'-deoxyguanosine 5'-monophosphate residue
+thymidine 5'-monophosphate residue,50300,DNA,DNA,dTMP,dtmp_c,C10H13N2O7P,thymidine 5'-monophosphate residue
+N-octodecanoylsphinganine,67033,Ceramide,,,cer1_18_c,C36H73NO3,N-octodecanoylsphinganine
+N-hexadecanoylsphingosine,72959,Ceramide,,,cer16d4_c,C34H67NO3,N-hexadecanoylsphingosine
+N-octadecanoylsphingosine,72961,Ceramide,,,cer18d4_c,C36H71NO3,N-octadecanoylsphingosine
+N-2-hydroxypalmitoylsphingosine,76751,Ceramide,,,cer2d16d4_c,C34H67NO4,N-2-hydroxypalmitoylsphingosine
+N-2-hydroxystearoylsphingosine,76754,Ceramide,,,cer2d18d4_c,C36H71NO4,N-2-hydroxystearoylsphingosine
+"(4E,8E)-N-hexadecanoylsphinga-4,8-dienine",157623,Ceramide,,,cer16d48_c,C34H65NO3,"(4E,8E)-N-hexadecanoylsphinga-4,8-dienine"
+"N-octadecanoyl-(4E,14Z)-sphingadienine",136461,Ceramide,,,cer18d48_c,C36H69NO3,"N-octadecanoyl-(4E,14Z)-sphingadienine"
+"N-(2R-hydroxyoctadecanoyl)-4E,8Z-octadecasphingadienine",189685,Ceramide,,,cer2d18d48_c,C36H69NO4,"N-(2R-hydroxyoctadecanoyl)-4E,8Z-octadecasphingadienine"
+N-tetracosanoylphytosphingosine,52979,Ceramide,,,cer2_24_c,C42H85NO4,N-tetracosanoylphytosphingosine
+N-hexacosanoylphytosphingosine,52980,Ceramide,,,cer2_26_c,C44H89NO4,N-hexacosanoylphytosphingosine
+N-(2-hydroxytetracosanoyl)phytosphingosine,52373,Ceramide,,,cer3_24_c,C42H85NO5,N-(2-hydroxytetracosanoyl)phytosphingosine
+N-(2-hydroxyhexacosanyl)-(4R)-phytosphingosine,52374,Ceramide,,,cer3_26_c,C44H89NO5,N-(2-hydroxyhexacosanyl)-(4R)-phytosphingosine
+GlcCer(d18:0/18:0(2OH[R])),189686,Glucosylceramide,,,glccer180_c,C42H83NO9,GlcCer(d18:0/18:0(2OH[R]))
+GlcCer(d18:1(8E)/18:0(2OH[R])),189689,Glucosylceramide,,,glccer181_c,C42H81NO9,GlcCer(d18:1(8E)/18:0(2OH[R]))
+"GlcCer(d18:2(4E,8E)/16:0(2OH[R]))",189690,Glucosylceramide,,,glccer162_c,C40H75NO9,"GlcCer(d18:2(4E,8E)/16:0(2OH[R]))"
+"GlcCer(d18:2(4E,8E)/18:0(2OH[R]))",189691,Glucosylceramide,,,glccer182_c,C42H79NO9,"GlcCer(d18:2(4E,8E)/18:0(2OH[R]))"
+Cerebroside B,172811,Glucosylceramide,,,glccer162m_c,C41H77NO9,Cerebroside B
+Cerebroside D,189692,Glucosylceramide,,,glccer182m_c,C43H81NO9,cerebroside D
+Ins-1-P-Cer(d18:0/18:0)(1-),72548,IPC,,,ipc118_SC_c,C42H83NO11P,Ins-1-P-Cer(d18:0/18:0)(1-)
+Ins-1-P-Cer(d18:0/2-OH-24:0)(1-),65095,IPC,,,ipc224_SC_c,C48H95NO12P,Ins-1-P-Cer(d18:0/2-OH-24:0)(1-)
+Ins-1-P-Cer(t18:0/2-OH-24:0)(1-),65162,IPC,,,ipc324_SC_c,C48H95NO13P,Ins-1-P-Cer(t18:0/2-OH-24:0)(1-)
+"Ins-1-P-Cer(t18:0/2,3-OH-24:0)(1-)",65166,IPC,,,ipc424_SC_c,C48H95NO14P,"Ins-1-P-Cer(t18:0/2,3-OH-24:0)(1-)"
+Ins-1-P-Cer(d18:0/2-OH-26:0)(1-),65094,IPC,,,ipc226_SC_c,C50H99NO12P,Ins-1-P-Cer(d18:0/2-OH-26:0)(1-)
+Ins-1-P-Cer(t18:0/2-OH-26:0)(1-),65164,IPC,,,ipc326_SC_c,C50H99NO13P,Ins-1-P-Cer(t18:0/2-OH-26:0)(1-)
+"Ins-1-P-Cer(t18:0/2,3-OH-26:0)(1-)",65168,IPC,,,ipc426_SC_c,C50H99NO14P,"Ins-1-P-Cer(t18:0/2,3-OH-26:0)(1-)"
+Man-beta1-6-Ins-1-P-Cer(t18:0/2-OH-24:0)(1-),65163,MIPC,,,mipc324_SC_c,C54H105NO18P,Man-beta1-6-Ins-1-P-Cer(t18:0/2-OH-24:0)(1-)
+"Man-beta1-6-Ins-1-P-Cer(t18:0/2,3-OH-24:0)(1-)",65167,MIPC,,,mipc424_SC_c,C54H105NO19P,"Man-beta1-6-Ins-1-P-Cer(t18:0/2,3-OH-24:0)(1-)"
+Man-1-6-Ins-1-P-Cer(t18:0/2-OH-26:0)(1-),65165,MIPC,,,mipc326_SC_c,C56H109NO18P,Man-1-6-Ins-1-P-Cer(t18:0/2-OH-26:0)(1-)
+"Man-1-6-Ins-1-P-Cer(t18:0/2,3-OH-26:0)(1-)",65169,MIPC,,,mipc426_SC_c,C56H109NO19P,"Man-1-6-Ins-1-P-Cer(t18:0/2,3-OH-26:0)(1-)"
+Ins-1-P-6-Man-beta1-6-Ins-1-P-Cer(t18:0/2-OH-24:0)(2-),65203,M(IP)2C,,,mip2c324_SC_c,C60H115NO26P2,Ins-1-P-6-Man-beta1-6-Ins-1-P-Cer(t18:0/2-OH-24:0)(2-)
+"Ins-1-P-6-Man-beta1-6-Ins-1-P-Cer(t18:0/2,3-OH-24:0)(2-)",65204,M(IP)2C,,,mip2c424_SC_c,C60H115NO27P2,"Ins-1-P-6-Man-beta1-6-Ins-1-P-Cer(t18:0/2,3-OH-24:0)(2-)"
+Ins-1-P-6-Man-beta1-3-Ins-1-P-Cer(t18:0/2-OH-26:0)(2-),65206,M(IP)2C,,,mip2c326_SC_c,C62H119NO26P2,Ins-1-P-6-Man-beta1-3-Ins-1-P-Cer(t18:0/2-OH-26:0)(2-)
+tetradecanoate,30807,Fatty Acids,,Tetradecanoate,ttdca_c,C14H27O2,tetradecanoate
+hexadecanoate,7896,Fatty Acids,,Hexadecanoate,hdca_c,C16H31O2,hexadecanoate
+hexadecenoate,78095,Fatty Acids,,Hexadecenoate,hdcea_c,C16H29O2,hexadecenoate
+octadecanoate,25629,Fatty Acids,,Octadecanoate,ocdca_c,C18H35O2,octadecanoate
+octadecenoate,78049,Fatty Acids,,Octadecenoate,ocdcea_c,C18H33O2,octadecenoate
+octadecadienoate,25626,Fatty Acids,,Octadecadienoate,ocdcya_c,C18H31O2,octadecadienoate
+octadecatrienoate,36434,Fatty Acids,,Octadecatrienoate,lnlnca_c,C18H29O2,octadecatrienoate
+cerotate,31013,Fatty Acids,,hexacosanoate,hexc_c,C26H51O2,cerotate
+NADH,16908,Cofactors,,,nadh_c,C21H29N7O14P2,NADH
+NAD(+),15846,Cofactors,,,nad_c,C21H28N7O14P2,NAD(+)
+NADP(+),18009,Cofactors,,,nadp_c,C21H29N7O17P3,NADP(+)
+NADPH,16474,Cofactors,,,nadph_c,C21H30N7O17P3,NADPH
+coenzyme A,15346,Cofactors,,,coa_c,C21H36N7O16P3S,coenzyme A
+oxolane,26911,Cofactors,,THF,thf_c,C4H8O,oxolane
+TDP,61377,Cofactors,,,dtdp_c,C10H16N2O12P2,TDP
+FAD,16238,Cofactors,,,fad_c,C27H33N9O15P2,FAD
+ATP,15422,Cofactors,,,atp_c,C10H12N5O13P3,ATP
+phosphate(3-),18367,Cofactors,,Pi,pi_c,O4P,phosphate(3-)
+water,15377,Cofactors,,H2O,h2o_c,H2O,water
+hydron,15378,Cofactors,,H,h_c,H,hydron
+ADP,16761,Cofactors,,ADP,adp_c,C10H15N5O10P2,ADP
