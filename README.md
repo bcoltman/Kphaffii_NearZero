@@ -15,12 +15,12 @@ Most notebooks do not require a long time to execute, apart from the two noteboo
 
 The code to download, define the enviornment and execute the notebooks is:
 
-'''
+```
 cd Kphaffii_NearZero
 conda env create -f kphaffii_nz.yaml
 conda activate memo3.7
 jupyter nbconvert --execute --ExecutePreprocessor.kernel_name=memo37 --to notebook --inplace LipidInvestigation.ipynb DataProcessing.ipynb RegressionModel.ipynb GasExchanges.ipynb ModelUpdate.ipynb GenerateDynamicComposition.ipynb  ModelIntegration.ipynb ThinningAnalysis.ipynb SamplingAnalysis.ipynb EscherPlotting.ipynb
-'''
+```
 
 ### 2. Notebook overview
 
