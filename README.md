@@ -1,6 +1,13 @@
 # Characterising the metabolic rewiring of extremely slow growing _Komagataella phaffii_
+# & #
+# Protein production dynamics and physiological adaptation of recombinant _Komagataella phaffii_ at near-zero growth rates 
 
-## Downloading and reproducing results
+## Regression model for [Rebnegger _et al_, 2023]()
+
+The code to run the regression model of [Rebnegger _et al_, 2023]() can be found at [RebneggerRegression.ipynb](scripts/RebneggerRegression.ipynb). The code uses functions from [RegressionFuncs.py](scripts/RegressionFuncs.py). The output (.csv files and plots) of the regression analysis is saved in [results/Rebnegger2023](results/Rebnegger2023). The same functions are used in the analysis of [Coltman _et al_, 2023](); however, the model is further devleoped in [Coltman _et al_, 2023](), replacing the $\mu$-$q_P$ relationship and static death rate parameter, with dynamic version. For  further details see [Coltman _et al_, 2023](). 
+
+## Analysis from [Coltman _et al_, 2023]()
+### 1. Downloading and reproducing results
 
 The results presented in [Coltman, 2023]() can be reproduced by cloning this repository, defining a conda environment and executing the included scripts. [imt1026-NZ](results/iMT1026-NZ.xml) was generated during this analysis and contains all of the generated biomass equations described in the manuscript.
 
@@ -15,7 +22,7 @@ conda activate memo3.7
 jupyter nbconvert --execute --ExecutePreprocessor.kernel_name=memo37 --to notebook --inplace LipidInvestigation.ipynb DataProcessing.ipynb RegressionModel.ipynb GasExchanges.ipynb ModelUpdate.ipynb GenerateDynamicComposition.ipynb  ModelIntegration.ipynb ThinningAnalysis.ipynb SamplingAnalysis.ipynb EscherPlotting.ipynb
 '''
 
-## Notebook overview
+### 2. Notebook overview
 
 The biomass compositions are generated in [DataProcessing.ipynb](scripts/DataProcessing.ipynb) using data from [Rebnegger et al. 2023](), in addition to using the Ceramide content predicted in [LipidInvestigation.ipynb](scripts/LipidInvestigation.ipynb). 
 
@@ -29,7 +36,7 @@ The cultivation data, updated model and biomass equations are used to determine 
 
 Flux sampling is used in this publication. The first notebook determines an optimal thinning parameter to achieve convergence with the OptGp sampler, and is determined at one growth rate (0.1 h<sup>-1</sup>) [ThinningAnalysis.ipynb](scripts/ThinningAnalysis.ipynb). Using this thinning factor, in [SamplingAnalysis.ipynb](scripts/SamplingAnalysis.ipynb) fluxes were sampled at all other growth rates and with different growth-rate specific biomass equations. 
 
-## Figures and tables in publication
+### 3. Figures and tables in publication
 Figures and tables for this analsysis can be found as follows:
 
 [Figure 1](results/plots/RetentostatRegression.png)
@@ -51,16 +58,16 @@ Figures and tables for this analsysis can be found as follows:
 [Table S7](results/dataframes/MajorCofactorsProductionBySubsystem.csv)
 [Tables S8](results/dataframes/sampling/Thinning_AllStats.csv)
 
-### DOI
+#### 4. DOI
 Our most recent Zenodo DOI generated for the journal submission is: 
 
 https://doi.org/########
 
-### Contact
+#### 5. Contact
 - benjamin.coltman@boku.ac.at
 - juergen.zanghellini@univie.ac.at
 
-### Citation
+#### 6. Citation
 If you are using our work, please cite us at:
 
 Coltman, BC ....
