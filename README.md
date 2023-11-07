@@ -4,7 +4,7 @@
 
 ## Regression model for [Rebnegger _et al_, 2023]()
 
-The code to run the regression model of [Rebnegger _et al_, 2023]() can be found at [RebneggerRegression.ipynb](scripts/RebneggerRegression.ipynb). The code uses functions from [RegressionFuncs.py](scripts/RegressionFuncs.py). The output (.csv files and plots) of the regression analysis is saved in [results/Rebnegger2023](results/Rebnegger2023). The same functions are used in the analysis of [Coltman _et al_, 2023](); however, the model is further devleoped in [Coltman _et al_, 2023](), replacing the $\mu$-$q_{P}$ relationship and static death rate parameter, with dynamic version. For  further details see [Coltman _et al_, 2023](). 
+The code to run the regression model of [Rebnegger _et al_, 2023]() can be found at [RebneggerRegression.ipynb](scripts/RebneggerRegression.ipynb). The code uses functions from [RegressionFuncs.py](scripts/RegressionFuncs.py). The output (.csv files and plots) of the regression analysis is saved in [results/Rebnegger2023](results/Rebnegger2023). The same functions are used in the analysis of [Coltman _et al_, 2023](); however, the model is further devleoped in [Coltman _et al_, 2023](), replacing the $\mu$ - $q_{P}$ relationship and static death rate parameter, with dynamic version. For  further details see [Coltman _et al_, 2023](). 
 
 ## Analysis from [Coltman _et al_, 2023]()
 ### 1. Downloading and reproducing results
