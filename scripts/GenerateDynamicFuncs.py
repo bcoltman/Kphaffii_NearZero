@@ -41,7 +41,7 @@ def fit_function(x, y, initial_search_parameters, function, bounds=(-np.inf, np.
     else:
         adj_r2 = 1 - ((1-r2)*(n-1))/(n-p-1)
         return rmse, adj_r2, popt, pcov
-    
+
     
 
 def function_pred_and_deriv(x, function, *args):
@@ -127,7 +127,7 @@ def asymptotic_function(x,*args):
     a, b, c = args
     return a - (a - b) * np.exp(-c* x)
 
-    
+
 def asymptotic_derivative(x,*args):
     """
     Calculate the instantaneous rate change of the asymptotic function

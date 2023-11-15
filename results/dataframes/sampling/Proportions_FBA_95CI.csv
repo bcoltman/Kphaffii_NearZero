@@ -1,51 +1,51 @@
 Subsystem,Proportion
-Glutamate Metabolism,100.0
-"Transport, Golgi Apparatus",100.0
-Methanol Metabolism,100.0
-Pyruvate Metabolism,100.0
 Glycerolipid Metabolism,100.0
-Fructose And Mannose Metabolism,100.0
-N-Glycan Metabolism,100.0
 Fatty Acid Degradation,100.0
+Inositol Phosphate Metabolism,100.0
+Pyruvate Metabolism,100.0
+N-Glycan Metabolism,100.0
+Propanoate Metabolism,100.0
+Nucleotide Metabolism,100.0
+Fructose And Mannose Metabolism,100.0
+"Transport, Golgi Apparatus",100.0
 "Transport, Nuclear",100.0
 "Transport, Peroxisomal",100.0
 "Transport, Vacuolar",100.0
 Phospholipid Metabolism,100.0
-Nucleotide Metabolism,100.0
 Arginine And Proline Metabolism,100.0
-Propanoate Metabolism,100.0
-Inositol Phosphate Metabolism,98.33333333333333
-Oxidative Phosphorylation,98.33333333333333
+Methanol Metabolism,100.0
 Methionine Metabolism,98.33333333333333
+Cysteine Metabolism,98.33333333333333
+Pyridoxine Metabolism,98.33333333333333
+Glutamate Metabolism,97.5
+"Tyrosine, Tryptophan, And Phenylalanine Metabolism",97.5
 Other Amino Acid Metabolism,96.66666666666667
-Pyridoxine Metabolism,95.0
-Glycine And Serine Metabolism,90.0
-Carbohydrate Metabolism,90.0
+Glycine And Serine Metabolism,94.16666666666666
+Pantothenate And Coa Biosynthesis,93.33333333333333
+Oxidative Phosphorylation,90.83333333333334
 Other,90.0
-Thiamine Metabolism,87.5
-"Tyrosine, Tryptophan, And Phenylalanine Metabolism",85.0
-Vitamin And Cofactor Biosynthesis,85.0
-Pentose Phosphate Pathway,81.66666666666667
-Folate Metabolism,80.0
-Pantothenate And Coa Biosynthesis,80.0
-"Transport, Mitochondrial",76.66666666666667
-Sphingolipid Metabolism,76.66666666666667
+Carbohydrate Metabolism,90.0
+Thiamine Metabolism,88.33333333333333
+Vitamin And Cofactor Biosynthesis,86.66666666666666
+Folate Metabolism,84.16666666666667
+Pentose Phosphate Pathway,83.33333333333334
+Sphingolipid Metabolism,81.66666666666667
 Glyoxylate And Dicarboxylate Metabolism,73.33333333333333
-Cysteine Metabolism,70.0
-Nad Biosynthesis,66.66666666666667
-Glycolysis/Gluconeogenesis,66.66666666666666
-Biomass Composition,63.33333333333333
-Fatty Acid Biosynthesis,63.33333333333333
-"Valine, Leucine, And Isoleucine Metabolism",55.00000000000001
-Alanine And Aspartate Metabolism,51.666666666666664
-Riboflavin Metabolism,50.0
-Citric Acid Cycle,33.33333333333333
-"Transport, Extracellular",32.5
-Quinone Biosynthesis,23.333333333333332
-Porphyrin And Chlorophyll Metabolism,13.333333333333334
-"Transport, Er",10.0
-Histidine Metabolism,10.0
-Threonine And Lysine Metabolism,7.5
-Exchange Reaction,6.666666666666667
-Sterol Metabolism,3.3333333333333335
-Amino Sugar And Nucleotide Sugar Metabolism,3.3333333333333335
+Glycolysis/Gluconeogenesis,73.33333333333333
+Nad Biosynthesis,71.66666666666667
+Biomass Composition,61.66666666666667
+Fatty Acid Biosynthesis,61.66666666666667
+Riboflavin Metabolism,57.5
+"Transport, Mitochondrial",56.666666666666664
+"Valine, Leucine, And Isoleucine Metabolism",41.66666666666667
+Citric Acid Cycle,31.666666666666664
+Quinone Biosynthesis,18.333333333333332
+"Transport, Extracellular",16.666666666666664
+Porphyrin And Chlorophyll Metabolism,11.666666666666666
+Alanine And Aspartate Metabolism,10.0
+"Transport, Er",8.333333333333332
+Histidine Metabolism,8.333333333333332
+Exchange Reaction,5.0
+Threonine And Lysine Metabolism,3.3333333333333335
+Amino Sugar And Nucleotide Sugar Metabolism,1.6666666666666667
+Sterol Metabolism,1.6666666666666667

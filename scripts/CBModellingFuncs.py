@@ -60,11 +60,16 @@ def constrain_model(model,qs, qssd, qp, qpsd, qco2, qcos2d, qo2, qo2sd, qsg, o2=
         model.reactions.Ex_co2.bounds = (qco2-qcos2d, qco2+qcos2d)
     if qsg > 0:
         model.reactions.SK_glycogen_c.bounds = (-1.2*qsg, -0.8*qsg)
-    
+
 def set_objective(model, rxn):    
     model.reactions.get_by_id(rxn).bounds = (0,1000)
     model.objective = model.reactions.get_by_id(rxn)
 
+atp_metabolism_stoich = {"atp_c":-1,
+                     "h2o_c":-1,
+                     "pi_c":1,
+                     "adp_c":1,
+                     "h_c":1}
 
 def additional_atp(model, biomass_rxn, extra_atp_stoich, combine=True):
     reaction = model.reactions.get_by_id(biomass_rxn)
@@ -141,7 +146,7 @@ def add_biomass(model, stoich_data, met_model_dict, equation_name="Dynamic"):
         biomass_stoich["cof_c"] = -1
         reaction.add_metabolites(biomass_stoich)
         reaction.bounds = (0,0)
-    
+
 def remove_blocked(model,flux_span,solution):
     
     rxns = solution.fluxes[solution.fluxes.abs() < 1e-6].index.to_list()
@@ -182,7 +187,7 @@ def constrain_predict(model, cultivation_parameters, o2=True, co2=True, slim=Fal
                 
                 result = temp_model.slim_optimize()
                 if math.isnan(result):
-                    result = 1e3
+                    result = 1e8
                     if verbose:
                         test = temp_model.optimize()
                         print(test.shadow_prices.sort_values().tail(50))
@@ -327,7 +332,7 @@ def ATPStoichFit(x_stoich, model, cultivation_parameters, biomass_type="Consensu
     
     return dist
 
-            
+
 def calculateRhat(all_chains, plot=False):
     
     with warnings.catch_warnings():
@@ -399,8 +404,8 @@ def calculateDiagnostics(group, rxn):
                                 "ESS-Tail":ESS_tail})
         
     return result
-    
-                
+
+
 def autocorrelation(chain, ax, title_extras):
    
     ax.plot(np.arange(0,chain.shape[0]),az.autocorr(chain))
@@ -408,108 +413,14 @@ def autocorrelation(chain, ax, title_extras):
     ax.set_title(f"Autocorrelation Plot {title_extras}")
     changes = np.sum((chain[1:]!=chain[:-1]))
     print("Acceptance Rate is: ", changes/(chain.shape[0]-1))
-    
-    
+
+
 def plottrace(data, ax, colors):
     for i, chain in enumerate(data):
         ax.plot(np.arange(chain.shape[0]), chain,alpha=0.4, color=colors[i])
-        
+
 def plotrank(data,ax,colors):
     az.plot_rank(data,ax=ax,kind="vlines",vlines_kwargs={'lw':0}, marker_vlines_kwargs={'lw':3},colors=colors)
-    
-    
-# def plotGeweke(gw_plot, first, last, intervals, ax, extras):
-#     ax.scatter(gw_plot[:,0],gw_plot[:,1])
-#     ax.axhline(-1.98, c='r')
-#     ax.axhline(1.98, c='r')
-#     ax.set_ylim(-2.5,2.5)
-#     ax.set_title(f'Geweke first\n{first}% of chain and {intervals} slices of\nthe last {last}% of chain\n{extras}', )
-#     ax.set_xlim(-100,max(gw_plot[:,0])+100)
-    
-# def plottrace(data, ax):
-#     for chain in data:
-#         ax.plot(np.arange(chain.shape[0]), chain)
-        
-# def plotrank(data,ax,colors):
-#     az.plot_rank(data,ax=ax,kind="vlines",vlines_kwargs={'lw':0}, marker_vlines_kwargs={'lw':3},colors=colors)#,bins=100)
-    
-# def plotquantile(data, ax, extras, n_points=20, relative=True):
-#     probs = np.linspace(1 / n_points, 1 - 1 / n_points, n_points)
-#     y = [az.ess(data,
-#                 relative=relative,
-#                 method="quantile", 
-#                 prob=p) for p in probs]
-    
-#     ax.scatter(probs, y)
-#     ax.plot(probs, y)
-#     ax.axhline(400/data.shape[0])
-    
-#     ax.set_ylim(0,1.3)
-#     ax.set_xlim(0,1)
-#     ax.set_ylabel("Relative ESS for small quantiles")
-#     ax.set_xlabel("Quantile")
-#     ax.set_title(f"Quantile ESS {extras}")
-
-    
-# def plotlocal(data, ax, extras, n_points=20, relative=True):
-#     probs = np.linspace(0, 1, n_points, endpoint=False)
-#     y = [az.ess(data,
-#                 relative=relative,
-#                 method="local",
-#                 prob=[p, p + 1 / n_points])
-#          for p in probs]
-    
-#     ax.scatter(probs, y)
-#     ax.plot(probs, y)
-#     ax.axhline(400/data.shape[0])
-#     ax.set_ylim(0,1.3)
-#     ax.set_xlim(0,1)
-#     ax.set_ylabel("Relative ESS for small intervals")
-#     ax.set_xlabel("Quantile")
-#     ax.set_title(f"Local ESS {extras}")
-
-    
-# def plotevolution(data, ax, extras, n_points=20, relative=True):
-    
-#     n_draws = data.shape[0]
-    
-#     if len(data.shape) > 1:
-#         n_chains = data.shape[1]
-#         n_samples = n_chains * n_points
-#     else:
-#         n_samples = n_points
-
-#     xdata = np.linspace(n_samples / n_points, n_samples, n_points)
-#     draw_divisions = np.linspace(n_draws // n_points, n_draws, n_points, dtype=int)
-#     bulky = [az.ess(data[:draw_div],
-#                     relative=relative,
-#                     method="bulk")
-#              for draw_div in draw_divisions]
-            
-#     taily = [az.ess(data[:draw_div],
-#                     relative=relative,
-#                     method="tail")
-#              for draw_div in draw_divisions
-#             ]
-#     ax.axhline(400/n_draws)
-    
-#     ax.scatter(draw_divisions, bulky, label="Bulk")
-#     ax.scatter(draw_divisions, taily, label="Tail")
-#     ax.plot(draw_divisions, bulky)
-#     ax.plot(draw_divisions, taily)
-#     ax.set_ylim(0,1.3)
-#     ax.set_xlim(-100,n_draws+100)
-#     ax.set_ylabel("Relative ESS")
-#     ax.set_xlabel("Total number of draws")
-#     ax.set_title(f"ESS Evolution {extras}")
-#     ax.legend()
-    
-# def calcESS(chain, axes, extras):
-#     plotlocal(chain, axes[0], extras)
-#     plotquantile(chain, axes[1], extras)
-#     plotevolution(chain, axes[2], extras)
-#     ESS = az.ess(chain)
-#     return ESS
 
 def MWUwEffects(x, y,calcES=False):
     m = x.shape[0]
@@ -594,7 +505,7 @@ def MWUwEffects(x, y,calcES=False):
     
     else:
         return U, mwu_p
-    
+
 def calcstats(x,y,rxn_name):
     U, mwu_p, rbc, cles, A, magnitude, cliffd = MWUwEffects(x, y, calcES=True)
 
@@ -677,7 +588,7 @@ def PropagateError(df, value_col, error_col, biomass_col, output_name, average=T
     else:
         index = pd.MultiIndex.from_tuples([f"{output_name} mmol/gh", f"{output_name} mmol/gh"])
     return pd.Series([q_rate.mean(), delta_net], index=index)
-    
+
 def assume_error(df, rows, col, rel_error, limit=True):
         
         if limit:
@@ -686,8 +597,8 @@ def assume_error(df, rows, col, rel_error, limit=True):
             df.loc[mask,(col, "std")] = df.loc[mask,(col, "mean")] * rel_error/100
         else:
             df.loc[:,(col, "std")] = df.loc[:,(col, "mean")] * rel_error/100
-            
-            
+
+
 def set_biomass_objective(model,biomass_type, name):
     if biomass_type in ["Consensus", "ScaledConsensus"]:
         set_objective(model, biomass_type)
@@ -707,7 +618,7 @@ def set_biomass_objective(model,biomass_type, name):
             model.reactions.get_by_id(rxn).bounds = (0,1000)
 
         set_objective(model, f"{biomass_type}Biomass{name}")
-        
+
 def calculate_cofactors(samples_df, interested_cofactors, stoich_matrix, source=False):
     
     total_supply_df = pd.DataFrame(index=samples_df.index,columns=interested_cofactors)
@@ -758,6 +669,54 @@ def ax_settings(ax, var_name, x_min, x_max, label=False):
     ax.xaxis.set_major_locator(MaxNLocator(4))
     return None 
 
+from typing import Union
+from operator import attrgetter
+
+def build_reaction_string(reaction, use_metabolite_names: bool = False) -> str:
+    """Generate a human readable reaction str.
+
+    Parameters
+    ----------
+    use_metabolite_names: bool
+        Whether to use metabolite names (when True) or metabolite ids (when False,
+        default).
+
+    Returns
+    -------
+    str
+        A human readable str.
+    """
+
+    def format(number: Union[int, float]) -> str:
+        return "" if number == 1 else str(number).rstrip(".") + " "
+
+    id_type = "id"
+    if use_metabolite_names:
+        id_type = "name"
+    reactant_bits = []
+    product_bits = []
+    for met in sorted(reaction._metabolites, key=attrgetter("id")):
+        coefficient = reaction._metabolites[met]
+        name = str(getattr(met, id_type))
+        compartment = str(getattr(met, "compartment"))
+        name += f" ({compartment})"
+        if coefficient >= 0:
+            product_bits.append(format(coefficient) + name)
+        else:
+            reactant_bits.append(format(abs(coefficient)) + name)
+
+    reaction_string = " + ".join(reactant_bits)
+    if not reaction.reversibility:
+        if reaction.lower_bound < 0 and reaction.upper_bound <= 0:
+            reaction_string += " <-- "
+        else:
+            reaction_string += " --> "
+    else:
+        reaction_string += " <=> "
+    reaction_string += " + ".join(product_bits)
+    return reaction_string
+
+
 def plot_6_ridge(samples_df, pfba_df, interesting_reactions,out_name,biomass_equations, model):
     samples_df = samples_df.reset_index()
     number_sps = len(samples_df.Time.unique())
@@ -804,16 +763,13 @@ def plot_6_ridge(samples_df, pfba_df, interesting_reactions,out_name,biomass_equ
 
             for k, eqn in enumerate(biomass_equations):
                 axs[j].axvline(pfba_df.loc[(eqn, features[j]),rxn].values, 0,1,color=color_list[k],ls="--")
-            # axs[j].axvline(norm_pfba.loc[("Consensus", features[j]),rxn].values, 0,1,color=color_list[1],ls="--")
-            # axs[j].axvline(norm_pfba.loc[(features[j],"Consensus", slice(None)),rxn].values, 0,1,color=color_list[0],ls="--")
-            # axs[j].axvline(norm_pfba.loc[(features[j],"Dynamic", slice(None)),rxn].values, 0,1,color=color_list[1],ls="--")
-
 
             if j < (number_sps - 1): 
                 axs[j].set_xticks([])
                 axs[j].set_xlabel("")
 
-        string = model.reactions.get_by_id(rxn).build_reaction_string(True)
+        # string = model.reactions.get_by_id(rxn).build_reaction_string(True)
+        string = build_reaction_string(model.reactions.get_by_id(rxn),True)
         if string.find(">") > -1:
             string = string.split(">")
             string = (">\n").join(string)
@@ -822,12 +778,10 @@ def plot_6_ridge(samples_df, pfba_df, interesting_reactions,out_name,biomass_equ
             string = ("-\n").join(string)
 
 
-        axs[-1].set_xlabel("") #string, fontsize=15, labelpad=10)
+        axs[-1].set_xlabel("") 
         axs[0].text(0.5, 2.2, rxn, fontsize=15, transform = axs[0].transAxes,horizontalalignment='center',verticalalignment='bottom') 
-        axs[0].text(0.5, 2, string, fontsize=10, transform = axs[0].transAxes,horizontalalignment='center',verticalalignment='top')  
+        axs[0].text(0.5, 2, string, fontsize=9, transform = axs[0].transAxes,horizontalalignment='center',verticalalignment='top')  
 
-    
-    # labels = [eqn.split("Scaled")[-1] if not eqn == "ScaledConsensus" else "Consensus - Scaled" for eqn in biomass_equations]
     labels = [eqn if not eqn == "ScaledConsensus" else "Consensus - Scaled" for eqn in biomass_equations]
               
     legend_elements = [mpatches.Patch(edgecolor=cmap(k), label=eqn, 
@@ -841,8 +795,8 @@ def plot_6_ridge(samples_df, pfba_df, interesting_reactions,out_name,biomass_equ
 
     fig.savefig(f"../results/plots/Ridge_6x6_{out_name}.png",
             bbox_inches='tight',transparent=True)
-    
-    
+
+
 def enrich(input_rxn_list, background_rxn_list, subsystem_df):
     data = subsystem_df[subsystem_df["Rxn"].isin(input_rxn_list)]
     background = subsystem_df[subsystem_df["Rxn"].isin(background_rxn_list)]
@@ -872,3 +826,4 @@ def enrich(input_rxn_list, background_rxn_list, subsystem_df):
     reject, adj_pvalues, corrected_a_sidak, corrected_a_bonf =  mc.multipletests(output["p-value"], method='fdr_bh')
     output["adj_pval"] = adj_pvalues
     return output
+

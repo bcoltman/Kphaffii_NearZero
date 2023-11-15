@@ -132,7 +132,7 @@ def weighted_average_formula(formulas_dict, mol_fractions, return_type="formula"
     elif return_type == "array":
         
         return weighted_formula_array
-    
+
 def fractions_calculator(df, value_col, mass_col, family, value_type="molar_fraction", inplace=True):
     if inplace != True:
         df = df.copy()
@@ -157,7 +157,7 @@ def fractions_calculator(df, value_col, mass_col, family, value_type="molar_frac
         
     if inplace != True:
         return df
-    
+
 def array_to_formula(array, elemental_order='CHNOSP'):
     assert isinstance(array, np.ndarray)
     array = array.flatten()

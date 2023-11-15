@@ -1,56 +1,56 @@
 ,Rhat Fails,Rhat Fails,Rhat Fails,Rhat Fails,ESS-Bulk Fails,ESS-Bulk Fails,ESS-Bulk Fails,ESS-Bulk Fails
 Thinning Factor,1,10,100,1000,1,10,100,1000
 Subsystem,,,,,,,,
-Alanine And Aspartate Metabolism,1.0,0.0,1.0,0.0,7.0,7.0,1.0,0.0
-Amino Sugar And Nucleotide Sugar Metabolism,0.0,0.0,0.0,0.0,4.0,5.0,0.0,0.0
-Arginine And Proline Metabolism,0.0,7.0,0.0,0.0,16.0,13.0,0.0,0.0
-Biomass Composition,0.0,0.0,0.0,0.0,5.0,4.0,0.0,0.0
-Carbohydrate Metabolism,0.0,0.0,0.0,0.0,4.0,5.0,0.0,0.0
-Citric Acid Cycle,1.0,4.0,3.0,0.0,18.0,22.0,0.0,0.0
-Cysteine Metabolism,0.0,2.0,0.0,0.0,5.0,0.0,0.0,0.0
-Exchange Reaction,0.0,0.0,0.0,4.0,8.0,8.0,1.0,0.0
-Fatty Acid Biosynthesis,2.0,6.0,1.0,0.0,110.0,69.0,1.0,0.0
-Fatty Acid Degradation,26.0,20.0,0.0,0.0,94.0,8.0,0.0,0.0
-Folate Metabolism,0.0,10.0,3.0,0.0,24.0,24.0,0.0,0.0
-Fructose And Mannose Metabolism,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0
-Galactose Metabolism,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0
-Glutamate Metabolism,2.0,0.0,1.0,0.0,4.0,3.0,0.0,0.0
-Glutamine Metabolism,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0
-Glycerolipid Metabolism,2.0,4.0,0.0,0.0,6.0,3.0,0.0,0.0
-Glycine And Serine Metabolism,1.0,0.0,5.0,0.0,4.0,22.0,0.0,0.0
-Glycolysis/Gluconeogenesis,0.0,0.0,8.0,0.0,1.0,19.0,0.0,0.0
-Glycosylation Pathway,0.0,0.0,0.0,0.0,0.0,3.0,0.0,0.0
-Glyoxylate And Dicarboxylate Metabolism,4.0,6.0,0.0,0.0,6.0,4.0,0.0,0.0
-Histidine Metabolism,0.0,3.0,0.0,0.0,0.0,10.0,0.0,0.0
-Inositol Phosphate Metabolism,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0
-Methanol Metabolism,1.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0
-Methionine Metabolism,1.0,6.0,0.0,0.0,19.0,13.0,0.0,0.0
-N-Glycan Metabolism,0.0,2.0,0.0,0.0,4.0,6.0,0.0,0.0
-Nad Biosynthesis,0.0,5.0,0.0,0.0,6.0,4.0,0.0,0.0
-Nucleotide Metabolism,6.0,11.0,4.0,0.0,64.0,51.0,4.0,0.0
-Other,0.0,0.0,0.0,0.0,5.0,6.0,0.0,0.0
-Other Amino Acid Metabolism,2.0,3.0,4.0,0.0,13.0,8.0,0.0,0.0
-Oxidative Phosphorylation,2.0,1.0,0.0,0.0,10.0,3.0,0.0,0.0
-Pantothenate And Coa Biosynthesis,0.0,2.0,1.0,0.0,14.0,2.0,0.0,0.0
-Pentose Phosphate Pathway,0.0,0.0,0.0,0.0,16.0,10.0,0.0,0.0
-Phospholipid Metabolism,2.0,13.0,0.0,0.0,21.0,11.0,0.0,0.0
-Porphyrin And Chlorophyll Metabolism,0.0,0.0,0.0,0.0,9.0,8.0,0.0,0.0
-Propanoate Metabolism,0.0,0.0,0.0,0.0,4.0,0.0,0.0,0.0
-Pyridoxine Metabolism,7.0,6.0,1.0,0.0,13.0,3.0,0.0,0.0
-Pyruvate Metabolism,7.0,7.0,3.0,0.0,12.0,9.0,0.0,0.0
-Quinone Biosynthesis,2.0,0.0,0.0,2.0,15.0,21.0,0.0,0.0
-Recombinant Protein Production,0.0,0.0,0.0,0.0,2.0,1.0,1.0,0.0
-Riboflavin Metabolism,0.0,1.0,2.0,0.0,16.0,9.0,0.0,0.0
-Sphingolipid Metabolism,8.0,26.0,0.0,0.0,50.0,40.0,0.0,0.0
-Sterol Metabolism,0.0,4.0,0.0,1.0,41.0,27.0,1.0,0.0
-Thiamine Metabolism,8.0,16.0,0.0,0.0,4.0,0.0,0.0,0.0
-Threonine And Lysine Metabolism,0.0,2.0,0.0,0.0,10.0,7.0,1.0,0.0
-"Transport, Er",0.0,8.0,0.0,0.0,16.0,16.0,0.0,0.0
-"Transport, Extracellular",0.0,1.0,0.0,4.0,6.0,7.0,0.0,0.0
-"Transport, Golgi Apparatus",0.0,2.0,0.0,0.0,8.0,11.0,0.0,0.0
-"Transport, Mitochondrial",6.0,7.0,6.0,3.0,67.0,84.0,2.0,0.0
-"Transport, Nuclear",0.0,0.0,0.0,0.0,18.0,32.0,0.0,0.0
-"Transport, Peroxisomal",16.0,23.0,3.0,0.0,41.0,19.0,5.0,0.0
-"Tyrosine, Tryptophan, And Phenylalanine Metabolism",0.0,3.0,0.0,0.0,26.0,19.0,0.0,0.0
-"Valine, Leucine, And Isoleucine Metabolism",0.0,0.0,0.0,0.0,15.0,34.0,0.0,0.0
-Vitamin And Cofactor Biosynthesis,1.0,6.0,0.0,0.0,7.0,2.0,0.0,0.0
+Alanine And Aspartate Metabolism,1.0,0.0,1.0,0.0,10.0,5.0,0.0,0.0
+Amino Sugar And Nucleotide Sugar Metabolism,0.0,0.0,1.0,0.0,13.0,9.0,0.0,0.0
+Arginine And Proline Metabolism,0.0,3.0,0.0,0.0,28.0,29.0,0.0,0.0
+Biomass Composition,0.0,0.0,2.0,0.0,12.0,8.0,0.0,0.0
+Carbohydrate Metabolism,0.0,0.0,0.0,0.0,13.0,9.0,0.0,0.0
+Citric Acid Cycle,0.0,5.0,9.0,0.0,15.0,19.0,0.0,0.0
+Complex Alcohol Metabolism,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+Cysteine Metabolism,0.0,2.0,0.0,0.0,13.0,13.0,0.0,0.0
+Exchange Reaction,0.0,0.0,1.0,4.0,25.0,19.0,2.0,0.0
+Fatty Acid Biosynthesis,1.0,7.0,49.0,2.0,111.0,71.0,5.0,0.0
+Fatty Acid Degradation,35.0,23.0,7.0,0.0,70.0,7.0,0.0,0.0
+Folate Metabolism,14.0,0.0,9.0,0.0,35.0,29.0,0.0,0.0
+Fructose And Mannose Metabolism,0.0,0.0,0.0,0.0,9.0,7.0,0.0,0.0
+Galactose Metabolism,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0
+Glutamate Metabolism,1.0,2.0,1.0,0.0,2.0,2.0,0.0,0.0
+Glutamine Metabolism,0.0,0.0,0.0,0.0,5.0,5.0,0.0,0.0
+Glycerolipid Metabolism,2.0,5.0,0.0,0.0,12.0,5.0,0.0,0.0
+Glycine And Serine Metabolism,2.0,2.0,3.0,0.0,5.0,12.0,0.0,0.0
+Glycolysis/Gluconeogenesis,0.0,0.0,7.0,0.0,9.0,20.0,0.0,0.0
+Glycosylation Pathway,0.0,0.0,0.0,0.0,3.0,3.0,0.0,0.0
+Glyoxylate And Dicarboxylate Metabolism,3.0,3.0,1.0,0.0,5.0,2.0,0.0,0.0
+Histidine Metabolism,3.0,0.0,0.0,0.0,20.0,20.0,0.0,0.0
+Inositol Phosphate Metabolism,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0
+Methanol Metabolism,0.0,0.0,1.0,0.0,1.0,1.0,0.0,0.0
+Methionine Metabolism,0.0,11.0,0.0,0.0,24.0,20.0,0.0,0.0
+N-Glycan Metabolism,0.0,0.0,2.0,0.0,6.0,8.0,0.0,0.0
+Nad Biosynthesis,1.0,4.0,3.0,0.0,9.0,2.0,0.0,0.0
+Nucleotide Metabolism,10.0,16.0,14.0,2.0,123.0,89.0,0.0,0.0
+Other,0.0,0.0,0.0,0.0,6.0,5.0,0.0,0.0
+Other Amino Acid Metabolism,1.0,2.0,4.0,0.0,13.0,10.0,0.0,0.0
+Oxidative Phosphorylation,1.0,0.0,3.0,0.0,14.0,8.0,0.0,0.0
+Pantothenate And Coa Biosynthesis,0.0,4.0,8.0,1.0,20.0,19.0,0.0,0.0
+Pentose Phosphate Pathway,0.0,2.0,0.0,0.0,11.0,9.0,0.0,0.0
+Phospholipid Metabolism,1.0,3.0,1.0,0.0,42.0,27.0,0.0,0.0
+Porphyrin And Chlorophyll Metabolism,0.0,0.0,0.0,0.0,24.0,15.0,0.0,0.0
+Pyridoxine Metabolism,7.0,7.0,4.0,0.0,7.0,5.0,1.0,0.0
+Pyruvate Metabolism,8.0,15.0,3.0,0.0,14.0,9.0,1.0,0.0
+Quinone Biosynthesis,0.0,0.0,0.0,0.0,40.0,27.0,0.0,0.0
+Recombinant Protein Production,0.0,0.0,0.0,0.0,3.0,1.0,2.0,0.0
+Riboflavin Metabolism,0.0,0.0,6.0,0.0,28.0,5.0,0.0,0.0
+Sphingolipid Metabolism,4.0,35.0,0.0,1.0,131.0,66.0,0.0,0.0
+Sterol Metabolism,0.0,5.0,0.0,0.0,96.0,58.0,0.0,0.0
+Thiamine Metabolism,0.0,9.0,0.0,0.0,20.0,3.0,0.0,0.0
+Threonine And Lysine Metabolism,2.0,2.0,0.0,0.0,18.0,18.0,0.0,0.0
+"Transport, Er",0.0,0.0,2.0,0.0,39.0,34.0,0.0,0.0
+"Transport, Extracellular",0.0,0.0,1.0,4.0,22.0,18.0,0.0,0.0
+"Transport, Golgi Apparatus",0.0,0.0,0.0,0.0,7.0,7.0,0.0,0.0
+"Transport, Mitochondrial",13.0,6.0,7.0,2.0,108.0,78.0,0.0,0.0
+"Transport, Nuclear",0.0,0.0,0.0,0.0,18.0,22.0,0.0,0.0
+"Transport, Peroxisomal",11.0,27.0,12.0,0.0,36.0,25.0,2.0,0.0
+"Tyrosine, Tryptophan, And Phenylalanine Metabolism",0.0,2.0,0.0,0.0,38.0,32.0,0.0,0.0
+"Valine, Leucine, And Isoleucine Metabolism",0.0,0.0,0.0,0.0,39.0,30.0,0.0,0.0
+Vitamin And Cofactor Biosynthesis,0.0,2.0,3.0,0.0,11.0,1.0,0.0,0.0

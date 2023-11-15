@@ -54269,16 +54269,16 @@
         <listOfReactants>
           <speciesReference species="M_val_L_c" stoichiometry="0.365506983223499" constant="true"/>
           <speciesReference species="M_tyr_L_c" stoichiometry="0.217105945071136" constant="true"/>
-          <speciesReference species="M_trp_L_c" stoichiometry="0.217105945126826" constant="true"/>
+          <speciesReference species="M_trp_L_c" stoichiometry="0.217105945126827" constant="true"/>
           <speciesReference species="M_thr_L_c" stoichiometry="0.44326853014982" constant="true"/>
-          <speciesReference species="M_ser_L_c" stoichiometry="0.534218952131813" constant="true"/>
+          <speciesReference species="M_ser_L_c" stoichiometry="0.534218952131812" constant="true"/>
           <speciesReference species="M_pro_L_c" stoichiometry="0.390328538221434" constant="true"/>
           <speciesReference species="M_phe_L_c" stoichiometry="0.241083401866913" constant="true"/>
           <speciesReference species="M_met_L_c" stoichiometry="0.109651071289816" constant="true"/>
           <speciesReference species="M_gly_c" stoichiometry="0.542628300815034" constant="true"/>
           <speciesReference species="M_lys_L_c" stoichiometry="0.534532880376165" constant="true"/>
           <speciesReference species="M_ile_L_c" stoichiometry="0.293743460078864" constant="true"/>
-          <speciesReference species="M_his_L_c" stoichiometry="0.181928449248209" constant="true"/>
+          <speciesReference species="M_his_L_c" stoichiometry="0.18192844924821" constant="true"/>
           <speciesReference species="M_gln_L_c" stoichiometry="0.886239991799087" constant="true"/>
           <speciesReference species="M_glu_L_c" stoichiometry="0.88623998761873" constant="true"/>
           <speciesReference species="M_cys_L_c" stoichiometry="0.108021321546985" constant="true"/>
@@ -54350,17 +54350,17 @@
           <speciesReference species="M_val_L_c" stoichiometry="0.377193769310081" constant="true"/>
           <speciesReference species="M_tyr_L_c" stoichiometry="0.219102120281648" constant="true"/>
           <speciesReference species="M_trp_L_c" stoichiometry="0.219102120328489" constant="true"/>
-          <speciesReference species="M_thr_L_c" stoichiometry="0.459645768242843" constant="true"/>
-          <speciesReference species="M_ser_L_c" stoichiometry="0.547515538682474" constant="true"/>
-          <speciesReference species="M_pro_L_c" stoichiometry="0.39692420056891" constant="true"/>
+          <speciesReference species="M_thr_L_c" stoichiometry="0.459645768242842" constant="true"/>
+          <speciesReference species="M_ser_L_c" stoichiometry="0.547515538682475" constant="true"/>
+          <speciesReference species="M_pro_L_c" stoichiometry="0.396924200568911" constant="true"/>
           <speciesReference species="M_phe_L_c" stoichiometry="0.247030889393465" constant="true"/>
           <speciesReference species="M_met_L_c" stoichiometry="0.110165972718313" constant="true"/>
           <speciesReference species="M_gly_c" stoichiometry="0.555374104862973" constant="true"/>
           <speciesReference species="M_lys_L_c" stoichiometry="0.549914955483132" constant="true"/>
           <speciesReference species="M_ile_L_c" stoichiometry="0.30214434382818" constant="true"/>
           <speciesReference species="M_his_L_c" stoichiometry="0.187659660720076" constant="true"/>
-          <speciesReference species="M_gln_L_c" stoichiometry="0.818541233632844" constant="true"/>
-          <speciesReference species="M_glu_L_c" stoichiometry="0.818541230794255" constant="true"/>
+          <speciesReference species="M_gln_L_c" stoichiometry="0.818541233632843" constant="true"/>
+          <speciesReference species="M_glu_L_c" stoichiometry="0.818541230794256" constant="true"/>
           <speciesReference species="M_cys_L_c" stoichiometry="0.110257908732263" constant="true"/>
           <speciesReference species="M_asp_L_c" stoichiometry="0.412911384248446" constant="true"/>
           <speciesReference species="M_asn_L_c" stoichiometry="0.41291138447622" constant="true"/>
@@ -54377,7 +54377,7 @@
           <speciesReference species="M_13BDglcn_c" stoichiometry="2.40690916318032" constant="true"/>
           <speciesReference species="M_tre_c" stoichiometry="1.03385755868174" constant="true"/>
           <speciesReference species="M_mannan_c" stoichiometry="0.670865933949293" constant="true"/>
-          <speciesReference species="M_glycogen_c" stoichiometry="0.739782081532556" constant="true"/>
+          <speciesReference species="M_glycogen_c" stoichiometry="0.739782081532555" constant="true"/>
           <speciesReference species="M_chitin_c" stoichiometry="0.133831614021634" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -54427,7 +54427,7 @@
       </reaction>
       <reaction id="R_DerivedProtein5__46__9" name="Derived Protein composition time=5.9 mmol/g protein" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
-          <speciesReference species="M_val_L_c" stoichiometry="0.423468745869793" constant="true"/>
+          <speciesReference species="M_val_L_c" stoichiometry="0.423468745869792" constant="true"/>
           <speciesReference species="M_tyr_L_c" stoichiometry="0.223525505145574" constant="true"/>
           <speciesReference species="M_trp_L_c" stoichiometry="0.223525505152403" constant="true"/>
           <speciesReference species="M_thr_L_c" stoichiometry="0.52678490837811" constant="true"/>
@@ -54446,7 +54446,7 @@
           <speciesReference species="M_asn_L_c" stoichiometry="0.469323915449704" constant="true"/>
           <speciesReference species="M_arg_L_c" stoichiometry="0.746137084866372" constant="true"/>
           <speciesReference species="M_leu_L_c" stoichiometry="0.575827111998023" constant="true"/>
-          <speciesReference species="M_ala_L_c" stoichiometry="0.740399894384546" constant="true"/>
+          <speciesReference species="M_ala_L_c" stoichiometry="0.740399894384547" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_PROTEIN_c" stoichiometry="1" constant="true"/>
@@ -54514,7 +54514,7 @@
           <speciesReference species="M_ser_L_c" stoichiometry="0.616901193238029" constant="true"/>
           <speciesReference species="M_pro_L_c" stoichiometry="0.425222634544759" constant="true"/>
           <speciesReference species="M_phe_L_c" stoichiometry="0.277951969340607" constant="true"/>
-          <speciesReference species="M_met_L_c" stoichiometry="0.109186793810311" constant="true"/>
+          <speciesReference species="M_met_L_c" stoichiometry="0.109186793810312" constant="true"/>
           <speciesReference species="M_gly_c" stoichiometry="0.620264556767657" constant="true"/>
           <speciesReference species="M_lys_L_c" stoichiometry="0.634905404897347" constant="true"/>
           <speciesReference species="M_ile_L_c" stoichiometry="0.348454145820353" constant="true"/>
@@ -54546,22 +54546,22 @@
       </reaction>
       <reaction id="R_DerivedLipid7__46__9" name="Derived Lipid composition time=7.9 mmol/g lipid" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
-          <speciesReference species="M_zymstest_SC_c" stoichiometry="0.0131363452248929" constant="true"/>
-          <speciesReference species="M_triglyc_SC_c" stoichiometry="0.090076028766934" constant="true"/>
-          <speciesReference species="M_pg_SC_c" stoichiometry="0.0243188351275812" constant="true"/>
-          <speciesReference species="M_pe_SC_c" stoichiometry="0.369706235219625" constant="true"/>
-          <speciesReference species="M_pc_SC_c" stoichiometry="0.26699567385012" constant="true"/>
-          <speciesReference species="M_ps_SC_c" stoichiometry="0.0320296203580268" constant="true"/>
+          <speciesReference species="M_zymstest_SC_c" stoichiometry="0.013136345224893" constant="true"/>
+          <speciesReference species="M_triglyc_SC_c" stoichiometry="0.0900760287669313" constant="true"/>
+          <speciesReference species="M_pg_SC_c" stoichiometry="0.0243188351275813" constant="true"/>
+          <speciesReference species="M_pe_SC_c" stoichiometry="0.369706235219626" constant="true"/>
+          <speciesReference species="M_pc_SC_c" stoichiometry="0.266995673850121" constant="true"/>
+          <speciesReference species="M_ps_SC_c" stoichiometry="0.0320296203580269" constant="true"/>
           <speciesReference species="M_1agpc_SC_c" stoichiometry="0.010738488558907" constant="true"/>
-          <speciesReference species="M_ergstest_SC_c" stoichiometry="0.0587764009805385" constant="true"/>
-          <speciesReference species="M_ergst_c" stoichiometry="0.528813321644681" constant="true"/>
-          <speciesReference species="M_mip2cavg_c" stoichiometry="1.25472716188616e-05" constant="true"/>
+          <speciesReference species="M_ergstest_SC_c" stoichiometry="0.0587764009805386" constant="true"/>
+          <speciesReference species="M_ergst_c" stoichiometry="0.528813321644682" constant="true"/>
+          <speciesReference species="M_mip2cavg_c" stoichiometry="1.25472716188617e-05" constant="true"/>
           <speciesReference species="M_IPCavg_c" stoichiometry="0.000317706524956421" constant="true"/>
-          <speciesReference species="M_GlcCer_c" stoichiometry="0.000224684264543054" constant="true"/>
+          <speciesReference species="M_GlcCer_c" stoichiometry="0.000224684264543055" constant="true"/>
           <speciesReference species="M_ceravg_c" stoichiometry="0.00284079622369494" constant="true"/>
-          <speciesReference species="M_ptd1ino_SC_c" stoichiometry="0.11532406515" constant="true"/>
-          <speciesReference species="M_12dgr_SC_c" stoichiometry="0.0618326477154137" constant="true"/>
-          <speciesReference species="M_mipcavg_c" stoichiometry="6.11821401468748e-05" constant="true"/>
+          <speciesReference species="M_ptd1ino_SC_c" stoichiometry="0.115324065150001" constant="true"/>
+          <speciesReference species="M_12dgr_SC_c" stoichiometry="0.0618326477154138" constant="true"/>
+          <speciesReference species="M_mipcavg_c" stoichiometry="6.11821401468749e-05" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_LIPIDS_c" stoichiometry="1" constant="true"/>
@@ -54571,7 +54571,7 @@
         <listOfReactants>
           <speciesReference species="M_CARBOHYDRATES_c" stoichiometry="0.615787789992833" constant="true"/>
           <speciesReference species="M_DNA_c" stoichiometry="0.00305262675504131" constant="true"/>
-          <speciesReference species="M_LIPIDS_c" stoichiometry="0.034217534979541" constant="true"/>
+          <speciesReference species="M_LIPIDS_c" stoichiometry="0.0342175349795409" constant="true"/>
           <speciesReference species="M_PROTEIN_c" stoichiometry="0.310712078714276" constant="true"/>
           <speciesReference species="M_RNA_c" stoichiometry="0.0362299695583083" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="108" constant="true"/>
@@ -54589,15 +54589,15 @@
         <listOfReactants>
           <speciesReference species="M_val_L_c" stoichiometry="0.463135521960078" constant="true"/>
           <speciesReference species="M_tyr_L_c" stoichiometry="0.222255689956284" constant="true"/>
-          <speciesReference species="M_trp_L_c" stoichiometry="0.222255689922561" constant="true"/>
+          <speciesReference species="M_trp_L_c" stoichiometry="0.22225568992256" constant="true"/>
           <speciesReference species="M_thr_L_c" stoichiometry="0.588067082696206" constant="true"/>
           <speciesReference species="M_ser_L_c" stoichiometry="0.633788862298432" constant="true"/>
           <speciesReference species="M_pro_L_c" stoichiometry="0.429702453003708" constant="true"/>
           <speciesReference species="M_phe_L_c" stoichiometry="0.285431551171407" constant="true"/>
           <speciesReference species="M_met_L_c" stoichiometry="0.107560718353931" constant="true"/>
-          <speciesReference species="M_gly_c" stoichiometry="0.635407031319433" constant="true"/>
+          <speciesReference species="M_gly_c" stoichiometry="0.635407031319432" constant="true"/>
           <speciesReference species="M_lys_L_c" stoichiometry="0.65751940430319" constant="true"/>
-          <speciesReference species="M_ile_L_c" stoichiometry="0.360734087204209" constant="true"/>
+          <speciesReference species="M_ile_L_c" stoichiometry="0.36073408720421" constant="true"/>
           <speciesReference species="M_his_L_c" stoichiometry="0.229517624847565" constant="true"/>
           <speciesReference species="M_gln_L_c" stoichiometry="0.389027931247201" constant="true"/>
           <speciesReference species="M_glu_L_c" stoichiometry="0.389027934055536" constant="true"/>
@@ -54649,7 +54649,7 @@
       </reaction>
       <reaction id="R_DerivedBiomass9__46__9" name="Derived Biomass composition time=9.9. Macros g_gcdw, others mmol_gcdw" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
-          <speciesReference species="M_CARBOHYDRATES_c" stoichiometry="0.60935323899487" constant="true"/>
+          <speciesReference species="M_CARBOHYDRATES_c" stoichiometry="0.609353238994869" constant="true"/>
           <speciesReference species="M_DNA_c" stoichiometry="0.00268441294168234" constant="true"/>
           <speciesReference species="M_LIPIDS_c" stoichiometry="0.0406478121195598" constant="true"/>
           <speciesReference species="M_PROTEIN_c" stoichiometry="0.313634987908527" constant="true"/>
@@ -54678,14 +54678,14 @@
           <speciesReference species="M_gly_c" stoichiometry="0.658225882248362" constant="true"/>
           <speciesReference species="M_lys_L_c" stoichiometry="0.696273671972654" constant="true"/>
           <speciesReference species="M_ile_L_c" stoichiometry="0.38171501989504" constant="true"/>
-          <speciesReference species="M_his_L_c" stoichiometry="0.245804996879004" constant="true"/>
+          <speciesReference species="M_his_L_c" stoichiometry="0.245804996879005" constant="true"/>
           <speciesReference species="M_gln_L_c" stoichiometry="0.260037586862801" constant="true"/>
           <speciesReference species="M_glu_L_c" stoichiometry="0.260037590125838" constant="true"/>
           <speciesReference species="M_cys_L_c" stoichiometry="0.126191878675635" constant="true"/>
           <speciesReference species="M_asp_L_c" stoichiometry="0.564473459679548" constant="true"/>
           <speciesReference species="M_asn_L_c" stoichiometry="0.564473459284252" constant="true"/>
           <speciesReference species="M_arg_L_c" stoichiometry="0.721466017943198" constant="true"/>
-          <speciesReference species="M_leu_L_c" stoichiometry="0.665606526044033" constant="true"/>
+          <speciesReference species="M_leu_L_c" stoichiometry="0.665606526044034" constant="true"/>
           <speciesReference species="M_ala_L_c" stoichiometry="0.733468195254978" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -54705,21 +54705,21 @@
       </reaction>
       <reaction id="R_DerivedLipid13__46__9" name="Derived Lipid composition time=13.9 mmol/g lipid" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <listOfReactants>
-          <speciesReference species="M_zymstest_SC_c" stoichiometry="0.0147440246315223" constant="true"/>
+          <speciesReference species="M_zymstest_SC_c" stoichiometry="0.0147440246315224" constant="true"/>
           <speciesReference species="M_triglyc_SC_c" stoichiometry="0.101100928292755" constant="true"/>
           <speciesReference species="M_pg_SC_c" stoichiometry="0.0269121795415166" constant="true"/>
           <speciesReference species="M_pe_SC_c" stoichiometry="0.352250694102287" constant="true"/>
           <speciesReference species="M_pc_SC_c" stoichiometry="0.228467893530636" constant="true"/>
           <speciesReference species="M_ps_SC_c" stoichiometry="0.029718279969141" constant="true"/>
-          <speciesReference species="M_1agpc_SC_c" stoichiometry="0.0105635269327134" constant="true"/>
-          <speciesReference species="M_ergstest_SC_c" stoichiometry="0.0659693557449635" constant="true"/>
-          <speciesReference species="M_ergst_c" stoichiometry="0.593512858750176" constant="true"/>
+          <speciesReference species="M_1agpc_SC_c" stoichiometry="0.0105635269327135" constant="true"/>
+          <speciesReference species="M_ergstest_SC_c" stoichiometry="0.0659693557449636" constant="true"/>
+          <speciesReference species="M_ergst_c" stoichiometry="0.593512858750175" constant="true"/>
           <speciesReference species="M_mip2cavg_c" stoichiometry="1.40828725875049e-05" constant="true"/>
           <speciesReference species="M_IPCavg_c" stoichiometry="0.00035659023373596" constant="true"/>
           <speciesReference species="M_GlcCer_c" stoichiometry="0.000252185567086622" constant="true"/>
           <speciesReference species="M_ceravg_c" stoichiometry="0.00318849594952883" constant="true"/>
           <speciesReference species="M_ptd1ino_SC_c" stoichiometry="0.111404312155017" constant="true"/>
-          <speciesReference species="M_12dgr_SC_c" stoichiometry="0.0694019082822246" constant="true"/>
+          <speciesReference species="M_12dgr_SC_c" stoichiometry="0.0694019082822247" constant="true"/>
           <speciesReference species="M_mipcavg_c" stoichiometry="6.86699917277084e-05" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -54730,7 +54730,7 @@
         <listOfReactants>
           <speciesReference species="M_CARBOHYDRATES_c" stoichiometry="0.61413218715874" constant="true"/>
           <speciesReference species="M_DNA_c" stoichiometry="0.00193485767096003" constant="true"/>
-          <speciesReference species="M_LIPIDS_c" stoichiometry="0.0540026341868631" constant="true"/>
+          <speciesReference species="M_LIPIDS_c" stoichiometry="0.054002634186863" constant="true"/>
           <speciesReference species="M_PROTEIN_c" stoichiometry="0.302770985705544" constant="true"/>
           <speciesReference species="M_RNA_c" stoichiometry="0.0271593352778919" constant="true"/>
           <speciesReference species="M_atp_c" stoichiometry="108" constant="true"/>
@@ -54751,9 +54751,9 @@
           <speciesReference species="M_trp_L_c" stoichiometry="0.210913666841153" constant="true"/>
           <speciesReference species="M_thr_L_c" stoichiometry="0.682944548800652" constant="true"/>
           <speciesReference species="M_ser_L_c" stoichiometry="0.674669830830475" constant="true"/>
-          <speciesReference species="M_pro_L_c" stoichiometry="0.431523319368852" constant="true"/>
+          <speciesReference species="M_pro_L_c" stoichiometry="0.431523319368851" constant="true"/>
           <speciesReference species="M_phe_L_c" stoichiometry="0.303357537450604" constant="true"/>
-          <speciesReference species="M_met_L_c" stoichiometry="0.0987327643159054" constant="true"/>
+          <speciesReference species="M_met_L_c" stoichiometry="0.0987327643159055" constant="true"/>
           <speciesReference species="M_gly_c" stoichiometry="0.669540587742157" constant="true"/>
           <speciesReference species="M_lys_L_c" stoichiometry="0.719935421013934" constant="true"/>
           <speciesReference species="M_ile_L_c" stoichiometry="0.394470908593489" constant="true"/>
@@ -54775,7 +54775,7 @@
         <listOfReactants>
           <speciesReference species="M_13BDglcn_c" stoichiometry="4.97131982725886" constant="true"/>
           <speciesReference species="M_tre_c" stoichiometry="0.192973022735345" constant="true"/>
-          <speciesReference species="M_mannan_c" stoichiometry="0.631317163042016" constant="true"/>
+          <speciesReference species="M_mannan_c" stoichiometry="0.631317163042015" constant="true"/>
           <speciesReference species="M_chitin_c" stoichiometry="0.125941996391339" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -54828,19 +54828,19 @@
           <speciesReference species="M_val_L_c" stoichiometry="0.538795819616883" constant="true"/>
           <speciesReference species="M_tyr_L_c" stoichiometry="0.203883518214464" constant="true"/>
           <speciesReference species="M_trp_L_c" stoichiometry="0.203883518090808" constant="true"/>
-          <speciesReference species="M_thr_L_c" stoichiometry="0.720051644507671" constant="true"/>
+          <speciesReference species="M_thr_L_c" stoichiometry="0.720051644507672" constant="true"/>
           <speciesReference species="M_ser_L_c" stoichiometry="0.685197905678374" constant="true"/>
           <speciesReference species="M_pro_L_c" stoichiometry="0.427414622922101" constant="true"/>
           <speciesReference species="M_phe_L_c" stoichiometry="0.307879848538441" constant="true"/>
           <speciesReference species="M_met_L_c" stoichiometry="0.0940870451532119" constant="true"/>
-          <speciesReference species="M_gly_c" stoichiometry="0.677019120297758" constant="true"/>
+          <speciesReference species="M_gly_c" stoichiometry="0.677019120297759" constant="true"/>
           <speciesReference species="M_lys_L_c" stoichiometry="0.740080415845454" constant="true"/>
           <speciesReference species="M_ile_L_c" stoichiometry="0.405285299341698" constant="true"/>
           <speciesReference species="M_his_L_c" stoichiometry="0.265716796376063" constant="true"/>
           <speciesReference species="M_gln_L_c" stoichiometry="0.138947804791841" constant="true"/>
           <speciesReference species="M_glu_L_c" stoichiometry="0.138947807642326" constant="true"/>
           <speciesReference species="M_cys_L_c" stoichiometry="0.127559550003118" constant="true"/>
-          <speciesReference species="M_asp_L_c" stoichiometry="0.623314177342384" constant="true"/>
+          <speciesReference species="M_asp_L_c" stoichiometry="0.623314177342385" constant="true"/>
           <speciesReference species="M_asn_L_c" stoichiometry="0.623314176517741" constant="true"/>
           <speciesReference species="M_arg_L_c" stoichiometry="0.676777595632996" constant="true"/>
           <speciesReference species="M_leu_L_c" stoichiometry="0.713496627019166" constant="true"/>
@@ -54874,7 +54874,7 @@
           <speciesReference species="M_ergst_c" stoichiometry="0.658891240517231" constant="true"/>
           <speciesReference species="M_mip2cavg_c" stoichiometry="1.56346821512386e-05" constant="true"/>
           <speciesReference species="M_IPCavg_c" stoichiometry="0.000395884602599603" constant="true"/>
-          <speciesReference species="M_GlcCer_c" stoichiometry="0.000279977836393471" constant="true"/>
+          <speciesReference species="M_GlcCer_c" stoichiometry="0.00027997783639347" constant="true"/>
           <speciesReference species="M_ceravg_c" stoichiometry="0.00353987163129992" constant="true"/>
           <speciesReference species="M_ptd1ino_SC_c" stoichiometry="0.106448590725522" constant="true"/>
           <speciesReference species="M_12dgr_SC_c" stoichiometry="0.0770514536142625" constant="true"/>
@@ -54987,7 +54987,7 @@
           <speciesReference species="M_tyr_L_c" stoichiometry="0.182404655761954" constant="true"/>
           <speciesReference species="M_trp_L_c" stoichiometry="0.182404655584652" constant="true"/>
           <speciesReference species="M_thr_L_c" stoichiometry="0.812483860949182" constant="true"/>
-          <speciesReference species="M_ser_L_c" stoichiometry="0.699538582973801" constant="true"/>
+          <speciesReference species="M_ser_L_c" stoichiometry="0.699538582973802" constant="true"/>
           <speciesReference species="M_pro_L_c" stoichiometry="0.408091099388443" constant="true"/>
           <speciesReference species="M_phe_L_c" stoichiometry="0.313746920761569" constant="true"/>
           <speciesReference species="M_met_L_c" stoichiometry="0.0810183776381514" constant="true"/>
@@ -55014,7 +55014,7 @@
           <speciesReference species="M_tre_c" stoichiometry="0.0319046518355222" constant="true"/>
           <speciesReference species="M_mannan_c" stoichiometry="0.342612481304163" constant="true"/>
           <speciesReference species="M_glycogen_c" stoichiometry="0.865371374277755" constant="true"/>
-          <speciesReference species="M_chitin_c" stoichiometry="0.0683480546129829" constant="true"/>
+          <speciesReference species="M_chitin_c" stoichiometry="0.068348054612983" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_CARBOHYDRATES_c" stoichiometry="1" constant="true"/>
@@ -55032,7 +55032,7 @@
           <speciesReference species="M_ergstest_SC_c" stoichiometry="0.0828754378600152" constant="true"/>
           <speciesReference species="M_ergst_c" stoichiometry="0.745567177970201" constant="true"/>
           <speciesReference species="M_mip2cavg_c" stoichiometry="1.76921722569077e-05" constant="true"/>
-          <speciesReference species="M_IPCavg_c" stoichiometry="0.000447984035227332" constant="true"/>
+          <speciesReference species="M_IPCavg_c" stoichiometry="0.000447984035227331" constant="true"/>
           <speciesReference species="M_GlcCer_c" stoichiometry="0.000316827808396922" constant="true"/>
           <speciesReference species="M_ceravg_c" stoichiometry="0.00400575850172183" constant="true"/>
           <speciesReference species="M_ptd1ino_SC_c" stoichiometry="0.0984968649936259" constant="true"/>
@@ -57068,66 +57068,66 @@
     </fbc:listOfObjectives>
     <fbc:listOfGeneProducts>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0107" fbc:name="PAS_chr2-2_0107" fbc:label="G_PAS_chr2__45__2_0107"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0352" fbc:name="PAS_chr4_0352" fbc:label="G_PAS_chr4_0352"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0080" fbc:name="PAS_chr1-4_0080" fbc:label="G_PAS_chr1__45__4_0080"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0785" fbc:name="PAS_chr2-1_0785" fbc:label="G_PAS_chr2__45__1_0785"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0352" fbc:name="PAS_chr4_0352" fbc:label="G_PAS_chr4_0352"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0794" fbc:name="PAS_chr2-1_0794" fbc:label="G_PAS_chr2__45__1_0794"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0279" fbc:name="PAS_chr2-1_0279" fbc:label="G_PAS_chr2__45__1_0279"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0794" fbc:name="PAS_chr2-1_0794" fbc:label="G_PAS_chr2__45__1_0794"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0218" fbc:name="PAS_chr1-3_0218" fbc:label="G_PAS_chr1__45__3_0218"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0535" fbc:name="PAS_chr4_0535" fbc:label="G_PAS_chr4_0535"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1188" fbc:name="PAS_chr3_1188" fbc:label="G_PAS_chr3_1188"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0585" fbc:name="PAS_chr3_0585" fbc:label="G_PAS_chr3_0585"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0808" fbc:name="PAS_chr3_0808" fbc:label="G_PAS_chr3_0808"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0169" fbc:name="PAS_chr2-2_0169" fbc:label="G_PAS_chr2__45__2_0169"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0907" fbc:name="PAS_chr3_0907" fbc:label="G_PAS_chr3_0907"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0462" fbc:name="PAS_chr2-2_0462" fbc:label="G_PAS_chr2__45__2_0462"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0172" fbc:name="PAS_chr1-1_0172" fbc:label="G_PAS_chr1__45__1_0172"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0960" fbc:name="PAS_chr4_0960" fbc:label="G_PAS_chr4_0960"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0124" fbc:name="PAS_chr1-1_0124" fbc:label="G_PAS_chr1__45__1_0124"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0366" fbc:name="PAS_chr2-2_0366" fbc:label="G_PAS_chr2__45__2_0366"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0456" fbc:name="PAS_chr2-1_0456" fbc:label="G_PAS_chr2__45__1_0456"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0245" fbc:name="PAS_chr4_0245" fbc:label="G_PAS_chr4_0245"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0371" fbc:name="PAS_chr1-4_0371" fbc:label="G_PAS_chr1__45__4_0371"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0619" fbc:name="PAS_chr3_0619" fbc:label="G_PAS_chr3_0619"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0120" fbc:name="PAS_chr4_0120" fbc:label="G_PAS_chr4_0120"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0210" fbc:name="PAS_chr1-3_0210" fbc:label="G_PAS_chr1__45__3_0210"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0235" fbc:name="PAS_chr2-2_0235" fbc:label="G_PAS_chr2__45__2_0235"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0575" fbc:name="PAS_chr1-4_0575" fbc:label="G_PAS_chr1__45__4_0575"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0117" fbc:name="PAS_chr1-3_0117" fbc:label="G_PAS_chr1__45__3_0117"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1188" fbc:name="PAS_chr3_1188" fbc:label="G_PAS_chr3_1188"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0142" fbc:name="PAS_chr4_0142" fbc:label="G_PAS_chr4_0142"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0283" fbc:name="PAS_chr4_0283" fbc:label="G_PAS_chr4_0283"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0535" fbc:name="PAS_chr4_0535" fbc:label="G_PAS_chr4_0535"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0039" fbc:name="PAS_chr1-4_0039" fbc:label="G_PAS_chr1__45__4_0039"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0104" fbc:name="PAS_chr3_0104" fbc:label="G_PAS_chr3_0104"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0359" fbc:name="PAS_chr2-1_0359" fbc:label="G_PAS_chr2__45__1_0359"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0035" fbc:name="PAS_chr2-2_0035" fbc:label="G_PAS_chr2__45__2_0035"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0355" fbc:name="PAS_chr4_0355" fbc:label="G_PAS_chr4_0355"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0124" fbc:name="PAS_chr1-1_0124" fbc:label="G_PAS_chr1__45__1_0124"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0359" fbc:name="PAS_chr2-1_0359" fbc:label="G_PAS_chr2__45__1_0359"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0245" fbc:name="PAS_chr4_0245" fbc:label="G_PAS_chr4_0245"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0039" fbc:name="PAS_chr1-4_0039" fbc:label="G_PAS_chr1__45__4_0039"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0142" fbc:name="PAS_chr4_0142" fbc:label="G_PAS_chr4_0142"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0907" fbc:name="PAS_chr3_0907" fbc:label="G_PAS_chr3_0907"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0210" fbc:name="PAS_chr1-3_0210" fbc:label="G_PAS_chr1__45__3_0210"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0283" fbc:name="PAS_chr4_0283" fbc:label="G_PAS_chr4_0283"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0274" fbc:name="PAS_chr1-4_0274" fbc:label="G_PAS_chr1__45__4_0274"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0172" fbc:name="PAS_chr1-1_0172" fbc:label="G_PAS_chr1__45__1_0172"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0619" fbc:name="PAS_chr3_0619" fbc:label="G_PAS_chr3_0619"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0462" fbc:name="PAS_chr2-2_0462" fbc:label="G_PAS_chr2__45__2_0462"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0371" fbc:name="PAS_chr1-4_0371" fbc:label="G_PAS_chr1__45__4_0371"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0911" fbc:name="PAS_chr3_0911" fbc:label="G_PAS_chr3_0911"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0120" fbc:name="PAS_chr4_0120" fbc:label="G_PAS_chr4_0120"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0575" fbc:name="PAS_chr1-4_0575" fbc:label="G_PAS_chr1__45__4_0575"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0585" fbc:name="PAS_chr3_0585" fbc:label="G_PAS_chr3_0585"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0366" fbc:name="PAS_chr2-2_0366" fbc:label="G_PAS_chr2__45__2_0366"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0104" fbc:name="PAS_chr3_0104" fbc:label="G_PAS_chr3_0104"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0117" fbc:name="PAS_chr1-3_0117" fbc:label="G_PAS_chr1__45__3_0117"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0456" fbc:name="PAS_chr2-1_0456" fbc:label="G_PAS_chr2__45__1_0456"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0235" fbc:name="PAS_chr2-2_0235" fbc:label="G_PAS_chr2__45__2_0235"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0169" fbc:name="PAS_chr2-2_0169" fbc:label="G_PAS_chr2__45__2_0169"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1199" fbc:name="PAS_chr3_1199" fbc:label="G_PAS_chr3_1199"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0808" fbc:name="PAS_chr3_0808" fbc:label="G_PAS_chr3_0808"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0911" fbc:name="PAS_chr3_0911" fbc:label="G_PAS_chr3_0911"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0059" fbc:name="PAS_chr2-2_0059" fbc:label="G_PAS_chr2__45__2_0059"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0063" fbc:name="PAS_chr1-1_0063" fbc:label="G_PAS_chr1__45__1_0063"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0399" fbc:name="PAS_chr3_0399" fbc:label="G_PAS_chr3_0399"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0017" fbc:name="PAS_chr1-4_0017" fbc:label="G_PAS_chr1__45__4_0017"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0608" fbc:name="PAS_chr1-4_0608" fbc:label="G_PAS_chr1__45__4_0608"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0147" fbc:name="PAS_chr4_0147" fbc:label="G_PAS_chr4_0147"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0200" fbc:name="PAS_chr1-1_0200" fbc:label="G_PAS_chr1__45__1_0200"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0974" fbc:name="PAS_chr4_0974" fbc:label="G_PAS_chr4_0974"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0684" fbc:name="PAS_chr2-1_0684" fbc:label="G_PAS_chr2__45__1_0684"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0974" fbc:name="PAS_chr4_0974" fbc:label="G_PAS_chr4_0974"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0200" fbc:name="PAS_chr1-1_0200" fbc:label="G_PAS_chr1__45__1_0200"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0147" fbc:name="PAS_chr4_0147" fbc:label="G_PAS_chr4_0147"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0252" fbc:name="PAS_chr2-2_0252" fbc:label="G_PAS_chr2__45__2_0252"/>
       <fbc:geneProduct fbc:id="G_PAS_c034_0025" fbc:name="PAS_c034_0025" fbc:label="G_PAS_c034_0025"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0550" fbc:name="PAS_chr4_0550" fbc:label="G_PAS_chr4_0550"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0448" fbc:name="PAS_chr1-1_0448" fbc:label="G_PAS_chr1__45__1_0448"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0550" fbc:name="PAS_chr4_0550" fbc:label="G_PAS_chr4_0550"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0357" fbc:name="PAS_chr3_0357" fbc:label="G_PAS_chr3_0357"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0193" fbc:name="PAS_chr2-2_0193" fbc:label="G_PAS_chr2__45__2_0193"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0939" fbc:name="PAS_chr3_0939" fbc:label="G_PAS_chr3_0939"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0393" fbc:name="PAS_chr1-4_0393" fbc:label="G_PAS_chr1__45__4_0393"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0392" fbc:name="PAS_chr1-4_0392" fbc:label="G_PAS_chr1__45__4_0392"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0777" fbc:name="PAS_chr4_0777" fbc:label="G_PAS_chr4_0777"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0256" fbc:name="PAS_chr2-1_0256" fbc:label="G_PAS_chr2__45__1_0256"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0215" fbc:name="PAS_chr3_0215" fbc:label="G_PAS_chr3_0215"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0393" fbc:name="PAS_chr1-4_0393" fbc:label="G_PAS_chr1__45__4_0393"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0212" fbc:name="PAS_chr2-1_0212" fbc:label="G_PAS_chr2__45__1_0212"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0256" fbc:name="PAS_chr2-1_0256" fbc:label="G_PAS_chr2__45__1_0256"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0286" fbc:name="PAS_chr1-1_0286" fbc:label="G_PAS_chr1__45__1_0286"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0138" fbc:name="PAS_chr1-3_0138" fbc:label="G_PAS_chr1__45__3_0138"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0777" fbc:name="PAS_chr4_0777" fbc:label="G_PAS_chr4_0777"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0215" fbc:name="PAS_chr3_0215" fbc:label="G_PAS_chr3_0215"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0578" fbc:name="PAS_chr4_0578" fbc:label="G_PAS_chr4_0578"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0545" fbc:name="PAS_chr2-1_0545" fbc:label="G_PAS_chr2__45__1_0545"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0072" fbc:name="PAS_chr2-1_0072" fbc:label="G_PAS_chr2__45__1_0072"/>
@@ -57140,28 +57140,28 @@
       <fbc:geneProduct fbc:id="G_PAS_chr4_0866" fbc:name="PAS_chr4_0866" fbc:label="G_PAS_chr4_0866"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0330" fbc:name="PAS_chr2-2_0330" fbc:label="G_PAS_chr2__45__2_0330"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0735" fbc:name="PAS_chr3_0735" fbc:label="G_PAS_chr3_0735"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0198" fbc:name="PAS_chr3_0198" fbc:label="G_PAS_chr3_0198"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0498" fbc:name="PAS_chr1-1_0498" fbc:label="G_PAS_chr1__45__1_0498"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0198" fbc:name="PAS_chr3_0198" fbc:label="G_PAS_chr3_0198"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0673" fbc:name="PAS_chr1-4_0673" fbc:label="G_PAS_chr1__45__4_0673"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0178" fbc:name="PAS_chr2-1_0178" fbc:label="G_PAS_chr2__45__1_0178"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0617" fbc:name="PAS_chr1-4_0617" fbc:label="G_PAS_chr1__45__4_0617"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0005" fbc:name="PAS_chr1-1_0005" fbc:label="G_PAS_chr1__45__1_0005"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0153" fbc:name="PAS_chr1-4_0153" fbc:label="G_PAS_chr1__45__4_0153"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0201" fbc:name="PAS_chr2-2_0201" fbc:label="G_PAS_chr2__45__2_0201"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1162" fbc:name="PAS_chr3_1162" fbc:label="G_PAS_chr3_1162"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0050" fbc:name="PAS_chr1-4_0050" fbc:label="G_PAS_chr1__45__4_0050"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0105" fbc:name="PAS_chr2-2_0105" fbc:label="G_PAS_chr2__45__2_0105"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0201" fbc:name="PAS_chr2-2_0201" fbc:label="G_PAS_chr2__45__2_0201"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0050" fbc:name="PAS_chr1-4_0050" fbc:label="G_PAS_chr1__45__4_0050"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1162" fbc:name="PAS_chr3_1162" fbc:label="G_PAS_chr3_1162"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0626" fbc:name="PAS_chr2-1_0626" fbc:label="G_PAS_chr2__45__1_0626"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0144" fbc:name="PAS_chr1-4_0144" fbc:label="G_PAS_chr1__45__4_0144"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0273" fbc:name="PAS_chr2-1_0273" fbc:label="G_PAS_chr2__45__1_0273"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0129" fbc:name="PAS_chr2-1_0129" fbc:label="G_PAS_chr2__45__1_0129"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0144" fbc:name="PAS_chr1-4_0144" fbc:label="G_PAS_chr1__45__4_0144"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0511" fbc:name="PAS_chr3_0511" fbc:label="G_PAS_chr3_0511"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0129" fbc:name="PAS_chr2-1_0129" fbc:label="G_PAS_chr2__45__1_0129"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0775" fbc:name="PAS_chr2-1_0775" fbc:label="G_PAS_chr2__45__1_0775"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0425" fbc:name="PAS_chr3_0425" fbc:label="G_PAS_chr3_0425"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0850" fbc:name="PAS_chr2-1_0850" fbc:label="G_PAS_chr2__45__1_0850"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0313" fbc:name="PAS_chr1-4_0313" fbc:label="G_PAS_chr1__45__4_0313"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0322" fbc:name="PAS_chr1-1_0322" fbc:label="G_PAS_chr1__45__1_0322"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0018" fbc:name="PAS_chr4_0018" fbc:label="G_PAS_chr4_0018"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0850" fbc:name="PAS_chr2-1_0850" fbc:label="G_PAS_chr2__45__1_0850"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0405" fbc:name="PAS_chr4_0405" fbc:label="G_PAS_chr4_0405"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0776" fbc:name="PAS_chr2-1_0776" fbc:label="G_PAS_chr2__45__1_0776"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0663" fbc:name="PAS_chr1-4_0663" fbc:label="G_PAS_chr1__45__4_0663"/>
@@ -57191,18 +57191,18 @@
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0111" fbc:name="PAS_chr2-1_0111" fbc:label="G_PAS_chr2__45__1_0111"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0257" fbc:name="PAS_chr2-1_0257" fbc:label="G_PAS_chr2__45__1_0257"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0330" fbc:name="PAS_chr4_0330" fbc:label="G_PAS_chr4_0330"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0048" fbc:name="PAS_chr2-2_0048" fbc:label="G_PAS_chr2__45__2_0048"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0089" fbc:name="PAS_chr2-1_0089" fbc:label="G_PAS_chr2__45__1_0089"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0094" fbc:name="PAS_chr1-3_0094" fbc:label="G_PAS_chr1__45__3_0094"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0048" fbc:name="PAS_chr2-2_0048" fbc:label="G_PAS_chr2__45__2_0048"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0479" fbc:name="PAS_chr1-4_0479" fbc:label="G_PAS_chr1__45__4_0479"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0649" fbc:name="PAS_chr2-1_0649" fbc:label="G_PAS_chr2__45__1_0649"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0287" fbc:name="PAS_chr4_0287" fbc:label="G_PAS_chr4_0287"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0030" fbc:name="PAS_chr1-1_0030" fbc:label="G_PAS_chr1__45__1_0030"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0649" fbc:name="PAS_chr2-1_0649" fbc:label="G_PAS_chr2__45__1_0649"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0479" fbc:name="PAS_chr1-4_0479" fbc:label="G_PAS_chr1__45__4_0479"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0482" fbc:name="PAS_chr3_0482" fbc:label="G_PAS_chr3_0482"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0043" fbc:name="PAS_chr4_0043" fbc:label="G_PAS_chr4_0043"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0987" fbc:name="PAS_chr3_0987" fbc:label="G_PAS_chr3_0987"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0506" fbc:name="PAS_chr2-1_0506" fbc:label="G_PAS_chr2__45__1_0506"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0470" fbc:name="PAS_chr4_0470" fbc:label="G_PAS_chr4_0470"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0506" fbc:name="PAS_chr2-1_0506" fbc:label="G_PAS_chr2__45__1_0506"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0287" fbc:name="PAS_chr1-1_0287" fbc:label="G_PAS_chr1__45__1_0287"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0203" fbc:name="PAS_chr1-1_0203" fbc:label="G_PAS_chr1__45__1_0203"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0400" fbc:name="PAS_chr2-1_0400" fbc:label="G_PAS_chr2__45__1_0400"/>
@@ -57215,19 +57215,19 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0349" fbc:name="PAS_chr3_0349" fbc:label="G_PAS_chr3_0349"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0323" fbc:name="PAS_chr1-1_0323" fbc:label="G_PAS_chr1__45__1_0323"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0002" fbc:name="PAS_chr1-1_0002" fbc:label="G_PAS_chr1__45__1_0002"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0704" fbc:name="PAS_chr3_0704" fbc:label="G_PAS_chr3_0704"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0687" fbc:name="PAS_chr2-1_0687" fbc:label="G_PAS_chr2__45__1_0687"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1040" fbc:name="PAS_chr3_1040" fbc:label="G_PAS_chr3_1040"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0309" fbc:name="PAS_chr1-1_0309" fbc:label="G_PAS_chr1__45__1_0309"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0674" fbc:name="PAS_chr4_0674" fbc:label="G_PAS_chr4_0674"/>
-      <fbc:geneProduct fbc:id="G_PAS_c131_0021" fbc:name="PAS_c131_0021" fbc:label="G_PAS_c131_0021"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0255" fbc:name="PAS_chr4_0255" fbc:label="G_PAS_chr4_0255"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1236" fbc:name="PAS_chr3_1236" fbc:label="G_PAS_chr3_1236"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0227" fbc:name="PAS_chr2-2_0227" fbc:label="G_PAS_chr2__45__2_0227"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0990" fbc:name="PAS_chr4_0990" fbc:label="G_PAS_chr4_0990"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0195" fbc:name="PAS_chr1-1_0195" fbc:label="G_PAS_chr1__45__1_0195"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0246" fbc:name="PAS_chr2-1_0246" fbc:label="G_PAS_chr2__45__1_0246"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0066" fbc:name="PAS_chr1-3_0066" fbc:label="G_PAS_chr1__45__3_0066"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1040" fbc:name="PAS_chr3_1040" fbc:label="G_PAS_chr3_1040"/>
+      <fbc:geneProduct fbc:id="G_PAS_c131_0021" fbc:name="PAS_c131_0021" fbc:label="G_PAS_c131_0021"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0674" fbc:name="PAS_chr4_0674" fbc:label="G_PAS_chr4_0674"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0255" fbc:name="PAS_chr4_0255" fbc:label="G_PAS_chr4_0255"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0227" fbc:name="PAS_chr2-2_0227" fbc:label="G_PAS_chr2__45__2_0227"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0687" fbc:name="PAS_chr2-1_0687" fbc:label="G_PAS_chr2__45__1_0687"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0246" fbc:name="PAS_chr2-1_0246" fbc:label="G_PAS_chr2__45__1_0246"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0309" fbc:name="PAS_chr1-1_0309" fbc:label="G_PAS_chr1__45__1_0309"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0990" fbc:name="PAS_chr4_0990" fbc:label="G_PAS_chr4_0990"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0704" fbc:name="PAS_chr3_0704" fbc:label="G_PAS_chr3_0704"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0210" fbc:name="PAS_chr4_0210" fbc:label="G_PAS_chr4_0210"/>
       <fbc:geneProduct fbc:id="G_PAS_c034_0024" fbc:name="PAS_c034_0024" fbc:label="G_PAS_c034_0024"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0103" fbc:name="PAS_chr1-1_0103" fbc:label="G_PAS_chr1__45__1_0103"/>
@@ -57246,8 +57246,8 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0156" fbc:name="PAS_chr3_0156" fbc:label="G_PAS_chr3_0156"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0239" fbc:name="PAS_chr1-3_0239" fbc:label="G_PAS_chr1__45__3_0239"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0211" fbc:name="PAS_chr1-3_0211" fbc:label="G_PAS_chr1__45__3_0211"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0822" fbc:name="PAS_chr3_0822" fbc:label="G_PAS_chr3_0822"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0272" fbc:name="PAS_chr2-2_0272" fbc:label="G_PAS_chr2__45__2_0272"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0822" fbc:name="PAS_chr3_0822" fbc:label="G_PAS_chr3_0822"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0072" fbc:name="PAS_chr1-1_0072" fbc:label="G_PAS_chr1__45__1_0072"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0225" fbc:name="PAS_chr3_0225" fbc:label="G_PAS_chr3_0225"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0570" fbc:name="PAS_chr1-4_0570" fbc:label="G_PAS_chr1__45__4_0570"/>
@@ -57256,8 +57256,8 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0456" fbc:name="PAS_chr3_0456" fbc:label="G_PAS_chr3_0456"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0042" fbc:name="PAS_chr1-4_0042" fbc:label="G_PAS_chr1__45__4_0042"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0028" fbc:name="PAS_chr1-1_0028" fbc:label="G_PAS_chr1__45__1_0028"/>
-      <fbc:geneProduct fbc:id="G_PAS_FragB_0053" fbc:name="PAS_FragB_0053" fbc:label="G_PAS_FragB_0053"/>
       <fbc:geneProduct fbc:id="G_PAS_FragB_0009" fbc:name="PAS_FragB_0009" fbc:label="G_PAS_FragB_0009"/>
+      <fbc:geneProduct fbc:id="G_PAS_FragB_0053" fbc:name="PAS_FragB_0053" fbc:label="G_PAS_FragB_0053"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0492" fbc:name="PAS_chr2-2_0492" fbc:label="G_PAS_chr2__45__2_0492"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0219" fbc:name="PAS_chr2-2_0219" fbc:label="G_PAS_chr2__45__2_0219"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0624" fbc:name="PAS_chr4_0624" fbc:label="G_PAS_chr4_0624"/>
@@ -57278,19 +57278,19 @@
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0233" fbc:name="PAS_chr1-1_0233" fbc:label="G_PAS_chr1__45__1_0233"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0580" fbc:name="PAS_chr2-1_0580" fbc:label="G_PAS_chr2__45__1_0580"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0248" fbc:name="PAS_chr4_0248" fbc:label="G_PAS_chr4_0248"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0095" fbc:name="PAS_chr3_0095" fbc:label="G_PAS_chr3_0095"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0188" fbc:name="PAS_chr3_0188" fbc:label="G_PAS_chr3_0188"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0095" fbc:name="PAS_chr3_0095" fbc:label="G_PAS_chr3_0095"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0489" fbc:name="PAS_chr2-1_0489" fbc:label="G_PAS_chr2__45__1_0489"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0415" fbc:name="PAS_chr2-1_0415" fbc:label="G_PAS_chr2__45__1_0415"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0831" fbc:name="PAS_chr3_0831" fbc:label="G_PAS_chr3_0831"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0407" fbc:name="PAS_chr2-2_0407" fbc:label="G_PAS_chr2__45__2_0407"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0831" fbc:name="PAS_chr3_0831" fbc:label="G_PAS_chr3_0831"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0440" fbc:name="PAS_chr3_0440" fbc:label="G_PAS_chr3_0440"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0341" fbc:name="PAS_chr1-1_0341" fbc:label="G_PAS_chr1__45__1_0341"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0011" fbc:name="PAS_chr4_0011" fbc:label="G_PAS_chr4_0011"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0181" fbc:name="PAS_chr3_0181" fbc:label="G_PAS_chr3_0181"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0351" fbc:name="PAS_chr2-1_0351" fbc:label="G_PAS_chr2__45__1_0351"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0111" fbc:name="PAS_chr4_0111" fbc:label="G_PAS_chr4_0111"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0018" fbc:name="PAS_chr3_0018" fbc:label="G_PAS_chr3_0018"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0351" fbc:name="PAS_chr2-1_0351" fbc:label="G_PAS_chr2__45__1_0351"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0221" fbc:name="PAS_chr1-1_0221" fbc:label="G_PAS_chr1__45__1_0221"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0187" fbc:name="PAS_chr1-3_0187" fbc:label="G_PAS_chr1__45__3_0187"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0160" fbc:name="PAS_chr2-1_0160" fbc:label="G_PAS_chr2__45__1_0160"/>
@@ -57304,9 +57304,9 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0915" fbc:name="PAS_chr3_0915" fbc:label="G_PAS_chr3_0915"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1002" fbc:name="PAS_chr3_1002" fbc:label="G_PAS_chr3_1002"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0130" fbc:name="PAS_chr1-3_0130" fbc:label="G_PAS_chr1__45__3_0130"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0743" fbc:name="PAS_chr3_0743" fbc:label="G_PAS_chr3_0743"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0070" fbc:name="PAS_chr2-2_0070" fbc:label="G_PAS_chr2__45__2_0070"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0037" fbc:name="PAS_chr2-1_0037" fbc:label="G_PAS_chr2__45__1_0037"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0743" fbc:name="PAS_chr3_0743" fbc:label="G_PAS_chr3_0743"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0566" fbc:name="PAS_chr3_0566" fbc:label="G_PAS_chr3_0566"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0040" fbc:name="PAS_chr3_0040" fbc:label="G_PAS_chr3_0040"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0278" fbc:name="PAS_chr2-2_0278" fbc:label="G_PAS_chr2__45__2_0278"/>
@@ -57319,14 +57319,14 @@
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0204" fbc:name="PAS_chr2-2_0204" fbc:label="G_PAS_chr2__45__2_0204"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0132" fbc:name="PAS_chr1-1_0132" fbc:label="G_PAS_chr1__45__1_0132"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0996" fbc:name="PAS_chr4_0996" fbc:label="G_PAS_chr4_0996"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0284" fbc:name="PAS_chr4_0284" fbc:label="G_PAS_chr4_0284"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0282" fbc:name="PAS_chr1-1_0282" fbc:label="G_PAS_chr1__45__1_0282"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0197" fbc:name="PAS_chr4_0197" fbc:label="G_PAS_chr4_0197"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0284" fbc:name="PAS_chr4_0284" fbc:label="G_PAS_chr4_0284"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0359" fbc:name="PAS_chr2-2_0359" fbc:label="G_PAS_chr2__45__2_0359"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0487" fbc:name="PAS_chr1-4_0487" fbc:label="G_PAS_chr1__45__4_0487"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0283" fbc:name="PAS_chr2-2_0283" fbc:label="G_PAS_chr2__45__2_0283"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0733" fbc:name="PAS_chr4_0733" fbc:label="G_PAS_chr4_0733"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0487" fbc:name="PAS_chr1-4_0487" fbc:label="G_PAS_chr1__45__4_0487"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1111" fbc:name="PAS_chr3_1111" fbc:label="G_PAS_chr3_1111"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0733" fbc:name="PAS_chr4_0733" fbc:label="G_PAS_chr4_0733"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0220" fbc:name="PAS_chr2-2_0220" fbc:label="G_PAS_chr2__45__2_0220"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0649" fbc:name="PAS_chr3_0649" fbc:label="G_PAS_chr3_0649"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0112" fbc:name="PAS_chr4_0112" fbc:label="G_PAS_chr4_0112"/>
@@ -57338,9 +57338,9 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0022" fbc:name="PAS_chr3_0022" fbc:label="G_PAS_chr3_0022"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0055" fbc:name="PAS_chr2-1_0055" fbc:label="G_PAS_chr2__45__1_0055"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0681" fbc:name="PAS_chr2-1_0681" fbc:label="G_PAS_chr2__45__1_0681"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0271" fbc:name="PAS_chr1-3_0271" fbc:label="G_PAS_chr1__45__3_0271"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0067" fbc:name="PAS_chr2-1_0067" fbc:label="G_PAS_chr2__45__1_0067"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0212" fbc:name="PAS_chr1-4_0212" fbc:label="G_PAS_chr1__45__4_0212"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0067" fbc:name="PAS_chr2-1_0067" fbc:label="G_PAS_chr2__45__1_0067"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0271" fbc:name="PAS_chr1-3_0271" fbc:label="G_PAS_chr1__45__3_0271"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0253" fbc:name="PAS_chr3_0253" fbc:label="G_PAS_chr3_0253"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0233" fbc:name="PAS_chr4_0233" fbc:label="G_PAS_chr4_0233"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0360" fbc:name="PAS_chr1-1_0360" fbc:label="G_PAS_chr1__45__1_0360"/>
@@ -57352,24 +57352,24 @@
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0402" fbc:name="PAS_chr2-2_0402" fbc:label="G_PAS_chr2__45__2_0402"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0194" fbc:name="PAS_chr1-3_0194" fbc:label="G_PAS_chr1__45__3_0194"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0197" fbc:name="PAS_chr2-1_0197" fbc:label="G_PAS_chr2__45__1_0197"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0508" fbc:name="PAS_chr4_0508" fbc:label="G_PAS_chr4_0508"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0929" fbc:name="PAS_chr3_0929" fbc:label="G_PAS_chr3_0929"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0508" fbc:name="PAS_chr4_0508" fbc:label="G_PAS_chr4_0508"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0579" fbc:name="PAS_chr4_0579" fbc:label="G_PAS_chr4_0579"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0922" fbc:name="PAS_chr4_0922" fbc:label="G_PAS_chr4_0922"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1028" fbc:name="PAS_chr3_1028" fbc:label="G_PAS_chr3_1028"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0472" fbc:name="PAS_chr2-1_0472" fbc:label="G_PAS_chr2__45__1_0472"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1028" fbc:name="PAS_chr3_1028" fbc:label="G_PAS_chr3_1028"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0576" fbc:name="PAS_chr4_0576" fbc:label="G_PAS_chr4_0576"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0878" fbc:name="PAS_chr2-1_0878" fbc:label="G_PAS_chr2__45__1_0878"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0578" fbc:name="PAS_chr3_0578" fbc:label="G_PAS_chr3_0578"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0630" fbc:name="PAS_chr3_0630" fbc:label="G_PAS_chr3_0630"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0380" fbc:name="PAS_chr1-4_0380" fbc:label="G_PAS_chr1__45__4_0380"/>
       <fbc:geneProduct fbc:id="G_PAS_FragB_0042" fbc:name="PAS_FragB_0042" fbc:label="G_PAS_FragB_0042"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0058" fbc:name="PAS_chr3_0058" fbc:label="G_PAS_chr3_0058"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0449" fbc:name="PAS_chr4_0449" fbc:label="G_PAS_chr4_0449"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0149" fbc:name="PAS_chr4_0149" fbc:label="G_PAS_chr4_0149"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0058" fbc:name="PAS_chr3_0058" fbc:label="G_PAS_chr3_0058"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0953" fbc:name="PAS_chr4_0953" fbc:label="G_PAS_chr4_0953"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0737" fbc:name="PAS_chr4_0737" fbc:label="G_PAS_chr4_0737"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0507" fbc:name="PAS_chr3_0507" fbc:label="G_PAS_chr3_0507"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0149" fbc:name="PAS_chr4_0149" fbc:label="G_PAS_chr4_0149"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0957" fbc:name="PAS_chr3_0957" fbc:label="G_PAS_chr3_0957"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0648" fbc:name="PAS_chr3_0648" fbc:label="G_PAS_chr3_0648"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0069" fbc:name="PAS_chr1-1_0069" fbc:label="G_PAS_chr1__45__1_0069"/>
@@ -57398,8 +57398,8 @@
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0856" fbc:name="PAS_chr2-1_0856" fbc:label="G_PAS_chr2__45__1_0856"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0520" fbc:name="PAS_chr2-1_0520" fbc:label="G_PAS_chr2__45__1_0520"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0511" fbc:name="PAS_chr4_0511" fbc:label="G_PAS_chr4_0511"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0343" fbc:name="PAS_chr2-1_0343" fbc:label="G_PAS_chr2__45__1_0343"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0965" fbc:name="PAS_chr3_0965" fbc:label="G_PAS_chr3_0965"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0343" fbc:name="PAS_chr2-1_0343" fbc:label="G_PAS_chr2__45__1_0343"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0064" fbc:name="PAS_chr1-4_0064" fbc:label="G_PAS_chr1__45__4_0064"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0016" fbc:name="PAS_chr1-3_0016" fbc:label="G_PAS_chr1__45__3_0016"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0044" fbc:name="PAS_chr1-1_0044" fbc:label="G_PAS_chr1__45__1_0044"/>
@@ -57409,52 +57409,52 @@
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0453" fbc:name="PAS_chr2-1_0453" fbc:label="G_PAS_chr2__45__1_0453"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0034" fbc:name="PAS_chr2-2_0034" fbc:label="G_PAS_chr2__45__2_0034"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0084" fbc:name="PAS_chr2-2_0084" fbc:label="G_PAS_chr2__45__2_0084"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0159" fbc:name="PAS_chr2-2_0159" fbc:label="G_PAS_chr2__45__2_0159"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0468" fbc:name="PAS_chr1-4_0468" fbc:label="G_PAS_chr1__45__4_0468"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0652" fbc:name="PAS_chr2-1_0652" fbc:label="G_PAS_chr2__45__1_0652"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0388" fbc:name="PAS_chr3_0388" fbc:label="G_PAS_chr3_0388"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0380" fbc:name="PAS_chr2-2_0380" fbc:label="G_PAS_chr2__45__2_0380"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0652" fbc:name="PAS_chr2-1_0652" fbc:label="G_PAS_chr2__45__1_0652"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0468" fbc:name="PAS_chr1-4_0468" fbc:label="G_PAS_chr1__45__4_0468"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0667" fbc:name="PAS_chr2-1_0667" fbc:label="G_PAS_chr2__45__1_0667"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0159" fbc:name="PAS_chr2-2_0159" fbc:label="G_PAS_chr2__45__2_0159"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0111" fbc:name="PAS_chr1-1_0111" fbc:label="G_PAS_chr1__45__1_0111"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0107" fbc:name="PAS_chr2-1_0107" fbc:label="G_PAS_chr2__45__1_0107"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0677" fbc:name="PAS_chr4_0677" fbc:label="G_PAS_chr4_0677"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0107" fbc:name="PAS_chr2-1_0107" fbc:label="G_PAS_chr2__45__1_0107"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0406" fbc:name="PAS_chr3_0406" fbc:label="G_PAS_chr3_0406"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0675" fbc:name="PAS_chr1-4_0675" fbc:label="G_PAS_chr1__45__4_0675"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0127" fbc:name="PAS_chr1-1_0127" fbc:label="G_PAS_chr1__45__1_0127"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0759" fbc:name="PAS_chr2-1_0759" fbc:label="G_PAS_chr2__45__1_0759"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0125" fbc:name="PAS_chr2-2_0125" fbc:label="G_PAS_chr2__45__2_0125"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0417" fbc:name="PAS_chr1-4_0417" fbc:label="G_PAS_chr1__45__4_0417"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0882" fbc:name="PAS_chr3_0882" fbc:label="G_PAS_chr3_0882"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0386" fbc:name="PAS_chr3_0386" fbc:label="G_PAS_chr3_0386"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0999" fbc:name="PAS_chr3_0999" fbc:label="G_PAS_chr3_0999"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0696" fbc:name="PAS_chr1-4_0696" fbc:label="G_PAS_chr1__45__4_0696"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0475" fbc:name="PAS_chr1-4_0475" fbc:label="G_PAS_chr1__45__4_0475"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0620" fbc:name="PAS_chr3_0620" fbc:label="G_PAS_chr3_0620"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0999" fbc:name="PAS_chr3_0999" fbc:label="G_PAS_chr3_0999"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0036" fbc:name="PAS_chr2-2_0036" fbc:label="G_PAS_chr2__45__2_0036"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0125" fbc:name="PAS_chr2-2_0125" fbc:label="G_PAS_chr2__45__2_0125"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0882" fbc:name="PAS_chr3_0882" fbc:label="G_PAS_chr3_0882"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0475" fbc:name="PAS_chr1-4_0475" fbc:label="G_PAS_chr1__45__4_0475"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0417" fbc:name="PAS_chr1-4_0417" fbc:label="G_PAS_chr1__45__4_0417"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0386" fbc:name="PAS_chr3_0386" fbc:label="G_PAS_chr3_0386"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0451" fbc:name="PAS_chr4_0451" fbc:label="G_PAS_chr4_0451"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0471" fbc:name="PAS_chr4_0471" fbc:label="G_PAS_chr4_0471"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0696" fbc:name="PAS_chr1-4_0696" fbc:label="G_PAS_chr1__45__4_0696"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0039" fbc:name="PAS_chr2-2_0039" fbc:label="G_PAS_chr2__45__2_0039"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0450" fbc:name="PAS_chr4_0450" fbc:label="G_PAS_chr4_0450"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0549" fbc:name="PAS_chr2-1_0549" fbc:label="G_PAS_chr2__45__1_0549"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0450" fbc:name="PAS_chr4_0450" fbc:label="G_PAS_chr4_0450"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0547" fbc:name="PAS_chr2-1_0547" fbc:label="G_PAS_chr2__45__1_0547"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0107" fbc:name="PAS_chr3_0107" fbc:label="G_PAS_chr3_0107"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0322" fbc:name="PAS_chr2-2_0322" fbc:label="G_PAS_chr2__45__2_0322"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0862" fbc:name="PAS_chr2-1_0862" fbc:label="G_PAS_chr2__45__1_0862"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0770" fbc:name="PAS_chr2-1_0770" fbc:label="G_PAS_chr2__45__1_0770"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0743" fbc:name="PAS_chr4_0743" fbc:label="G_PAS_chr4_0743"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0052" fbc:name="PAS_chr4_0052" fbc:label="G_PAS_chr4_0052"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0743" fbc:name="PAS_chr4_0743" fbc:label="G_PAS_chr4_0743"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0458" fbc:name="PAS_chr1-4_0458" fbc:label="G_PAS_chr1__45__4_0458"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0685" fbc:name="PAS_chr1-4_0685" fbc:label="G_PAS_chr1__45__4_0685"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0346" fbc:name="PAS_chr2-2_0346" fbc:label="G_PAS_chr2__45__2_0346"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0423" fbc:name="PAS_chr2-1_0423" fbc:label="G_PAS_chr2__45__1_0423"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0741" fbc:name="PAS_chr3_0741" fbc:label="G_PAS_chr3_0741"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0248" fbc:name="PAS_chr1-3_0248" fbc:label="G_PAS_chr1__45__3_0248"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1142" fbc:name="PAS_chr3_1142" fbc:label="G_PAS_chr3_1142"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0610" fbc:name="PAS_chr4_0610" fbc:label="G_PAS_chr4_0610"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0248" fbc:name="PAS_chr1-3_0248" fbc:label="G_PAS_chr1__45__3_0248"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0685" fbc:name="PAS_chr1-4_0685" fbc:label="G_PAS_chr1__45__4_0685"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0423" fbc:name="PAS_chr2-1_0423" fbc:label="G_PAS_chr2__45__1_0423"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0741" fbc:name="PAS_chr3_0741" fbc:label="G_PAS_chr3_0741"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0712" fbc:name="PAS_chr4_0712" fbc:label="G_PAS_chr4_0712"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0544" fbc:name="PAS_chr4_0544" fbc:label="G_PAS_chr4_0544"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0780" fbc:name="PAS_chr4_0780" fbc:label="G_PAS_chr4_0780"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0311" fbc:name="PAS_chr4_0311" fbc:label="G_PAS_chr4_0311"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0780" fbc:name="PAS_chr4_0780" fbc:label="G_PAS_chr4_0780"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0338" fbc:name="PAS_chr4_0338" fbc:label="G_PAS_chr4_0338"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0058" fbc:name="PAS_chr1-4_0058" fbc:label="G_PAS_chr1__45__4_0058"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0313" fbc:name="PAS_chr2-1_0313" fbc:label="G_PAS_chr2__45__1_0313"/>
@@ -57474,96 +57474,96 @@
       <fbc:geneProduct fbc:id="G_PAS_chr4_0356" fbc:name="PAS_chr4_0356" fbc:label="G_PAS_chr4_0356"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0652" fbc:name="PAS_chr4_0652" fbc:label="G_PAS_chr4_0652"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0381" fbc:name="PAS_chr1-4_0381" fbc:label="G_PAS_chr1__45__4_0381"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0988" fbc:name="PAS_chr4_0988" fbc:label="G_PAS_chr4_0988"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0368" fbc:name="PAS_chr4_0368" fbc:label="G_PAS_chr4_0368"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0988" fbc:name="PAS_chr4_0988" fbc:label="G_PAS_chr4_0988"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0383" fbc:name="PAS_chr2-1_0383" fbc:label="G_PAS_chr2__45__1_0383"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0112" fbc:name="PAS_chr2-2_0112" fbc:label="G_PAS_chr2__45__2_0112"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1132" fbc:name="PAS_chr3_1132" fbc:label="G_PAS_chr3_1132"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1194" fbc:name="PAS_chr3_1194" fbc:label="G_PAS_chr3_1194"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0487" fbc:name="PAS_chr2-1_0487" fbc:label="G_PAS_chr2__45__1_0487"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0494" fbc:name="PAS_chr2-2_0494" fbc:label="G_PAS_chr2__45__2_0494"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0287" fbc:name="PAS_chr1-4_0287" fbc:label="G_PAS_chr1__45__4_0287"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1133" fbc:name="PAS_chr3_1133" fbc:label="G_PAS_chr3_1133"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0494" fbc:name="PAS_chr2-2_0494" fbc:label="G_PAS_chr2__45__2_0494"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0076" fbc:name="PAS_chr2-2_0076" fbc:label="G_PAS_chr2__45__2_0076"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0870" fbc:name="PAS_chr3_0870" fbc:label="G_PAS_chr3_0870"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0093" fbc:name="PAS_chr2-1_0093" fbc:label="G_PAS_chr2__45__1_0093"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0621" fbc:name="PAS_chr4_0621" fbc:label="G_PAS_chr4_0621"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0441" fbc:name="PAS_chr1-4_0441" fbc:label="G_PAS_chr1__45__4_0441"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0307" fbc:name="PAS_chr2-1_0307" fbc:label="G_PAS_chr2__45__1_0307"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0621" fbc:name="PAS_chr4_0621" fbc:label="G_PAS_chr4_0621"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0510" fbc:name="PAS_chr3_0510" fbc:label="G_PAS_chr3_0510"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0215" fbc:name="PAS_chr1-1_0215" fbc:label="G_PAS_chr1__45__1_0215"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0778" fbc:name="PAS_chr2-1_0778" fbc:label="G_PAS_chr2__45__1_0778"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0354" fbc:name="PAS_chr3_0354" fbc:label="G_PAS_chr3_0354"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0424" fbc:name="PAS_chr2-1_0424" fbc:label="G_PAS_chr2__45__1_0424"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0730" fbc:name="PAS_chr4_0730" fbc:label="G_PAS_chr4_0730"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0753" fbc:name="PAS_chr2-1_0753" fbc:label="G_PAS_chr2__45__1_0753"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0891" fbc:name="PAS_chr3_0891" fbc:label="G_PAS_chr3_0891"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0753" fbc:name="PAS_chr2-1_0753" fbc:label="G_PAS_chr2__45__1_0753"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0395" fbc:name="PAS_chr1-1_0395" fbc:label="G_PAS_chr1__45__1_0395"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0912" fbc:name="PAS_chr4_0912" fbc:label="G_PAS_chr4_0912"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0188" fbc:name="PAS_chr1-4_0188" fbc:label="G_PAS_chr1__45__4_0188"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1091" fbc:name="PAS_chr3_1091" fbc:label="G_PAS_chr3_1091"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0387" fbc:name="PAS_chr4_0387" fbc:label="G_PAS_chr4_0387"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0419" fbc:name="PAS_chr4_0419" fbc:label="G_PAS_chr4_0419"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0756" fbc:name="PAS_chr2-1_0756" fbc:label="G_PAS_chr2__45__1_0756"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0881" fbc:name="PAS_chr3_0881" fbc:label="G_PAS_chr3_0881"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0519" fbc:name="PAS_chr1-4_0519" fbc:label="G_PAS_chr1__45__4_0519"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0054" fbc:name="PAS_chr1-1_0054" fbc:label="G_PAS_chr1__45__1_0054"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0342" fbc:name="PAS_chr3_0342" fbc:label="G_PAS_chr3_0342"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0918" fbc:name="PAS_chr3_0918" fbc:label="G_PAS_chr3_0918"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0731" fbc:name="PAS_chr3_0731" fbc:label="G_PAS_chr3_0731"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1091" fbc:name="PAS_chr3_1091" fbc:label="G_PAS_chr3_1091"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0710" fbc:name="PAS_chr2-1_0710" fbc:label="G_PAS_chr2__45__1_0710"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0299" fbc:name="PAS_chr1-1_0299" fbc:label="G_PAS_chr1__45__1_0299"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0813" fbc:name="PAS_chr2-1_0813" fbc:label="G_PAS_chr2__45__1_0813"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0732" fbc:name="PAS_chr4_0732" fbc:label="G_PAS_chr4_0732"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0428" fbc:name="PAS_chr1-1_0428" fbc:label="G_PAS_chr1__45__1_0428"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1006" fbc:name="PAS_chr3_1006" fbc:label="G_PAS_chr3_1006"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0419" fbc:name="PAS_chr4_0419" fbc:label="G_PAS_chr4_0419"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0195" fbc:name="PAS_chr1-3_0195" fbc:label="G_PAS_chr1__45__3_0195"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0736" fbc:name="PAS_chr4_0736" fbc:label="G_PAS_chr4_0736"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0731" fbc:name="PAS_chr4_0731" fbc:label="G_PAS_chr4_0731"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0807" fbc:name="PAS_chr2-1_0807" fbc:label="G_PAS_chr2__45__1_0807"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0387" fbc:name="PAS_chr4_0387" fbc:label="G_PAS_chr4_0387"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0011" fbc:name="PAS_chr2-1_0011" fbc:label="G_PAS_chr2__45__1_0011"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0226" fbc:name="PAS_chr4_0226" fbc:label="G_PAS_chr4_0226"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0054" fbc:name="PAS_chr1-1_0054" fbc:label="G_PAS_chr1__45__1_0054"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0300" fbc:name="PAS_chr4_0300" fbc:label="G_PAS_chr4_0300"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0079" fbc:name="PAS_chr1-1_0079" fbc:label="G_PAS_chr1__45__1_0079"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0117" fbc:name="PAS_chr1-1_0117" fbc:label="G_PAS_chr1__45__1_0117"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0057" fbc:name="PAS_chr2-1_0057" fbc:label="G_PAS_chr2__45__1_0057"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0233" fbc:name="PAS_chr1-4_0233" fbc:label="G_PAS_chr1__45__4_0233"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0011" fbc:name="PAS_chr2-1_0011" fbc:label="G_PAS_chr2__45__1_0011"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0732" fbc:name="PAS_chr4_0732" fbc:label="G_PAS_chr4_0732"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1006" fbc:name="PAS_chr3_1006" fbc:label="G_PAS_chr3_1006"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0428" fbc:name="PAS_chr1-1_0428" fbc:label="G_PAS_chr1__45__1_0428"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0300" fbc:name="PAS_chr4_0300" fbc:label="G_PAS_chr4_0300"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0117" fbc:name="PAS_chr1-1_0117" fbc:label="G_PAS_chr1__45__1_0117"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0736" fbc:name="PAS_chr4_0736" fbc:label="G_PAS_chr4_0736"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0807" fbc:name="PAS_chr2-1_0807" fbc:label="G_PAS_chr2__45__1_0807"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0226" fbc:name="PAS_chr4_0226" fbc:label="G_PAS_chr4_0226"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0731" fbc:name="PAS_chr4_0731" fbc:label="G_PAS_chr4_0731"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0710" fbc:name="PAS_chr2-1_0710" fbc:label="G_PAS_chr2__45__1_0710"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0731" fbc:name="PAS_chr3_0731" fbc:label="G_PAS_chr3_0731"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0114" fbc:name="PAS_chr1-1_0114" fbc:label="G_PAS_chr1__45__1_0114"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0079" fbc:name="PAS_chr1-1_0079" fbc:label="G_PAS_chr1__45__1_0079"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0195" fbc:name="PAS_chr1-3_0195" fbc:label="G_PAS_chr1__45__3_0195"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0881" fbc:name="PAS_chr3_0881" fbc:label="G_PAS_chr3_0881"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0813" fbc:name="PAS_chr2-1_0813" fbc:label="G_PAS_chr2__45__1_0813"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0918" fbc:name="PAS_chr3_0918" fbc:label="G_PAS_chr3_0918"/>
       <fbc:geneProduct fbc:id="G_PAS_FragD_0026" fbc:name="PAS_FragD_0026" fbc:label="G_PAS_FragD_0026"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0230" fbc:name="PAS_chr3_0230" fbc:label="G_PAS_chr3_0230"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0140" fbc:name="PAS_chr2-1_0140" fbc:label="G_PAS_chr2__45__1_0140"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0368" fbc:name="PAS_chr3_0368" fbc:label="G_PAS_chr3_0368"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0230" fbc:name="PAS_chr3_0230" fbc:label="G_PAS_chr3_0230"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0662" fbc:name="PAS_chr4_0662" fbc:label="G_PAS_chr4_0662"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0325" fbc:name="PAS_chr1-4_0325" fbc:label="G_PAS_chr1__45__4_0325"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0402" fbc:name="PAS_chr3_0402" fbc:label="G_PAS_chr3_0402"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0662" fbc:name="PAS_chr4_0662" fbc:label="G_PAS_chr4_0662"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0365" fbc:name="PAS_chr3_0365" fbc:label="G_PAS_chr3_0365"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0402" fbc:name="PAS_chr3_0402" fbc:label="G_PAS_chr3_0402"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0644" fbc:name="PAS_chr1-4_0644" fbc:label="G_PAS_chr1__45__4_0644"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0219" fbc:name="PAS_chr4_0219" fbc:label="G_PAS_chr4_0219"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1255" fbc:name="PAS_chr3_1255" fbc:label="G_PAS_chr3_1255"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0423" fbc:name="PAS_chr2-2_0423" fbc:label="G_PAS_chr2__45__2_0423"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0050" fbc:name="PAS_chr1-1_0050" fbc:label="G_PAS_chr1__45__1_0050"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0593" fbc:name="PAS_chr1-4_0593" fbc:label="G_PAS_chr1__45__4_0593"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0254" fbc:name="PAS_chr1-4_0254" fbc:label="G_PAS_chr1__45__4_0254"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0294" fbc:name="PAS_chr2-2_0294" fbc:label="G_PAS_chr2__45__2_0294"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0202" fbc:name="PAS_chr1-1_0202" fbc:label="G_PAS_chr1__45__1_0202"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0470" fbc:name="PAS_chr1-4_0470" fbc:label="G_PAS_chr1__45__4_0470"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0593" fbc:name="PAS_chr1-4_0593" fbc:label="G_PAS_chr1__45__4_0593"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0294" fbc:name="PAS_chr2-2_0294" fbc:label="G_PAS_chr2__45__2_0294"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0050" fbc:name="PAS_chr1-1_0050" fbc:label="G_PAS_chr1__45__1_0050"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0303" fbc:name="PAS_chr2-1_0303" fbc:label="G_PAS_chr2__45__1_0303"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0470" fbc:name="PAS_chr1-4_0470" fbc:label="G_PAS_chr1__45__4_0470"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0907" fbc:name="PAS_chr4_0907" fbc:label="G_PAS_chr4_0907"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0391" fbc:name="PAS_chr1-1_0391" fbc:label="G_PAS_chr1__45__1_0391"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0254" fbc:name="PAS_chr4_0254" fbc:label="G_PAS_chr4_0254"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0853" fbc:name="PAS_chr2-1_0853" fbc:label="G_PAS_chr2__45__1_0853"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0104" fbc:name="PAS_chr1-4_0104" fbc:label="G_PAS_chr1__45__4_0104"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0275" fbc:name="PAS_chr1-1_0275" fbc:label="G_PAS_chr1__45__1_0275"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0786" fbc:name="PAS_chr4_0786" fbc:label="G_PAS_chr4_0786"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0275" fbc:name="PAS_chr1-1_0275" fbc:label="G_PAS_chr1__45__1_0275"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0788" fbc:name="PAS_chr4_0788" fbc:label="G_PAS_chr4_0788"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0071" fbc:name="PAS_chr1-4_0071" fbc:label="G_PAS_chr1__45__4_0071"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0230" fbc:name="PAS_chr2-1_0230" fbc:label="G_PAS_chr2__45__1_0230"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0634" fbc:name="PAS_chr3_0634" fbc:label="G_PAS_chr3_0634"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0679" fbc:name="PAS_chr2-1_0679" fbc:label="G_PAS_chr2__45__1_0679"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0634" fbc:name="PAS_chr3_0634" fbc:label="G_PAS_chr3_0634"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0552" fbc:name="PAS_chr3_0552" fbc:label="G_PAS_chr3_0552"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0439" fbc:name="PAS_chr4_0439" fbc:label="G_PAS_chr4_0439"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0024" fbc:name="PAS_chr3_0024" fbc:label="G_PAS_chr3_0024"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0282" fbc:name="PAS_chr3_0282" fbc:label="G_PAS_chr3_0282"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0024" fbc:name="PAS_chr3_0024" fbc:label="G_PAS_chr3_0024"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0439" fbc:name="PAS_chr4_0439" fbc:label="G_PAS_chr4_0439"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0579" fbc:name="PAS_chr1-4_0579" fbc:label="G_PAS_chr1__45__4_0579"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0937" fbc:name="PAS_chr3_0937" fbc:label="G_PAS_chr3_0937"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0199" fbc:name="PAS_chr2-1_0199" fbc:label="G_PAS_chr2__45__1_0199"/>
@@ -57586,22 +57586,22 @@
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0293" fbc:name="PAS_chr2-2_0293" fbc:label="G_PAS_chr2__45__2_0293"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0290" fbc:name="PAS_chr2-2_0290" fbc:label="G_PAS_chr2__45__2_0290"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0512" fbc:name="PAS_chr2-1_0512" fbc:label="G_PAS_chr2__45__1_0512"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1192" fbc:name="PAS_chr3_1192" fbc:label="G_PAS_chr3_1192"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0447" fbc:name="PAS_chr1-4_0447" fbc:label="G_PAS_chr1__45__4_0447"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1192" fbc:name="PAS_chr3_1192" fbc:label="G_PAS_chr3_1192"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0561" fbc:name="PAS_chr1-4_0561" fbc:label="G_PAS_chr1__45__4_0561"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0777" fbc:name="PAS_chr2-1_0777" fbc:label="G_PAS_chr2__45__1_0777"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0178" fbc:name="PAS_chr4_0178" fbc:label="G_PAS_chr4_0178"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0149" fbc:name="PAS_chr2-2_0149" fbc:label="G_PAS_chr2__45__2_0149"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1088" fbc:name="PAS_chr3_1088" fbc:label="G_PAS_chr3_1088"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0864" fbc:name="PAS_chr2-1_0864" fbc:label="G_PAS_chr2__45__1_0864"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0228" fbc:name="PAS_chr4_0228" fbc:label="G_PAS_chr4_0228"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0864" fbc:name="PAS_chr2-1_0864" fbc:label="G_PAS_chr2__45__1_0864"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0698" fbc:name="PAS_chr2-1_0698" fbc:label="G_PAS_chr2__45__1_0698"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0446" fbc:name="PAS_chr3_0446" fbc:label="G_PAS_chr3_0446"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0336" fbc:name="PAS_chr4_0336" fbc:label="G_PAS_chr4_0336"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0449" fbc:name="PAS_chr3_0449" fbc:label="G_PAS_chr3_0449"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0447" fbc:name="PAS_chr3_0447" fbc:label="G_PAS_chr3_0447"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0336" fbc:name="PAS_chr4_0336" fbc:label="G_PAS_chr4_0336"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0014" fbc:name="PAS_chr3_0014" fbc:label="G_PAS_chr3_0014"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0448" fbc:name="PAS_chr3_0448" fbc:label="G_PAS_chr3_0448"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0446" fbc:name="PAS_chr3_0446" fbc:label="G_PAS_chr3_0446"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0449" fbc:name="PAS_chr3_0449" fbc:label="G_PAS_chr3_0449"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0401" fbc:name="PAS_chr4_0401" fbc:label="G_PAS_chr4_0401"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0187" fbc:name="PAS_chr1-4_0187" fbc:label="G_PAS_chr1__45__4_0187"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0874" fbc:name="PAS_chr4_0874" fbc:label="G_PAS_chr4_0874"/>
@@ -57609,10 +57609,10 @@
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0110" fbc:name="PAS_chr1-4_0110" fbc:label="G_PAS_chr1__45__4_0110"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0954" fbc:name="PAS_chr3_0954" fbc:label="G_PAS_chr3_0954"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0569" fbc:name="PAS_chr3_0569" fbc:label="G_PAS_chr3_0569"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0818" fbc:name="PAS_chr4_0818" fbc:label="G_PAS_chr4_0818"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0424" fbc:name="PAS_chr1-1_0424" fbc:label="G_PAS_chr1__45__1_0424"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0369" fbc:name="PAS_chr3_0369" fbc:label="G_PAS_chr3_0369"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0818" fbc:name="PAS_chr4_0818" fbc:label="G_PAS_chr4_0818"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0454" fbc:name="PAS_chr3_0454" fbc:label="G_PAS_chr3_0454"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0369" fbc:name="PAS_chr3_0369" fbc:label="G_PAS_chr3_0369"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0329" fbc:name="PAS_chr1-4_0329" fbc:label="G_PAS_chr1__45__4_0329"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0113" fbc:name="PAS_chr2-2_0113" fbc:label="G_PAS_chr2__45__2_0113"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0422" fbc:name="PAS_chr2-1_0422" fbc:label="G_PAS_chr2__45__1_0422"/>
@@ -57637,8 +57637,8 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_1021" fbc:name="PAS_chr3_1021" fbc:label="G_PAS_chr3_1021"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0674" fbc:name="PAS_chr3_0674" fbc:label="G_PAS_chr3_0674"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0081" fbc:name="PAS_chr1-1_0081" fbc:label="G_PAS_chr1__45__1_0081"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0419" fbc:name="PAS_chr2-1_0419" fbc:label="G_PAS_chr2__45__1_0419"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0099" fbc:name="PAS_chr3_0099" fbc:label="G_PAS_chr3_0099"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0419" fbc:name="PAS_chr2-1_0419" fbc:label="G_PAS_chr2__45__1_0419"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0401" fbc:name="PAS_chr1-1_0401" fbc:label="G_PAS_chr1__45__1_0401"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0877" fbc:name="PAS_chr4_0877" fbc:label="G_PAS_chr4_0877"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0335" fbc:name="PAS_chr4_0335" fbc:label="G_PAS_chr4_0335"/>
@@ -57647,46 +57647,46 @@
       <fbc:geneProduct fbc:id="G_PAS_chr4_0247" fbc:name="PAS_chr4_0247" fbc:label="G_PAS_chr4_0247"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0164" fbc:name="PAS_chr1-1_0164" fbc:label="G_PAS_chr1__45__1_0164"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0015" fbc:name="PAS_chr1-4_0015" fbc:label="G_PAS_chr1__45__4_0015"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0568" fbc:name="PAS_chr3_0568" fbc:label="G_PAS_chr3_0568"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0239" fbc:name="PAS_chr4_0239" fbc:label="G_PAS_chr4_0239"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0651" fbc:name="PAS_chr3_0651" fbc:label="G_PAS_chr3_0651"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0125" fbc:name="PAS_chr2-1_0125" fbc:label="G_PAS_chr2__45__1_0125"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0104" fbc:name="PAS_chr2-2_0104" fbc:label="G_PAS_chr2__45__2_0104"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0942" fbc:name="PAS_chr3_0942" fbc:label="G_PAS_chr3_0942"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0259" fbc:name="PAS_chr1-1_0259" fbc:label="G_PAS_chr1__45__1_0259"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0925" fbc:name="PAS_chr4_0925" fbc:label="G_PAS_chr4_0925"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0157" fbc:name="PAS_chr3_0157" fbc:label="G_PAS_chr3_0157"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0645" fbc:name="PAS_chr1-4_0645" fbc:label="G_PAS_chr1__45__4_0645"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0344" fbc:name="PAS_chr4_0344" fbc:label="G_PAS_chr4_0344"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0431" fbc:name="PAS_chr2-2_0431" fbc:label="G_PAS_chr2__45__2_0431"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0223" fbc:name="PAS_chr2-1_0223" fbc:label="G_PAS_chr2__45__1_0223"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0906" fbc:name="PAS_chr4_0906" fbc:label="G_PAS_chr4_0906"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0826" fbc:name="PAS_chr4_0826" fbc:label="G_PAS_chr4_0826"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0387" fbc:name="PAS_chr2-2_0387" fbc:label="G_PAS_chr2__45__2_0387"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0574" fbc:name="PAS_chr3_0574" fbc:label="G_PAS_chr3_0574"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0697" fbc:name="PAS_chr4_0697" fbc:label="G_PAS_chr4_0697"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0244" fbc:name="PAS_chr3_0244" fbc:label="G_PAS_chr3_0244"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0324" fbc:name="PAS_chr1-4_0324" fbc:label="G_PAS_chr1__45__4_0324"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0359" fbc:name="PAS_chr1-4_0359" fbc:label="G_PAS_chr1__45__4_0359"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0554" fbc:name="PAS_chr2-1_0554" fbc:label="G_PAS_chr2__45__1_0554"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0707" fbc:name="PAS_chr3_0707" fbc:label="G_PAS_chr3_0707"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0302" fbc:name="PAS_chr4_0302" fbc:label="G_PAS_chr4_0302"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0434" fbc:name="PAS_chr2-2_0434" fbc:label="G_PAS_chr2__45__2_0434"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0925" fbc:name="PAS_chr4_0925" fbc:label="G_PAS_chr4_0925"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0942" fbc:name="PAS_chr3_0942" fbc:label="G_PAS_chr3_0942"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0735" fbc:name="PAS_chr4_0735" fbc:label="G_PAS_chr4_0735"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0826" fbc:name="PAS_chr4_0826" fbc:label="G_PAS_chr4_0826"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0359" fbc:name="PAS_chr1-4_0359" fbc:label="G_PAS_chr1__45__4_0359"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0223" fbc:name="PAS_chr2-1_0223" fbc:label="G_PAS_chr2__45__1_0223"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0239" fbc:name="PAS_chr4_0239" fbc:label="G_PAS_chr4_0239"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0707" fbc:name="PAS_chr3_0707" fbc:label="G_PAS_chr3_0707"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0434" fbc:name="PAS_chr2-2_0434" fbc:label="G_PAS_chr2__45__2_0434"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0431" fbc:name="PAS_chr2-2_0431" fbc:label="G_PAS_chr2__45__2_0431"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0244" fbc:name="PAS_chr3_0244" fbc:label="G_PAS_chr3_0244"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0259" fbc:name="PAS_chr1-1_0259" fbc:label="G_PAS_chr1__45__1_0259"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0309" fbc:name="PAS_chr2-2_0309" fbc:label="G_PAS_chr2__45__2_0309"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0229" fbc:name="PAS_chr4_0229" fbc:label="G_PAS_chr4_0229"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0104" fbc:name="PAS_chr2-2_0104" fbc:label="G_PAS_chr2__45__2_0104"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0302" fbc:name="PAS_chr4_0302" fbc:label="G_PAS_chr4_0302"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0651" fbc:name="PAS_chr3_0651" fbc:label="G_PAS_chr3_0651"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0324" fbc:name="PAS_chr1-4_0324" fbc:label="G_PAS_chr1__45__4_0324"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0574" fbc:name="PAS_chr3_0574" fbc:label="G_PAS_chr3_0574"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0387" fbc:name="PAS_chr2-2_0387" fbc:label="G_PAS_chr2__45__2_0387"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0344" fbc:name="PAS_chr4_0344" fbc:label="G_PAS_chr4_0344"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0568" fbc:name="PAS_chr3_0568" fbc:label="G_PAS_chr3_0568"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0554" fbc:name="PAS_chr2-1_0554" fbc:label="G_PAS_chr2__45__1_0554"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0697" fbc:name="PAS_chr4_0697" fbc:label="G_PAS_chr4_0697"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0645" fbc:name="PAS_chr1-4_0645" fbc:label="G_PAS_chr1__45__4_0645"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0125" fbc:name="PAS_chr2-1_0125" fbc:label="G_PAS_chr2__45__1_0125"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0697" fbc:name="PAS_chr2-1_0697" fbc:label="G_PAS_chr2__45__1_0697"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0395" fbc:name="PAS_chr2-1_0395" fbc:label="G_PAS_chr2__45__1_0395"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0703" fbc:name="PAS_chr3_0703" fbc:label="G_PAS_chr3_0703"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0100" fbc:name="PAS_chr2-1_0100" fbc:label="G_PAS_chr2__45__1_0100"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0500" fbc:name="PAS_chr2-1_0500" fbc:label="G_PAS_chr2__45__1_0500"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0163" fbc:name="PAS_chr2-1_0163" fbc:label="G_PAS_chr2__45__1_0163"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0868" fbc:name="PAS_chr2-1_0868" fbc:label="G_PAS_chr2__45__1_0868"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0323" fbc:name="PAS_chr4_0323" fbc:label="G_PAS_chr4_0323"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0083" fbc:name="PAS_chr1-3_0083" fbc:label="G_PAS_chr1__45__3_0083"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0703" fbc:name="PAS_chr1-4_0703" fbc:label="G_PAS_chr1__45__4_0703"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0323" fbc:name="PAS_chr4_0323" fbc:label="G_PAS_chr4_0323"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0868" fbc:name="PAS_chr2-1_0868" fbc:label="G_PAS_chr2__45__1_0868"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0765" fbc:name="PAS_chr3_0765" fbc:label="G_PAS_chr3_0765"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0349" fbc:name="PAS_chr2-2_0349" fbc:label="G_PAS_chr2__45__2_0349"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0703" fbc:name="PAS_chr1-4_0703" fbc:label="G_PAS_chr1__45__4_0703"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0163" fbc:name="PAS_chr2-1_0163" fbc:label="G_PAS_chr2__45__1_0163"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0229" fbc:name="PAS_chr4_0229" fbc:label="G_PAS_chr4_0229"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0395" fbc:name="PAS_chr2-1_0395" fbc:label="G_PAS_chr2__45__1_0395"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0100" fbc:name="PAS_chr2-1_0100" fbc:label="G_PAS_chr2__45__1_0100"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0500" fbc:name="PAS_chr2-1_0500" fbc:label="G_PAS_chr2__45__1_0500"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0703" fbc:name="PAS_chr3_0703" fbc:label="G_PAS_chr3_0703"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0495" fbc:name="PAS_chr3_0495" fbc:label="G_PAS_chr3_0495"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0842" fbc:name="PAS_chr4_0842" fbc:label="G_PAS_chr4_0842"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0566" fbc:name="PAS_chr1-4_0566" fbc:label="G_PAS_chr1__45__4_0566"/>
@@ -57695,13 +57695,13 @@
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0238" fbc:name="PAS_chr1-3_0238" fbc:label="G_PAS_chr1__45__3_0238"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0082" fbc:name="PAS_chr1-4_0082" fbc:label="G_PAS_chr1__45__4_0082"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0426" fbc:name="PAS_chr1-4_0426" fbc:label="G_PAS_chr1__45__4_0426"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0226" fbc:name="PAS_chr1-3_0226" fbc:label="G_PAS_chr1__45__3_0226"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0225" fbc:name="PAS_chr1-3_0225" fbc:label="G_PAS_chr1__45__3_0225"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0602" fbc:name="PAS_chr3_0602" fbc:label="G_PAS_chr3_0602"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0306" fbc:name="PAS_chr3_0306" fbc:label="G_PAS_chr3_0306"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0661" fbc:name="PAS_chr2-1_0661" fbc:label="G_PAS_chr2__45__1_0661"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0263" fbc:name="PAS_chr2-1_0263" fbc:label="G_PAS_chr2__45__1_0263"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0184" fbc:name="PAS_chr3_0184" fbc:label="G_PAS_chr3_0184"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0263" fbc:name="PAS_chr2-1_0263" fbc:label="G_PAS_chr2__45__1_0263"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0225" fbc:name="PAS_chr1-3_0225" fbc:label="G_PAS_chr1__45__3_0225"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0306" fbc:name="PAS_chr3_0306" fbc:label="G_PAS_chr3_0306"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0226" fbc:name="PAS_chr1-3_0226" fbc:label="G_PAS_chr1__45__3_0226"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0661" fbc:name="PAS_chr2-1_0661" fbc:label="G_PAS_chr2__45__1_0661"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0602" fbc:name="PAS_chr3_0602" fbc:label="G_PAS_chr3_0602"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0149" fbc:name="PAS_chr1-4_0149" fbc:label="G_PAS_chr1__45__4_0149"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0311" fbc:name="PAS_chr2-2_0311" fbc:label="G_PAS_chr2__45__2_0311"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0249" fbc:name="PAS_chr1-4_0249" fbc:label="G_PAS_chr1__45__4_0249"/>
@@ -57731,15 +57731,15 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0085" fbc:name="PAS_chr3_0085" fbc:label="G_PAS_chr3_0085"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0716" fbc:name="PAS_chr2-1_0716" fbc:label="G_PAS_chr2__45__1_0716"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0462" fbc:name="PAS_chr3_0462" fbc:label="G_PAS_chr3_0462"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0357" fbc:name="PAS_chr1-1_0357" fbc:label="G_PAS_chr1__45__1_0357"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0006" fbc:name="PAS_chr3_0006" fbc:label="G_PAS_chr3_0006"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0357" fbc:name="PAS_chr1-1_0357" fbc:label="G_PAS_chr1__45__1_0357"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0749" fbc:name="PAS_chr2-1_0749" fbc:label="G_PAS_chr2__45__1_0749"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0023" fbc:name="PAS_chr1-3_0023" fbc:label="G_PAS_chr1__45__3_0023"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0173" fbc:name="PAS_chr4_0173" fbc:label="G_PAS_chr4_0173"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0036" fbc:name="PAS_chr3_0036" fbc:label="G_PAS_chr3_0036"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0294" fbc:name="PAS_chr4_0294" fbc:label="G_PAS_chr4_0294"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0962" fbc:name="PAS_chr3_0962" fbc:label="G_PAS_chr3_0962"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0158" fbc:name="PAS_chr2-1_0158" fbc:label="G_PAS_chr2__45__1_0158"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0962" fbc:name="PAS_chr3_0962" fbc:label="G_PAS_chr3_0962"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0146" fbc:name="PAS_chr2-1_0146" fbc:label="G_PAS_chr2__45__1_0146"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0288" fbc:name="PAS_chr2-2_0288" fbc:label="G_PAS_chr2__45__2_0288"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0684" fbc:name="PAS_chr4_0684" fbc:label="G_PAS_chr4_0684"/>
@@ -57748,31 +57748,31 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0166" fbc:name="PAS_chr3_0166" fbc:label="G_PAS_chr3_0166"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0471" fbc:name="PAS_chr3_0471" fbc:label="G_PAS_chr3_0471"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0591" fbc:name="PAS_chr3_0591" fbc:label="G_PAS_chr3_0591"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0675" fbc:name="PAS_chr3_0675" fbc:label="G_PAS_chr3_0675"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0199" fbc:name="PAS_chr3_0199" fbc:label="G_PAS_chr3_0199"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0675" fbc:name="PAS_chr3_0675" fbc:label="G_PAS_chr3_0675"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0390" fbc:name="PAS_chr1-1_0390" fbc:label="G_PAS_chr1__45__1_0390"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0392" fbc:name="PAS_chr1-1_0392" fbc:label="G_PAS_chr1__45__1_0392"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0142" fbc:name="PAS_chr2-2_0142" fbc:label="G_PAS_chr2__45__2_0142"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0150" fbc:name="PAS_chr4_0150" fbc:label="G_PAS_chr4_0150"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0095" fbc:name="PAS_chr1-4_0095" fbc:label="G_PAS_chr1__45__4_0095"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0101" fbc:name="PAS_chr4_0101" fbc:label="G_PAS_chr4_0101"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0122" fbc:name="PAS_chr4_0122" fbc:label="G_PAS_chr4_0122"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0347" fbc:name="PAS_chr4_0347" fbc:label="G_PAS_chr4_0347"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0122" fbc:name="PAS_chr4_0122" fbc:label="G_PAS_chr4_0122"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0234" fbc:name="PAS_chr1-4_0234" fbc:label="G_PAS_chr1__45__4_0234"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0460" fbc:name="PAS_chr3_0460" fbc:label="G_PAS_chr3_0460"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0819" fbc:name="PAS_chr3_0819" fbc:label="G_PAS_chr3_0819"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0465" fbc:name="PAS_chr1-4_0465" fbc:label="G_PAS_chr1__45__4_0465"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0165" fbc:name="PAS_chr2-2_0165" fbc:label="G_PAS_chr2__45__2_0165"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0576" fbc:name="PAS_chr3_0576" fbc:label="G_PAS_chr3_0576"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0165" fbc:name="PAS_chr2-2_0165" fbc:label="G_PAS_chr2__45__2_0165"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0751" fbc:name="PAS_chr2-1_0751" fbc:label="G_PAS_chr2__45__1_0751"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0059" fbc:name="PAS_chr3_0059" fbc:label="G_PAS_chr3_0059"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0612" fbc:name="PAS_chr2-1_0612" fbc:label="G_PAS_chr2__45__1_0612"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0445" fbc:name="PAS_chr1-4_0445" fbc:label="G_PAS_chr1__45__4_0445"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0315" fbc:name="PAS_chr1-1_0315" fbc:label="G_PAS_chr1__45__1_0315"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0460" fbc:name="PAS_chr3_0460" fbc:label="G_PAS_chr3_0460"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0465" fbc:name="PAS_chr1-4_0465" fbc:label="G_PAS_chr1__45__4_0465"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0892" fbc:name="PAS_chr4_0892" fbc:label="G_PAS_chr4_0892"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0484" fbc:name="PAS_chr1-1_0484" fbc:label="G_PAS_chr1__45__1_0484"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0191" fbc:name="PAS_chr1-1_0191" fbc:label="G_PAS_chr1__45__1_0191"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0059" fbc:name="PAS_chr3_0059" fbc:label="G_PAS_chr3_0059"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0892" fbc:name="PAS_chr4_0892" fbc:label="G_PAS_chr4_0892"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0315" fbc:name="PAS_chr1-1_0315" fbc:label="G_PAS_chr1__45__1_0315"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0119" fbc:name="PAS_chr2-2_0119" fbc:label="G_PAS_chr2__45__2_0119"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0445" fbc:name="PAS_chr1-4_0445" fbc:label="G_PAS_chr1__45__4_0445"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0612" fbc:name="PAS_chr2-1_0612" fbc:label="G_PAS_chr2__45__1_0612"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0751" fbc:name="PAS_chr2-1_0751" fbc:label="G_PAS_chr2__45__1_0751"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1093" fbc:name="PAS_chr3_1093" fbc:label="G_PAS_chr3_1093"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0052" fbc:name="PAS_chr1-3_0052" fbc:label="G_PAS_chr1__45__3_0052"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0411" fbc:name="PAS_chr1-1_0411" fbc:label="G_PAS_chr1__45__1_0411"/>
@@ -57783,25 +57783,25 @@
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0367" fbc:name="PAS_chr1-4_0367" fbc:label="G_PAS_chr1__45__4_0367"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0198" fbc:name="PAS_chr4_0198" fbc:label="G_PAS_chr4_0198"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0131" fbc:name="PAS_chr2-2_0131" fbc:label="G_PAS_chr2__45__2_0131"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0799" fbc:name="PAS_chr3_0799" fbc:label="G_PAS_chr3_0799"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0138" fbc:name="PAS_chr4_0138" fbc:label="G_PAS_chr4_0138"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0799" fbc:name="PAS_chr3_0799" fbc:label="G_PAS_chr3_0799"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0401" fbc:name="PAS_chr2-2_0401" fbc:label="G_PAS_chr2__45__2_0401"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0390" fbc:name="PAS_chr1-4_0390" fbc:label="G_PAS_chr1__45__4_0390"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0437" fbc:name="PAS_chr4_0437" fbc:label="G_PAS_chr4_0437"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0050" fbc:name="PAS_chr4_0050" fbc:label="G_PAS_chr4_0050"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0437" fbc:name="PAS_chr4_0437" fbc:label="G_PAS_chr4_0437"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0637" fbc:name="PAS_chr2-1_0637" fbc:label="G_PAS_chr2__45__1_0637"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0094" fbc:name="PAS_chr2-2_0094" fbc:label="G_PAS_chr2__45__2_0094"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0393" fbc:name="PAS_chr1-1_0393" fbc:label="G_PAS_chr1__45__1_0393"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0065" fbc:name="PAS_chr2-1_0065" fbc:label="G_PAS_chr2__45__1_0065"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0769" fbc:name="PAS_chr3_0769" fbc:label="G_PAS_chr3_0769"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0393" fbc:name="PAS_chr1-1_0393" fbc:label="G_PAS_chr1__45__1_0393"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0094" fbc:name="PAS_chr2-2_0094" fbc:label="G_PAS_chr2__45__2_0094"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0420" fbc:name="PAS_chr1-4_0420" fbc:label="G_PAS_chr1__45__4_0420"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0769" fbc:name="PAS_chr3_0769" fbc:label="G_PAS_chr3_0769"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0570" fbc:name="PAS_chr3_0570" fbc:label="G_PAS_chr3_0570"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0943" fbc:name="PAS_chr3_0943" fbc:label="G_PAS_chr3_0943"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0355" fbc:name="PAS_chr2-2_0355" fbc:label="G_PAS_chr2__45__2_0355"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0475" fbc:name="PAS_chr1-1_0475" fbc:label="G_PAS_chr1__45__1_0475"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0069" fbc:name="PAS_chr3_0069" fbc:label="G_PAS_chr3_0069"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0074" fbc:name="PAS_chr1-4_0074" fbc:label="G_PAS_chr1__45__4_0074"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0761" fbc:name="PAS_chr3_0761" fbc:label="G_PAS_chr3_0761"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0074" fbc:name="PAS_chr1-4_0074" fbc:label="G_PAS_chr1__45__4_0074"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0047" fbc:name="PAS_chr2-1_0047" fbc:label="G_PAS_chr2__45__1_0047"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0273" fbc:name="PAS_chr1-3_0273" fbc:label="G_PAS_chr1__45__3_0273"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0489" fbc:name="PAS_chr1-4_0489" fbc:label="G_PAS_chr1__45__4_0489"/>
@@ -57810,17 +57810,17 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0512" fbc:name="PAS_chr3_0512" fbc:label="G_PAS_chr3_0512"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0072" fbc:name="PAS_chr3_0072" fbc:label="G_PAS_chr3_0072"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0167" fbc:name="PAS_chr3_0167" fbc:label="G_PAS_chr3_0167"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0218" fbc:name="PAS_chr1-4_0218" fbc:label="G_PAS_chr1__45__4_0218"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0936" fbc:name="PAS_chr3_0936" fbc:label="G_PAS_chr3_0936"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0218" fbc:name="PAS_chr1-4_0218" fbc:label="G_PAS_chr1__45__4_0218"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0473" fbc:name="PAS_chr2-1_0473" fbc:label="G_PAS_chr2__45__1_0473"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0841" fbc:name="PAS_chr3_0841" fbc:label="G_PAS_chr3_0841"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0196" fbc:name="PAS_chr4_0196" fbc:label="G_PAS_chr4_0196"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0009" fbc:name="PAS_chr1-4_0009" fbc:label="G_PAS_chr1__45__4_0009"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0196" fbc:name="PAS_chr4_0196" fbc:label="G_PAS_chr4_0196"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0593" fbc:name="PAS_chr2-1_0593" fbc:label="G_PAS_chr2__45__1_0593"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0506" fbc:name="PAS_chr3_0506" fbc:label="G_PAS_chr3_0506"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0577" fbc:name="PAS_chr2-1_0577" fbc:label="G_PAS_chr2__45__1_0577"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0314" fbc:name="PAS_chr1-4_0314" fbc:label="G_PAS_chr1__45__4_0314"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1007" fbc:name="PAS_chr3_1007" fbc:label="G_PAS_chr3_1007"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0314" fbc:name="PAS_chr1-4_0314" fbc:label="G_PAS_chr1__45__4_0314"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0459" fbc:name="PAS_chr1-1_0459" fbc:label="G_PAS_chr1__45__1_0459"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0477" fbc:name="PAS_chr4_0477" fbc:label="G_PAS_chr4_0477"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0003" fbc:name="PAS_chr1-4_0003" fbc:label="G_PAS_chr1__45__4_0003"/>
@@ -57853,8 +57853,8 @@
       <fbc:geneProduct fbc:id="G_PAS_chr4_0587" fbc:name="PAS_chr4_0587" fbc:label="G_PAS_chr4_0587"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0437" fbc:name="PAS_chr2-2_0437" fbc:label="G_PAS_chr2__45__2_0437"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0173" fbc:name="PAS_chr2-1_0173" fbc:label="G_PAS_chr2__45__1_0173"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0847" fbc:name="PAS_chr4_0847" fbc:label="G_PAS_chr4_0847"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0781" fbc:name="PAS_chr3_0781" fbc:label="G_PAS_chr3_0781"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0847" fbc:name="PAS_chr4_0847" fbc:label="G_PAS_chr4_0847"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0785" fbc:name="PAS_chr4_0785" fbc:label="G_PAS_chr4_0785"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0285" fbc:name="PAS_chr3_0285" fbc:label="G_PAS_chr3_0285"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1025" fbc:name="PAS_chr3_1025" fbc:label="G_PAS_chr3_1025"/>
@@ -57866,14 +57866,14 @@
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0598" fbc:name="PAS_chr1-4_0598" fbc:label="G_PAS_chr1__45__4_0598"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0241" fbc:name="PAS_chr1-1_0241" fbc:label="G_PAS_chr1__45__1_0241"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0269" fbc:name="PAS_chr4_0269" fbc:label="G_PAS_chr4_0269"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0784" fbc:name="PAS_chr4_0784" fbc:label="G_PAS_chr4_0784"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1099" fbc:name="PAS_chr3_1099" fbc:label="G_PAS_chr3_1099"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0784" fbc:name="PAS_chr4_0784" fbc:label="G_PAS_chr4_0784"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0783" fbc:name="PAS_chr4_0783" fbc:label="G_PAS_chr4_0783"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0191" fbc:name="PAS_chr1-3_0191" fbc:label="G_PAS_chr1__45__3_0191"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0277" fbc:name="PAS_chr3_0277" fbc:label="G_PAS_chr3_0277"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0314" fbc:name="PAS_chr2-2_0314" fbc:label="G_PAS_chr2__45__2_0314"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0060" fbc:name="PAS_chr2-1_0060" fbc:label="G_PAS_chr2__45__1_0060"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1011" fbc:name="PAS_chr3_1011" fbc:label="G_PAS_chr3_1011"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0060" fbc:name="PAS_chr2-1_0060" fbc:label="G_PAS_chr2__45__1_0060"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0207" fbc:name="PAS_chr1-4_0207" fbc:label="G_PAS_chr1__45__4_0207"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0496" fbc:name="PAS_chr1-4_0496" fbc:label="G_PAS_chr1__45__4_0496"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0736" fbc:name="PAS_chr2-1_0736" fbc:label="G_PAS_chr2__45__1_0736"/>
@@ -57916,8 +57916,8 @@
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0396" fbc:name="PAS_chr2-1_0396" fbc:label="G_PAS_chr2__45__1_0396"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1012" fbc:name="PAS_chr3_1012" fbc:label="G_PAS_chr3_1012"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0220" fbc:name="PAS_chr1-3_0220" fbc:label="G_PAS_chr1__45__3_0220"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0145" fbc:name="PAS_chr2-2_0145" fbc:label="G_PAS_chr2__45__2_0145"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0182" fbc:name="PAS_chr2-2_0182" fbc:label="G_PAS_chr2__45__2_0182"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0145" fbc:name="PAS_chr2-2_0145" fbc:label="G_PAS_chr2__45__2_0145"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0545" fbc:name="PAS_chr1-4_0545" fbc:label="G_PAS_chr1__45__4_0545"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0221" fbc:name="PAS_chr2-1_0221" fbc:label="G_PAS_chr2__45__1_0221"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0017" fbc:name="PAS_chr2-2_0017" fbc:label="G_PAS_chr2__45__2_0017"/>
@@ -57929,35 +57929,35 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0623" fbc:name="PAS_chr3_0623" fbc:label="G_PAS_chr3_0623"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0381" fbc:name="PAS_chr3_0381" fbc:label="G_PAS_chr3_0381"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0417" fbc:name="PAS_chr3_0417" fbc:label="G_PAS_chr3_0417"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0530" fbc:name="PAS_chr2-1_0530" fbc:label="G_PAS_chr2__45__1_0530"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0100" fbc:name="PAS_chr3_0100" fbc:label="G_PAS_chr3_0100"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0530" fbc:name="PAS_chr2-1_0530" fbc:label="G_PAS_chr2__45__1_0530"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0410" fbc:name="PAS_chr3_0410" fbc:label="G_PAS_chr3_0410"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1197" fbc:name="PAS_chr3_1197" fbc:label="G_PAS_chr3_1197"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0198" fbc:name="PAS_chr1-4_0198" fbc:label="G_PAS_chr1__45__4_0198"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0024" fbc:name="PAS_chr2-2_0024" fbc:label="G_PAS_chr2__45__2_0024"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0408" fbc:name="PAS_chr4_0408" fbc:label="G_PAS_chr4_0408"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0093" fbc:name="PAS_chr1-4_0093" fbc:label="G_PAS_chr1__45__4_0093"/>
-      <fbc:geneProduct fbc:id="G_PAS_FragB_0064" fbc:name="PAS_FragB_0064" fbc:label="G_PAS_FragB_0064"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0060" fbc:name="PAS_chr2-2_0060" fbc:label="G_PAS_chr2__45__2_0060"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0266" fbc:name="PAS_chr4_0266" fbc:label="G_PAS_chr4_0266"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0060" fbc:name="PAS_chr2-2_0060" fbc:label="G_PAS_chr2__45__2_0060"/>
+      <fbc:geneProduct fbc:id="G_PAS_FragB_0064" fbc:name="PAS_FragB_0064" fbc:label="G_PAS_FragB_0064"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0657" fbc:name="PAS_chr2-1_0657" fbc:label="G_PAS_chr2__45__1_0657"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0292" fbc:name="PAS_chr1-4_0292" fbc:label="G_PAS_chr1__45__4_0292"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1126" fbc:name="PAS_chr3_1126" fbc:label="G_PAS_chr3_1126"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0277" fbc:name="PAS_chr1-1_0277" fbc:label="G_PAS_chr1__45__1_0277"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0693" fbc:name="PAS_chr3_0693" fbc:label="G_PAS_chr3_0693"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0177" fbc:name="PAS_chr2-2_0177" fbc:label="G_PAS_chr2__45__2_0177"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1126" fbc:name="PAS_chr3_1126" fbc:label="G_PAS_chr3_1126"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0427" fbc:name="PAS_chr1-1_0427" fbc:label="G_PAS_chr1__45__1_0427"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0177" fbc:name="PAS_chr2-2_0177" fbc:label="G_PAS_chr2__45__2_0177"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0693" fbc:name="PAS_chr3_0693" fbc:label="G_PAS_chr3_0693"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0771" fbc:name="PAS_chr2-1_0771" fbc:label="G_PAS_chr2__45__1_0771"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0264" fbc:name="PAS_chr1-4_0264" fbc:label="G_PAS_chr1__45__4_0264"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0276" fbc:name="PAS_chr4_0276" fbc:label="G_PAS_chr4_0276"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0144" fbc:name="PAS_chr3_0144" fbc:label="G_PAS_chr3_0144"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0276" fbc:name="PAS_chr4_0276" fbc:label="G_PAS_chr4_0276"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0558" fbc:name="PAS_chr1-4_0558" fbc:label="G_PAS_chr1__45__4_0558"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0235" fbc:name="PAS_chr1-3_0235" fbc:label="G_PAS_chr1__45__3_0235"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0557" fbc:name="PAS_chr2-1_0557" fbc:label="G_PAS_chr2__45__1_0557"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0478" fbc:name="PAS_chr4_0478" fbc:label="G_PAS_chr4_0478"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0557" fbc:name="PAS_chr2-1_0557" fbc:label="G_PAS_chr2__45__1_0557"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0695" fbc:name="PAS_chr2-1_0695" fbc:label="G_PAS_chr2__45__1_0695"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0337" fbc:name="PAS_chr4_0337" fbc:label="G_PAS_chr4_0337"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0235" fbc:name="PAS_chr2-1_0235" fbc:label="G_PAS_chr2__45__1_0235"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0337" fbc:name="PAS_chr4_0337" fbc:label="G_PAS_chr4_0337"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0053" fbc:name="PAS_chr2-2_0053" fbc:label="G_PAS_chr2__45__2_0053"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0137" fbc:name="PAS_chr4_0137" fbc:label="G_PAS_chr4_0137"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0318" fbc:name="PAS_chr2-2_0318" fbc:label="G_PAS_chr2__45__2_0318"/>
@@ -57965,8 +57965,8 @@
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0028" fbc:name="PAS_chr1-3_0028" fbc:label="G_PAS_chr1__45__3_0028"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0070" fbc:name="PAS_chr1-3_0070" fbc:label="G_PAS_chr1__45__3_0070"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0418" fbc:name="PAS_chr4_0418" fbc:label="G_PAS_chr4_0418"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0871" fbc:name="PAS_chr2-1_0871" fbc:label="G_PAS_chr2__45__1_0871"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1031" fbc:name="PAS_chr3_1031" fbc:label="G_PAS_chr3_1031"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0871" fbc:name="PAS_chr2-1_0871" fbc:label="G_PAS_chr2__45__1_0871"/>
       <fbc:geneProduct fbc:id="G_PAS_FragB_0061" fbc:name="PAS_FragB_0061" fbc:label="G_PAS_FragB_0061"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0317" fbc:name="PAS_chr2-2_0317" fbc:label="G_PAS_chr2__45__2_0317"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0055" fbc:name="PAS_chr4_0055" fbc:label="G_PAS_chr4_0055"/>
@@ -57977,44 +57977,44 @@
       <fbc:geneProduct fbc:id="G_PAS_chr4_0343" fbc:name="PAS_chr4_0343" fbc:label="G_PAS_chr4_0343"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0269" fbc:name="PAS_chr1-3_0269" fbc:label="G_PAS_chr1__45__3_0269"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0209" fbc:name="PAS_chr2-2_0209" fbc:label="G_PAS_chr2__45__2_0209"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0174" fbc:name="PAS_chr2-2_0174" fbc:label="G_PAS_chr2__45__2_0174"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0062" fbc:name="PAS_chr3_0062" fbc:label="G_PAS_chr3_0062"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0006" fbc:name="PAS_chr1-1_0006" fbc:label="G_PAS_chr1__45__1_0006"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0436" fbc:name="PAS_chr1-1_0436" fbc:label="G_PAS_chr1__45__1_0436"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0174" fbc:name="PAS_chr2-2_0174" fbc:label="G_PAS_chr2__45__2_0174"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0285" fbc:name="PAS_chr4_0285" fbc:label="G_PAS_chr4_0285"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0023" fbc:name="PAS_chr4_0023" fbc:label="G_PAS_chr4_0023"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0394" fbc:name="PAS_chr1-1_0394" fbc:label="G_PAS_chr1__45__1_0394"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0081" fbc:name="PAS_chr4_0081" fbc:label="G_PAS_chr4_0081"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_1037" fbc:name="PAS_chr3_1037" fbc:label="G_PAS_chr3_1037"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0209" fbc:name="PAS_chr2-1_0209" fbc:label="G_PAS_chr2__45__1_0209"/>
-      <fbc:geneProduct fbc:id="G_RPPA11110" fbc:name="RPPA11110" fbc:label="G_RPPA11110"/>
       <fbc:geneProduct fbc:id="G_RPPA11109" fbc:name="RPPA11109" fbc:label="G_RPPA11109"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0213" fbc:name="PAS_chr4_0213" fbc:label="G_PAS_chr4_0213"/>
+      <fbc:geneProduct fbc:id="G_RPPA11110" fbc:name="RPPA11110" fbc:label="G_RPPA11110"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0212" fbc:name="PAS_chr4_0212" fbc:label="G_PAS_chr4_0212"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0213" fbc:name="PAS_chr4_0213" fbc:label="G_PAS_chr4_0213"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0528" fbc:name="PAS_chr3_0528" fbc:label="G_PAS_chr3_0528"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0447" fbc:name="PAS_chr1-1_0447" fbc:label="G_PAS_chr1__45__1_0447"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0253" fbc:name="PAS_chr1-4_0253" fbc:label="G_PAS_chr1__45__4_0253"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0371" fbc:name="PAS_chr3_0371" fbc:label="G_PAS_chr3_0371"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0408" fbc:name="PAS_chr2-2_0408" fbc:label="G_PAS_chr2__45__2_0408"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0733" fbc:name="PAS_chr3_0733" fbc:label="G_PAS_chr3_0733"/>
       <fbc:geneProduct fbc:id="G_PAS_FragB_0040" fbc:name="PAS_FragB_0040" fbc:label="G_PAS_FragB_0040"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0733" fbc:name="PAS_chr3_0733" fbc:label="G_PAS_chr3_0733"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0867" fbc:name="PAS_chr3_0867" fbc:label="G_PAS_chr3_0867"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__4_0222" fbc:name="PAS_chr1-4_0222" fbc:label="G_PAS_chr1__45__4_0222"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0266" fbc:name="PAS_chr1-1_0266" fbc:label="G_PAS_chr1__45__1_0266"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0489" fbc:name="PAS_chr3_0489" fbc:label="G_PAS_chr3_0489"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0266" fbc:name="PAS_chr1-1_0266" fbc:label="G_PAS_chr1__45__1_0266"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0648" fbc:name="PAS_chr4_0648" fbc:label="G_PAS_chr4_0648"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0124" fbc:name="PAS_chr3_0124" fbc:label="G_PAS_chr3_0124"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0317" fbc:name="PAS_chr3_0317" fbc:label="G_PAS_chr3_0317"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0024" fbc:name="PAS_chr1-3_0024" fbc:label="G_PAS_chr1__45__3_0024"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0424" fbc:name="PAS_chr3_0424" fbc:label="G_PAS_chr3_0424"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0166" fbc:name="PAS_chr2-1_0166" fbc:label="G_PAS_chr2__45__1_0166"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0688" fbc:name="PAS_chr4_0688" fbc:label="G_PAS_chr4_0688"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1084" fbc:name="PAS_chr3_1084" fbc:label="G_PAS_chr3_1084"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0166" fbc:name="PAS_chr2-1_0166" fbc:label="G_PAS_chr2__45__1_0166"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0369" fbc:name="PAS_chr4_0369" fbc:label="G_PAS_chr4_0369"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1084" fbc:name="PAS_chr3_1084" fbc:label="G_PAS_chr3_1084"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0338" fbc:name="PAS_chr2-2_0338" fbc:label="G_PAS_chr2__45__2_0338"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0337" fbc:name="PAS_chr2-2_0337" fbc:label="G_PAS_chr2__45__2_0337"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0014" fbc:name="PAS_chr2-1_0014" fbc:label="G_PAS_chr2__45__1_0014"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0198" fbc:name="PAS_chr2-1_0198" fbc:label="G_PAS_chr2__45__1_0198"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0014" fbc:name="PAS_chr2-1_0014" fbc:label="G_PAS_chr2__45__1_0014"/>
       <fbc:geneProduct fbc:id="G_PAS_c034_0014" fbc:name="PAS_c034_0014" fbc:label="G_PAS_c034_0014"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0238" fbc:name="PAS_chr2-2_0238" fbc:label="G_PAS_chr2__45__2_0238"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0673" fbc:name="PAS_chr2-1_0673" fbc:label="G_PAS_chr2__45__1_0673"/>
@@ -58024,8 +58024,8 @@
       <fbc:geneProduct fbc:id="G_PAS_chr3_0996" fbc:name="PAS_chr3_0996" fbc:label="G_PAS_chr3_0996"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0065" fbc:name="PAS_chr4_0065" fbc:label="G_PAS_chr4_0065"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0951" fbc:name="PAS_chr3_0951" fbc:label="G_PAS_chr3_0951"/>
-      <fbc:geneProduct fbc:id="G_PAS_c131_0017" fbc:name="PAS_c131_0017" fbc:label="G_PAS_c131_0017"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0739" fbc:name="PAS_chr2-1_0739" fbc:label="G_PAS_chr2__45__1_0739"/>
+      <fbc:geneProduct fbc:id="G_PAS_c131_0017" fbc:name="PAS_c131_0017" fbc:label="G_PAS_c131_0017"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0054" fbc:name="PAS_chr1-3_0054" fbc:label="G_PAS_chr1__45__3_0054"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0816" fbc:name="PAS_chr4_0816" fbc:label="G_PAS_chr4_0816"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0694" fbc:name="PAS_chr2-1_0694" fbc:label="G_PAS_chr2__45__1_0694"/>
@@ -58045,17 +58045,17 @@
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0280" fbc:name="PAS_chr1-1_0280" fbc:label="G_PAS_chr1__45__1_0280"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0115" fbc:name="PAS_chr2-1_0115" fbc:label="G_PAS_chr2__45__1_0115"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0127" fbc:name="PAS_chr2-2_0127" fbc:label="G_PAS_chr2__45__2_0127"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0344" fbc:name="PAS_chr2-1_0344" fbc:label="G_PAS_chr2__45__1_0344"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0428" fbc:name="PAS_chr3_0428" fbc:label="G_PAS_chr3_0428"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0824" fbc:name="PAS_chr3_0824" fbc:label="G_PAS_chr3_0824"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0615" fbc:name="PAS_chr3_0615" fbc:label="G_PAS_chr3_0615"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr4_0422" fbc:name="PAS_chr4_0422" fbc:label="G_PAS_chr4_0422"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0363" fbc:name="PAS_chr2-1_0363" fbc:label="G_PAS_chr2__45__1_0363"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0092" fbc:name="PAS_chr2-2_0092" fbc:label="G_PAS_chr2__45__2_0092"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0226" fbc:name="PAS_chr2-1_0226" fbc:label="G_PAS_chr2__45__1_0226"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_0745" fbc:name="PAS_chr3_0745" fbc:label="G_PAS_chr3_0745"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0266" fbc:name="PAS_chr2-2_0266" fbc:label="G_PAS_chr2__45__2_0266"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0744" fbc:name="PAS_chr4_0744" fbc:label="G_PAS_chr4_0744"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0363" fbc:name="PAS_chr2-1_0363" fbc:label="G_PAS_chr2__45__1_0363"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0824" fbc:name="PAS_chr3_0824" fbc:label="G_PAS_chr3_0824"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0226" fbc:name="PAS_chr2-1_0226" fbc:label="G_PAS_chr2__45__1_0226"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0428" fbc:name="PAS_chr3_0428" fbc:label="G_PAS_chr3_0428"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0745" fbc:name="PAS_chr3_0745" fbc:label="G_PAS_chr3_0745"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr4_0422" fbc:name="PAS_chr4_0422" fbc:label="G_PAS_chr4_0422"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_0615" fbc:name="PAS_chr3_0615" fbc:label="G_PAS_chr3_0615"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0344" fbc:name="PAS_chr2-1_0344" fbc:label="G_PAS_chr2__45__1_0344"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0266" fbc:name="PAS_chr2-2_0266" fbc:label="G_PAS_chr2__45__2_0266"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0272" fbc:name="PAS_chr4_0272" fbc:label="G_PAS_chr4_0272"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0416" fbc:name="PAS_chr4_0416" fbc:label="G_PAS_chr4_0416"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0821" fbc:name="PAS_chr4_0821" fbc:label="G_PAS_chr4_0821"/>
@@ -58070,17 +58070,17 @@
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0752" fbc:name="PAS_chr2-1_0752" fbc:label="G_PAS_chr2__45__1_0752"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0100" fbc:name="PAS_chr1-3_0100" fbc:label="G_PAS_chr1__45__3_0100"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0457" fbc:name="PAS_chr1-1_0457" fbc:label="G_PAS_chr1__45__1_0457"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0169" fbc:name="PAS_chr1-1_0169" fbc:label="G_PAS_chr1__45__1_0169"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0615" fbc:name="PAS_chr2-1_0615" fbc:label="G_PAS_chr2__45__1_0615"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__1_0763" fbc:name="PAS_chr2-1_0763" fbc:label="G_PAS_chr2__45__1_0763"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0169" fbc:name="PAS_chr1-1_0169" fbc:label="G_PAS_chr1__45__1_0169"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0303" fbc:name="PAS_chr2-2_0303" fbc:label="G_PAS_chr2__45__2_0303"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__1_0418" fbc:name="PAS_chr1-1_0418" fbc:label="G_PAS_chr1__45__1_0418"/>
       <fbc:geneProduct fbc:id="G_PAS_chr4_0592" fbc:name="PAS_chr4_0592" fbc:label="G_PAS_chr4_0592"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0255" fbc:name="PAS_chr3_0255" fbc:label="G_PAS_chr3_0255"/>
       <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0250" fbc:name="PAS_chr1-3_0250" fbc:label="G_PAS_chr1__45__3_0250"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr3_1201" fbc:name="PAS_chr3_1201" fbc:label="G_PAS_chr3_1201"/>
-      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0206" fbc:name="PAS_chr1-3_0206" fbc:label="G_PAS_chr1__45__3_0206"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0519" fbc:name="PAS_chr3_0519" fbc:label="G_PAS_chr3_0519"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr1__45__3_0206" fbc:name="PAS_chr1-3_0206" fbc:label="G_PAS_chr1__45__3_0206"/>
+      <fbc:geneProduct fbc:id="G_PAS_chr3_1201" fbc:name="PAS_chr3_1201" fbc:label="G_PAS_chr3_1201"/>
       <fbc:geneProduct fbc:id="G_PAS_chr2__45__2_0343" fbc:name="PAS_chr2-2_0343" fbc:label="G_PAS_chr2__45__2_0343"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0295" fbc:name="PAS_chr3_0295" fbc:label="G_PAS_chr3_0295"/>
       <fbc:geneProduct fbc:id="G_PAS_chr3_0821" fbc:name="PAS_chr3_0821" fbc:label="G_PAS_chr3_0821"/>

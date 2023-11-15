@@ -5,76 +5,86 @@ Thinning Factor,Biomass Composition,Subsystem,Geweke Fails
 1,Consensus,Nucleotide Metabolism,46
 1,Consensus,Sterol Metabolism,33
 1,Derived,Fatty Acid Biosynthesis,73
-1,Derived,"Transport, Mitochondrial",60
-1,Derived,Nucleotide Metabolism,57
-1,Derived,Sphingolipid Metabolism,55
-1,Derived,"Transport, Peroxisomal",36
-1,Fitted,Fatty Acid Biosynthesis,72
-1,Fitted,"Transport, Mitochondrial",60
-1,Fitted,Sphingolipid Metabolism,52
-1,Fitted,Nucleotide Metabolism,46
-1,Fitted,"Tyrosine, Tryptophan, And Phenylalanine Metabolism",33
-1,Interpolated,Fatty Acid Biosynthesis,73
-1,Interpolated,"Transport, Mitochondrial",58
-1,Interpolated,Fatty Acid Degradation,49
-1,Interpolated,Nucleotide Metabolism,48
-1,Interpolated,Sphingolipid Metabolism,45
-1,ScaledConsensus,Fatty Acid Biosynthesis,73
-1,ScaledConsensus,"Transport, Mitochondrial",63
-1,ScaledConsensus,Sphingolipid Metabolism,55
-1,ScaledConsensus,Fatty Acid Degradation,54
-1,ScaledConsensus,Nucleotide Metabolism,44
-10,Consensus,Fatty Acid Biosynthesis,68
-10,Consensus,"Transport, Mitochondrial",59
-10,Consensus,Nucleotide Metabolism,45
-10,Consensus,Sphingolipid Metabolism,41
-10,Consensus,Sterol Metabolism,29
-10,Derived,Fatty Acid Biosynthesis,68
-10,Derived,"Transport, Mitochondrial",58
-10,Derived,Nucleotide Metabolism,45
-10,Derived,Sphingolipid Metabolism,44
-10,Derived,Sterol Metabolism,28
-10,Fitted,Fatty Acid Biosynthesis,68
-10,Fitted,Nucleotide Metabolism,47
-10,Fitted,Sphingolipid Metabolism,45
-10,Fitted,"Transport, Mitochondrial",44
-10,Fitted,Sterol Metabolism,29
-10,Interpolated,Fatty Acid Biosynthesis,63
-10,Interpolated,Nucleotide Metabolism,51
-10,Interpolated,"Transport, Mitochondrial",51
-10,Interpolated,Sphingolipid Metabolism,47
-10,Interpolated,"Transport, Peroxisomal",27
-10,ScaledConsensus,Fatty Acid Biosynthesis,57
-10,ScaledConsensus,Sphingolipid Metabolism,49
-10,ScaledConsensus,"Transport, Mitochondrial",46
-10,ScaledConsensus,Nucleotide Metabolism,45
+1,Derived,Fatty Acid Degradation,53
+1,Derived,Sphingolipid Metabolism,50
+1,Derived,"Transport, Mitochondrial",48
+1,Derived,Nucleotide Metabolism,47
+1,Fitted,Nucleotide Metabolism,53
+1,Fitted,Fatty Acid Degradation,50
+1,Fitted,"Transport, Mitochondrial",47
+1,Fitted,Sphingolipid Metabolism,46
+1,Fitted,Fatty Acid Biosynthesis,34
+1,Interpolated,Fatty Acid Biosynthesis,74
+1,Interpolated,Sphingolipid Metabolism,56
+1,Interpolated,"Transport, Mitochondrial",56
+1,Interpolated,Nucleotide Metabolism,52
+1,Interpolated,Fatty Acid Degradation,43
+1,ScaledConsensus,Fatty Acid Biosynthesis,65
+1,ScaledConsensus,Sphingolipid Metabolism,57
+1,ScaledConsensus,"Transport, Mitochondrial",55
+1,ScaledConsensus,Nucleotide Metabolism,47
+1,ScaledConsensus,Fatty Acid Degradation,43
+10,Consensus,Fatty Acid Biosynthesis,69
+10,Consensus,"Transport, Mitochondrial",57
+10,Consensus,Sphingolipid Metabolism,53
+10,Consensus,Nucleotide Metabolism,50
+10,Consensus,Fatty Acid Degradation,49
+10,Derived,Fatty Acid Biosynthesis,63
+10,Derived,Nucleotide Metabolism,26
+10,Derived,"Transport, Mitochondrial",25
+10,Derived,Citric Acid Cycle,14
+10,Derived,Sphingolipid Metabolism,14
+10,Fitted,Fatty Acid Biosynthesis,71
+10,Fitted,"Transport, Mitochondrial",54
+10,Fitted,Nucleotide Metabolism,51
+10,Fitted,Sphingolipid Metabolism,44
+10,Fitted,Sterol Metabolism,27
+10,Interpolated,Fatty Acid Biosynthesis,69
+10,Interpolated,"Transport, Mitochondrial",55
+10,Interpolated,Sphingolipid Metabolism,50
+10,Interpolated,Nucleotide Metabolism,45
+10,Interpolated,Sterol Metabolism,30
+10,ScaledConsensus,Fatty Acid Biosynthesis,58
+10,ScaledConsensus,Nucleotide Metabolism,55
+10,ScaledConsensus,"Transport, Mitochondrial",50
+10,ScaledConsensus,Sphingolipid Metabolism,47
 10,ScaledConsensus,Sterol Metabolism,31
-100,Consensus,Exchange Reaction,1
-100,Consensus,"Transport, Extracellular",1
-100,Derived,Exchange Reaction,1
-100,Derived,"Transport, Extracellular",1
-100,Derived,"Transport, Peroxisomal",1
-100,Fitted,"Transport, Peroxisomal",3
-100,Fitted,Exchange Reaction,2
-100,Fitted,Nucleotide Metabolism,2
-100,Fitted,Citric Acid Cycle,1
-100,Fitted,Fatty Acid Degradation,1
-100,Interpolated,Glycolysis/Gluconeogenesis,8
-100,Interpolated,Citric Acid Cycle,4
-100,Interpolated,Nucleotide Metabolism,4
-100,Interpolated,"Transport, Peroxisomal",4
-100,Interpolated,Glycine And Serine Metabolism,3
-100,ScaledConsensus,Other Amino Acid Metabolism,4
-100,ScaledConsensus,"Transport, Mitochondrial",3
-100,ScaledConsensus,Fatty Acid Biosynthesis,1
-100,ScaledConsensus,Pantothenate And Coa Biosynthesis,1
-100,ScaledConsensus,Sterol Metabolism,1
+100,Consensus,Fatty Acid Biosynthesis,13
+100,Consensus,Pantothenate And Coa Biosynthesis,8
+100,Consensus,Other Amino Acid Metabolism,4
+100,Consensus,Biomass Composition,2
+100,Consensus,Exchange Reaction,2
+100,Derived,Nucleotide Metabolism,9
+100,Derived,Histidine Metabolism,3
+100,Derived,Fatty Acid Biosynthesis,2
+100,Derived,Nitrogen Metabolism,2
+100,Derived,Riboflavin Metabolism,2
+100,Fitted,Folate Metabolism,8
+100,Fitted,"Transport, Mitochondrial",4
+100,Fitted,Fatty Acid Biosynthesis,3
+100,Fitted,Inositol Phosphate Metabolism,3
+100,Fitted,Phospholipid Metabolism,3
+100,Interpolated,Fatty Acid Biosynthesis,39
+100,Interpolated,"Transport, Peroxisomal",9
+100,Interpolated,Citric Acid Cycle,8
+100,Interpolated,Fatty Acid Degradation,6
+100,Interpolated,"Transport, Golgi Apparatus",5
+100,ScaledConsensus,Nucleotide Metabolism,4
+100,ScaledConsensus,Glycine And Serine Metabolism,3
+100,ScaledConsensus,Glycolysis/Gluconeogenesis,3
+100,ScaledConsensus,Riboflavin Metabolism,2
+100,ScaledConsensus,"Transport, Peroxisomal",2
 1000,Consensus,Exchange Reaction,1
+1000,Consensus,Nucleotide Metabolism,1
 1000,Consensus,"Transport, Extracellular",1
+1000,Derived,"Transport, Mitochondrial",2
 1000,Derived,Exchange Reaction,1
+1000,Derived,Fatty Acid Biosynthesis,1
+1000,Derived,Pantothenate And Coa Biosynthesis,1
 1000,Derived,"Transport, Extracellular",1
+1000,Fitted,Exchange Reaction,1
+1000,Fitted,Fatty Acid Biosynthesis,1
+1000,Fitted,Sphingolipid Metabolism,1
+1000,Fitted,"Transport, Extracellular",1
 1000,Interpolated,Exchange Reaction,1
 1000,Interpolated,"Transport, Extracellular",1
-1000,ScaledConsensus,"Transport, Mitochondrial",3
-1000,ScaledConsensus,Quinone Biosynthesis,2
-1000,ScaledConsensus,Sterol Metabolism,1

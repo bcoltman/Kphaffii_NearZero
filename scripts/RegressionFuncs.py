@@ -2,11 +2,6 @@ import numpy as np
 import pandas as pd
 from scipy.optimize import minimize
 from scipy.integrate import solve_ivp
-from scipy.special import erf
-import matplotlib.pyplot as plt
-from numpy.polynomial import Polynomial as Poly
-from sklearn.gaussian_process import GaussianProcessRegressor
-from sklearn.gaussian_process.kernels import RBF, WhiteKernel, ConstantKernel
 
 def round_to_half(values):
     """Round an array of numbers to the nearest half."""
@@ -104,14 +99,6 @@ def dcdt(time, conc, inlet_flow_rate_a, volume_vessel_b, volume_vessel_a, mainte
     # Combine derivatives into a single array
     dc = np.concatenate([d_conc_biomass_vessel_b, d_conc_substrate_vessel_a, d_conc_protein_vessel_b, d_conc_dead_biomass_vessel_b, d_total_dry_cell_weight])
     return dc
-
-# Note: The `funobj` and `retentostat_regression` functions are lengthy and are recommended to be split into smaller functions for better readability and maintainability.
-
-# The `plot_regression_model` function is responsible for plotting the regression model results and saving the figures. It is recommended to separate the plotting and saving functionalities for reusability and clarity.
-
-import numpy as np
-from scipy.integrate import solve_ivp
-from scipy.optimize import minimize
 
 def funobj(params, inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cell_conc, dry_weight, dry_weight_std, cell_conc_std_v, volume_vessel_b, volume_vessel_a, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func, death_func, gompertz_parameters=False, optimize=True):
     """
@@ -212,34 +199,20 @@ def funobj(params, inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cel
         specific_substrate_uptake = (dilution_rate*(substrate_conc_vessel_a-substrate_concentration_vessel_b))/biomass_viable
 
         # Calculate specific growth rate (mu) and specific production rate (qp) from the solution
-        # The specific growth rate is calculated from the change in total biomass concentration
-        # The specific production rate is calculated from the change in protein concentration
-        delta_t = np.diff(time_span, axis=0)
-        delta_t = np.append(delta_t, delta_t[[-1]], axis=0)
-
-        delta_protein_conc = np.diff(protein_conc, axis=0)
-        delta_protein_conc = np.append(delta_protein_conc, delta_protein_conc[[-1]], axis=0)
-
-        specific_production_rate = (delta_protein_conc / delta_t + dilution_rate * protein_conc) / biomass_viable
-
-        delta_biomass_total = np.diff(biomass_total, axis=0)
-        delta_biomass_total = np.append(delta_biomass_total, delta_biomass_total[[-1]], axis=0)
-
-        specific_growth_rate = delta_biomass_total / delta_t / biomass_total
-        pirt_growth_rate = (specific_substrate_uptake - specific_production_rate/max_yield_p_substrate - maintenance_coefficient)*max_yield_x_substrate
-
-        delta_biomass_dead = np.diff(biomass_dead, axis=0)
-        delta_biomass_dead = np.append(delta_biomass_dead, delta_biomass_dead[[-1]], axis=0)
-
-        death_rate = (delta_biomass_dead/delta_t) * 1000
         
-        # Otherwise, return all calculated values
+        d_protein_conc_dt = np.gradient(protein_conc, time_span)
+        specific_production_rate = (d_protein_conc_dt + dilution_rate * protein_conc) / biomass_viable
+        
+        d_biomass_total_dt = np.gradient(biomass_total, time_span)
+        d_biomass_viable_dt = np.gradient(biomass_viable, time_span)
+        d_biomass_dead_dt = np.gradient(biomass_dead, time_span)
+        
+        specific_growth_rate = (d_biomass_viable_dt + d_biomass_dead_dt) / biomass_viable
+        pirt_growth_rate = (specific_substrate_uptake - specific_production_rate/max_yield_p_substrate - maintenance_coefficient)*max_yield_x_substrate
+        
+        death_rate = 1000 * (d_biomass_dead_dt / biomass_viable)
         
         return time_span, biomass_viable, substrate_conc_vessel_a, protein_conc, biomass_dead, biomass_total, specific_substrate_uptake, specific_growth_rate, pirt_growth_rate, specific_production_rate, death_rate, SSE_total, R2_viable_biomass, R2_dead_biomass
-
-import numpy as np
-import pandas as pd
-from scipy.optimize import minimize
 
 def retentostat_regression(time_csin, substrate_conc_lab, inlet_flow_rate_a, volume_vessel_a, volume_vessel_b, viable_cell_conc_lab, time_lab_h, viable_cell_conc_std_v, dry_weight, dry_weight_std, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func, death_func=False, gompertz_parameters=False):
     """
