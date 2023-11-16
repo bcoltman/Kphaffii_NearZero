@@ -53,7 +53,7 @@ def dcdt(time, conc, inlet_flow_rate_a, volume_vessel_b, volume_vessel_a, mainte
         dc (array): The derivatives of concentrations.
     """
     # Unpack concentrations
-    conc_biomass_vessel_b, conc_substrate_vessel_a, conc_protein_vessel_b, conc_dead_biomass_vessel_b, total_dry_cell_weight = conc
+    conc_biomass_viable, conc_substrate_vessel_a, conc_protein_vessel_b, conc_biomass_dead, conc_biomass_total = conc
     conc_substrate_vessel_b = 0  # Initialize substrate concentration in vessel B
 
     # Model Parameters
@@ -62,7 +62,7 @@ def dcdt(time, conc, inlet_flow_rate_a, volume_vessel_b, volume_vessel_a, mainte
 
     # Vessel B - Fermentor
     outlet_flow_rate_vessel_b = inlet_flow_rate_vessel_b = outlet_flow_rate_vessel_a = inlet_flow_rate_a
-    specific_substrate_consumption_rate = ((inlet_flow_rate_vessel_b / volume_vessel_b) * (conc_substrate_vessel_a - conc_substrate_vessel_b)) / conc_biomass_vessel_b
+    specific_substrate_consumption_rate = ((inlet_flow_rate_vessel_b / volume_vessel_b) * (conc_substrate_vessel_a - conc_substrate_vessel_b)) / conc_biomass_viable
 
     
     # Calculate specific growth rate (mu) and specific production rate (qp)
@@ -77,30 +77,30 @@ def dcdt(time, conc, inlet_flow_rate_a, volume_vessel_b, volume_vessel_a, mainte
         derivative_conc_protein = production_func.deriv()(np.array([[time]])) / 1000
         outflow = conc_protein_vessel_b * (inlet_flow_rate_a / volume_vessel_b)
         production = derivative_conc_protein + outflow
-        specific_production_rate = production / conc_biomass_vessel_b
+        specific_production_rate = production / conc_biomass_viable
         specific_growth_rate = (specific_substrate_consumption_rate - specific_production_rate / max_yield_p_substrate - maintenance_substrate) * max_yield_x_substrate
 
     # Calculate death rate (kd)
     if death_func:
         derivative_viability = death_func.deriv()(time)
-        viability = conc_biomass_vessel_b / total_dry_cell_weight
+        viability = conc_biomass_viable / conc_biomass_total
         death_rate = specific_growth_rate * (1 - viability) - derivative_viability / viability
         death_rate = max(death_rate, 0)  # Ensure non-negative death rate
     else:
         death_rate = death_rate
 
     # System of differential equations
-    d_conc_biomass_vessel_b = (specific_growth_rate * conc_biomass_vessel_b - death_rate * conc_biomass_vessel_b).flatten()
+    d_conc_biomass_viable = (specific_growth_rate * conc_biomass_viable - death_rate * conc_biomass_viable).flatten()
     d_conc_substrate_vessel_a = ((inlet_flow_rate_a / volume_vessel_a) * conc_substrate_refill - (outlet_flow_rate_vessel_a / volume_vessel_a) * conc_substrate_vessel_a).flatten()
-    d_conc_protein_vessel_b = (specific_production_rate * conc_biomass_vessel_b - (outlet_flow_rate_vessel_b / volume_vessel_b) * conc_protein_vessel_b).flatten()
-    d_conc_dead_biomass_vessel_b = (death_rate * conc_biomass_vessel_b).flatten()
-    d_total_dry_cell_weight = (specific_growth_rate * conc_biomass_vessel_b).flatten()
+    d_conc_protein_vessel_b = (specific_production_rate * conc_biomass_viable - (outlet_flow_rate_vessel_b / volume_vessel_b) * conc_protein_vessel_b).flatten()
+    d_conc_biomass_dead = (death_rate * conc_biomass_viable).flatten()
+    d_conc_biomass_total = (specific_growth_rate * conc_biomass_viable).flatten()
 
     # Combine derivatives into a single array
-    dc = np.concatenate([d_conc_biomass_vessel_b, d_conc_substrate_vessel_a, d_conc_protein_vessel_b, d_conc_dead_biomass_vessel_b, d_total_dry_cell_weight])
+    dc = np.concatenate([d_conc_biomass_viable, d_conc_substrate_vessel_a, d_conc_protein_vessel_b, d_conc_biomass_dead, d_conc_biomass_total])
     return dc
 
-def funobj(params, inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cell_conc, dry_weight, dry_weight_std, cell_conc_std_v, volume_vessel_b, volume_vessel_a, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func, death_func, gompertz_parameters=False, optimize=True):
+def funobj(params, inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cell_conc, total_cell_conc_dry, total_cell_conc_dry_std, cell_conc_std_v, volume_vessel_b, volume_vessel_a, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func, death_func, gompertz_parameters=False, optimize=True):
     """
     Objective function for the optimization of fermentation process parameters.
     
@@ -110,8 +110,8 @@ def funobj(params, inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cel
         time_lab_h (np.array): Lab measurement time points in hours.
         substrate_conc_lab (np.array): Lab measurements of substrate concentration.
         viable_cell_conc (np.array): Lab measurements of viable cell concentration.
-        dry_weight (np.array): Lab measurements of dry cell weight.
-        dry_weight_std (np.array): Standard deviation of dry cell weight measurements.
+        total_cell_conc_dry (np.array): Lab measurements of dry cell weight concentration.
+        total_cell_conc_dry_std (np.array): Standard deviation of dry cell weight measurements.
         cell_conc_std_v (np.array): Standard deviation of viable cell concentration measurements.
         volume_vessel_b (float): Volume of vessel B.
         volume_vessel_a (float): Volume of vessel A.
@@ -150,15 +150,15 @@ def funobj(params, inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cel
 
     # Calculate initial biomass concentrations based on whether a death function is provided
     if death_func:
-        viable_biomass_initial = dry_weight[0] * death_func(0)
-        dead_biomass_initial = dry_weight[0] * (1 - death_func(0))
+        viable_biomass_initial = total_cell_conc_dry[0] * death_func(0)
+        dead_biomass_initial = total_cell_conc_dry[0] * (1 - death_func(0))
     else:
         viable_biomass_initial = viable_cell_conc[0]
-        dead_biomass_initial = dry_weight[0] - viable_cell_conc[0]
+        dead_biomass_initial = total_cell_conc_dry[0] - viable_cell_conc[0]
 
 
     # Combine initial conditions into a single array
-    initial_conditions = np.concatenate([viable_biomass_initial, substrate_conc_initial, protein_conc_initial, dead_biomass_initial, dry_weight[0]]).flatten()
+    initial_conditions = np.concatenate([viable_biomass_initial, substrate_conc_initial, protein_conc_initial, dead_biomass_initial, total_cell_conc_dry[0]]).flatten()
    
     # Determine if dense output is needed based on optimization flag
     dense_output = not optimize
@@ -187,8 +187,8 @@ def funobj(params, inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cel
     # Calculate the sum of squares errors and R-squared values for the biomass and dry weight
     t_indices = np.isin(time_span, time_lab_h)
     SSE_viable_biomass, R2_viable_biomass = calculate_ss(viable_cell_conc, biomass_viable[t_indices], 1 / cell_conc_std_v)
-    SSE_dead_biomass, R2_dead_biomass = calculate_ss(dry_weight - viable_cell_conc, biomass_dead[t_indices], 1 / dry_weight_std)
-    SSE_total_biomass, R2_total_biomass = calculate_ss(dry_weight, biomass_total[t_indices], 1 / dry_weight_std)
+    SSE_dead_biomass, R2_dead_biomass = calculate_ss(total_cell_conc_dry - viable_cell_conc, biomass_dead[t_indices], 1 / total_cell_conc_dry_std)
+    SSE_total_biomass, R2_total_biomass = calculate_ss(total_cell_conc_dry, biomass_total[t_indices], 1 / total_cell_conc_dry_std)
     SSE_total = SSE_viable_biomass + SSE_total_biomass
     
     if optimize:
@@ -214,7 +214,7 @@ def funobj(params, inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cel
         
         return time_span, biomass_viable, substrate_conc_vessel_a, protein_conc, biomass_dead, biomass_total, specific_substrate_uptake, specific_growth_rate, pirt_growth_rate, specific_production_rate, death_rate, SSE_total, R2_viable_biomass, R2_dead_biomass
 
-def retentostat_regression(time_csin, substrate_conc_lab, inlet_flow_rate_a, volume_vessel_a, volume_vessel_b, viable_cell_conc_lab, time_lab_h, viable_cell_conc_std_v, dry_weight, dry_weight_std, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func, death_func=False, gompertz_parameters=False):
+def retentostat_regression(time_csin, substrate_conc_lab, inlet_flow_rate_a, volume_vessel_a, volume_vessel_b, viable_cell_conc_lab, time_lab_h, viable_cell_conc_std_v, total_cell_conc_dry, total_cell_conc_dry_std, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func, death_func=False, gompertz_parameters=False):
     """
     Perform regression analysis on retentostat fermentation data to optimize parameters.
     
@@ -227,8 +227,8 @@ def retentostat_regression(time_csin, substrate_conc_lab, inlet_flow_rate_a, vol
         viable_cell_conc_lab (np.array): Lab measurements of viable cell concentration.
         time_lab_h (np.array): Lab measurement time points in hours.
         viable_cell_conc_std_v (np.array): Standard deviation of viable cell concentration measurements.
-        dry_weight (np.array): Lab measurements of dry cell weight.
-        dry_weight_std (np.array): Standard deviation of dry weight measurements.
+        total_cell_conc_dry (np.array): Lab measurements of dry cell weight concentration.
+        total_cell_conc_dry_std (np.array): Standard deviation of dry weight measurements.
         protein_conc (np.array): Lab measurements of protein concentration.
         max_yield_x_substrate (float): Maximum yield of biomass on substrate.
         max_yield_p_substrate (float): Maximum yield of product on substrate.
@@ -256,7 +256,7 @@ def retentostat_regression(time_csin, substrate_conc_lab, inlet_flow_rate_a, vol
         fun=funobj,
         x0=initial_guess,
         method="L-BFGS-B",
-        args=(inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cell_conc_lab, dry_weight, dry_weight_std, viable_cell_conc_std_v, volume_vessel_b, volume_vessel_a, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func, death_func, gompertz_parameters, True),
+        args=(inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cell_conc_lab, total_cell_conc_dry, total_cell_conc_dry_std, viable_cell_conc_std_v, volume_vessel_b, volume_vessel_a, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func, death_func, gompertz_parameters, True),
         bounds=parameter_bounds,
         options={'ftol': tolerance, 'gtol': tolerance, 'maxls': 100, 'disp': False, 'maxiter': 10000, 'maxfun': 10000}
     )
@@ -274,7 +274,7 @@ def retentostat_regression(time_csin, substrate_conc_lab, inlet_flow_rate_a, vol
     detailed_results = funobj(
         optimized_params,
         inlet_flow_rate_a, time_lab_h, substrate_conc_lab, viable_cell_conc_lab,
-        dry_weight, dry_weight_std, viable_cell_conc_std_v, volume_vessel_b,
+        total_cell_conc_dry, total_cell_conc_dry_std, viable_cell_conc_std_v, volume_vessel_b,
         volume_vessel_a, protein_conc, max_yield_x_substrate, max_yield_p_substrate, production_func,
         death_func, gompertz_parameters, optimize=False
     )
