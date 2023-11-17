@@ -13,7 +13,7 @@ The results presented in [Coltman, 2023]() can be reproduced by cloning this rep
 
 Most notebooks do not require a long time to execute, apart from the two notebooks that use flux sampling, which required approximately 8 hours of compute time using 50 cores ([ThinningAnalysis.ipynb](scripts/ThinningAnalysis.ipynb) and [SamplingAnalysis.ipynb](scripts/SamplingAnalysis.ipynb)). To avoid having to repeat the flux sampling, the chains that were used in the publication  ([thinning analysis](results/sampling/thinning_test) and [sampling analysis](results/sampling)) are included in this repository. Additionally, the notebooks using the sampled chains are written to use the included results, but can be easily altered to generate the results by uncommenting the cell containing the sampling in each respective notebook ([ThinningAnalysis.ipynb](scripts/ThinningAnalysis.ipynb) and [SamplingAnalysis.ipynb](scripts/SamplingAnalysis.ipynb)). 
 
-The code to download, define the enviornment and execute the notebooks is:
+The code to download, define the environment and execute the notebooks is:
 
 ```
 cd Kphaffii_NearZero
@@ -61,7 +61,8 @@ Figures and tables for this analsysis can be found as follows:
 #### 4. DOI
 Our most recent Zenodo DOI generated for the journal submission is: 
 
-https://doi.org/########
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10148579.svg)](https://doi.org/10.5281/zenodo.10148579)
+
 
 #### 5. Contact
 - benjamin.coltman@boku.ac.at
