@@ -1,17 +1,18 @@
-# Characterising the metabolic rewiring of extremely slow growing _Komagataella phaffii_
-# & #
-# Protein production dynamics and physiological adaptation of recombinant _Komagataella phaffii_ at near-zero growth rates 
+# Analysis of _Komagataella phaffii_ at extremely slow growth rates. 
+
+## This repository contains the code for analysis of:
+## [Characterising the metabolic rewiring of extremely slow growing _Komagataella phaffii_, Coltman _et_al_, 2023]() and [Protein production dynamics and physiological adaptation of recombinant _Komagataella phaffii_ at near-zero growth rates, Rebnegger, _et al_, 2023]() 
 
 ## Regression model for [Rebnegger _et al_, 2023]()
 
-The code to run the regression model of [Rebnegger _et al_, 2023]() can be found at [RebneggerRegression.ipynb](scripts/RebneggerRegression.ipynb). The code uses functions from [RegressionFuncs.py](scripts/RegressionFuncs.py). The output (.csv files and plots) of the regression analysis is saved in [results/Rebnegger2023](results/Rebnegger2023). The same functions are used in the analysis of [Coltman _et al_, 2023](); however, the model is further devleoped in [Coltman _et al_, 2023](), replacing the $\mu$ - $q_{P}$ relationship and static death rate parameter, with dynamic version. For  further details see [Coltman _et al_, 2023](). 
+The code to run the regression model of [Rebnegger _et al_, 2023]() can be found at [RebneggerRetentostatRegression.ipynb](scripts/RebneggerRetentostatRegression.ipynb). The code uses functions from [RegressionFuncs.py](scripts/RegressionFuncs.py). The output (.csv files and plots) of the regression analysis is saved in [results/Rebnegger2023](results/Rebnegger2023). The same functions are used in the analysis of [Coltman _et al_, 2023](); however, the model is extended, replacing the $\mu$ - $q_{P}$ relationship and static death rate parameter, with an alternative formulation.
 
 ## Analysis from [Coltman _et al_, 2023]()
 ### 1. Downloading and reproducing results
 
-The results presented in [Coltman, 2023]() can be reproduced by cloning this repository, defining a conda environment and executing the included scripts. [imt1026-NZ](results/iMT1026-NZ.xml) was generated during this analysis and contains all of the generated biomass equations described in the manuscript.
+The results presented in [Coltman, 2023]() can be reproduced by cloning this repository, defining a conda environment and executing the included scripts. [iMT1026-NZ](results/iMT1026-NZ.xml) was generated during this analysis and contains all of the generated biomass equations described in the manuscript.
 
-Most notebooks do not require a long time to execute, apart from the two notebooks that use flux sampling, which required approximately 8 hours of compute time using 50 cores ([ThinningAnalysis.ipynb](scripts/ThinningAnalysis.ipynb) and [SamplingAnalysis.ipynb](scripts/SamplingAnalysis.ipynb)). To avoid having to repeat the flux sampling, the chains that were used in the publication  ([thinning analysis](results/sampling/thinning_test) and [sampling analysis](results/sampling)) are included in this repository. Additionally, the notebooks using the sampled chains are written to use the included results, but can be easily altered to generate the results by uncommenting the cell containing the sampling in each respective notebook ([ThinningAnalysis.ipynb](scripts/ThinningAnalysis.ipynb) and [SamplingAnalysis.ipynb](scripts/SamplingAnalysis.ipynb)). 
+Most notebooks do not require a long time to execute, apart from the two notebooks that use flux sampling, which required approximately 8 hours of compute time using 50 cores ([ThinningAnalysis.ipynb](scripts/ThinningAnalysis.ipynb) and [SamplingAnalysis.ipynb](scripts/SamplingAnalysis.ipynb)). To avoid having to repeat the flux sampling, the chains that were used in the publication  ([thinning analysis](results/sampling/thinning_test) and [sampling analysis](results/sampling)) are included in this repository. Additionally, the notebooks using these sampled chains can be executed without sampling. Sampling can can be performed by uncommenting the cells in each respective notebook ([ThinningAnalysis.ipynb](scripts/ThinningAnalysis.ipynb) and [SamplingAnalysis.ipynb](scripts/SamplingAnalysis.ipynb)). 
 
 The code to download, define the environment and execute the notebooks is:
 
@@ -46,11 +47,11 @@ Figures and tables for this analsysis can be found as follows:
 [Figure 4, based on escher map](results/maps/DerivedC0.1vs16.9_GlucoseNormalizedMap.html)
 [Figure 5](results/plots/Ridge_6x6_ETC.png)
 [Figure 6](results/plots/Mu_vs_Cofactors.png)
-[Figure S1](results/plots/RelativeDifferenceRegressionRates.png)
-[Figure S2](results/plots/5ComponentFit.png)
-[Figure S3](results/plots/Log2RelativeStoich.png)
-[Figure S4](results/plots/DynBiomassScaled.png)
-[Figure S5](results/plots/ATPReduction_AltNADHDehydrogenase.png)
+
+[Figure S1](results/plots/5ComponentFit.png)
+[Figure S2](results/plots/Log2RelativeStoich.png)
+[Figure S3](results/plots/DynBiomassScaled.png)
+[Figure S4](results/plots/ATPReduction_AltNADHDehydrogenase.png)
 
 [Table S2](results/dataframes/cultivation_data/StatsRetentostat.png)
 [Table S3](results/dataframes/biomass/CarbohydrateComposition.csv)
@@ -59,6 +60,8 @@ Figures and tables for this analsysis can be found as follows:
 [Table S6](results/dataframes/fluxes/95%CIFluxRatiosInteresting.csv)
 [Table S7](results/dataframes/MajorCofactorsProductionBySubsystem.csv)
 [Tables S8](results/dataframes/sampling/Thinning_AllStats.csv)
+
+For an extended version of Table S6, with 95% CI of fluxes of all reactions, at all growth rates with all biomass equations, [see here](results/dataframes/fluxes/95%CIFluxRatios.csv)
 
 #### 4. DOI
 Our most recent Zenodo DOI generated for the journal submission is: 
